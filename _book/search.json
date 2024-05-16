@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Flow mapping with Arabesque",
+    "section": "",
+    "text": "Welcome\nThis is the Flow mapping with Arabesque online home book.\nArabesque is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.\nThis books presents the functionnalities and how Arabesque 2 can be used to draw flowmaps.\nIt will be progressively updated following Arabesque 2 current development.\n\nOn ligne version of Arabesque can be accessed here: arabesque.univ-eiffel.fr\nThe development version (the most complete) can be accessed here: ./dev-arabesque\n\nThis book is reproducible and generated in R with Quarto. Feel free to help us make it better and report any issue on GitHub.\n\n\nThis work by the gFlowiz team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Main steps\nThere are 5 main stages in creating a flowmap with Arabesque:\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Academic references on Arabesque\n(in descending chronological order, then by first author)\nBahoken F. (2023), Arabesque. La boîte à outils de cartographie et de géovisualisation de données, Journée d’études : regards croisés de chercheurs, Jan 2023, Rennes, France. 53p. 〈hal-03948332〉\nCôme E., Bahoken F., Jégou L.( 2021), Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web, Conférence, Toulouse DataViz TDV2021, Apr 2021, Toulouse, France. 27p. 〈hal-03206235〉\nRoelandt N., Bahoken F., Le Campion G., Jégou L., Maisonobe M., et al. (2021), One Arabesque in the small world of OD webmaps. ISPRS International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, 2021, 46, pp.147-154. 〈10.5194/isprs-archives-xlvi-4-w2-2021-147-2021〉. 〈hal-03540581〉\nBahoken F., Côme E., Jégou L. (2021) Arabesque, une application d’exploration et de visualisation de flux dans le geoweb, Conférence internationale Tous (im)mobiles, tous cartographes ? Cartomob, Université Gustave Eiffel, Jun 2021, Toulouse, France. https://hal.science/hal-04411623\nBahoken F., Le Campion G., Maisonobe M., Jégou L., Côme É. (2020), « Typologie d’un geoweb des flux et réseaux / Typology of a flow and network geoweb », Géomatica Journal: URL : https://cdnsciencepub.com/doi/abs/10.1139/geomat-2020-0007 ; DOI : 10.1139/geomat-2020-0007.\nCôme E., Bapaume T., Jégou L., Bahoken F., Maisonobe M., Roelandt N., Le Campion G. (2019), Arabesque, application d’exploration et de géovisualisation de données de flux et de réseaux, Conférence internationale Spatial Analysis and Geomatics, Actes_sageo2019 pp. 265-264. 〈hal-02299349〉\nBahoken F., Le Campion G., Jégou L., Maisonobe M., Côme E. (2019), Panorama d’un geoweb des flux et des réseaux : Actes_sageo2019, pp. 218-231.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#main-steps",
+    "href": "intro.html#main-steps",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Importing your flowdata sets (at least for weighted links)\nProcessing flow data (creation of indicators)\nData exploration and configuration\n\nNumerical filtering of data\nDealing with geography layers or tiles\n\nGraphical symbolization (geometry and semiologu)\nExporting and saving the Arabesque workspace",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  }
+]

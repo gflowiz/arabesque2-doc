@@ -1,0 +1,21 @@
+# Introduction
+
+*Arabesque* is dedicated to origin-destination flow and network datasets. This second version enables data to be explored, filtered, geovisualised and represented. *Arabesque* lets you create flow maps from your own datasets, using a web browser running *Mozilla*, *Chrome* or *Brave*. It is based on current technological possibilities, in particular those offered by the new web visualization and mapping libraries (*openlayers, d3, OSM, Turf, NaturalEarthData*).
+
+**General keywords**: cartography, geovisualisation, matrice, flows, networks
+
+## Main steps
+
+There are 5 main stages in creating a flowmap with *Arabesque*:
+
+1.  Importing your flowdata sets (at least for weighted links)
+2.  Processing flow data (creation of indicators)
+3.  Data exploration and configuration
+    1.  Numerical filtering of data
+    2.  Dealing with geography layers or tiles
+4.  Graphical symbolization (geometry and semiologu)
+5.  Exporting and saving the *Arabesque* workspace
+
+```{r}
+1 + 1
+```

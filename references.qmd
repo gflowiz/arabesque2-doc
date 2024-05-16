@@ -1,0 +1,22 @@
+# References {.unnumbered}
+
+## **Academic references on Arabesque**
+
+(in descending chronological order, then by first author)
+
+Bahoken F. (2023), *Arabesque. La boîte à outils de cartographie et de géovisualisation de données*, Journée d'études : regards croisés de chercheurs, Jan 2023, Rennes, France. 53p. [〈hal-03948332〉](https://hal.science/hal-03948332)
+
+Côme E., Bahoken F., Jégou L.( 2021), *Arabesque : Explorer et visualiser facilement vos flux géo-localisés sur le web*, Conférence, Toulouse DataViz TDV2021, Apr 2021, Toulouse, France. 27p. [〈hal-03206235〉](https://hal.science/hal-03206235)
+
+Roelandt N., Bahoken F., Le Campion G., Jégou L., Maisonobe M., et al. (2021), One Arabesque in the small world of OD webmaps. *ISPRS International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences*, 2021, 46, pp.147-154. [〈10.5194/isprs-archives-xlvi-4-w2-2021-147-2021〉](https://dx.doi.org/10.5194/isprs-archives-xlvi-4-w2-2021-147-2021). [〈hal-03540581〉](https://hal.science/hal-03540581)
+
+Bahoken F., Côme E., Jégou L. (2021) Arabesque, une application d'exploration et de visualisation de flux dans le geoweb, Conférence internationale *Tous (im)mobiles, tous cartographes ? Cartomob*, Université Gustave Eiffel, Jun 2021, Toulouse, France. <https://hal.science/hal-04411623>
+
+Bahoken F., Le Campion G., Maisonobe M., Jégou L., Côme É. (2020), « Typologie d’un geoweb des flux et réseaux / Typology of a flow and network geoweb »*, Géomatica Journal:* URL : <https://cdnsciencepub.com/doi/abs/10.1139/geomat-2020-0007> ; DOI : 10.1139/geomat-2020-0007.
+
+Côme E., Bapaume T., Jégou L., Bahoken F., Maisonobe M., Roelandt N., Le Campion G. (2019), *Arabesque*, application d’exploration et de géovisualisation de données de flux et de réseaux, Conférence internationale Spatial Analysis and Geomatics, [Actes_sageo2019](https://sageo2019.irstea.fr/actes/) pp. 265-264. [〈hal-02299349〉](https://hal.science/hal-02299349)
+
+Bahoken F., Le Campion G., Jégou L., Maisonobe M., Côme E. (2019), *Panorama d’un geoweb des flux et des réseaux* : [Actes_sageo2019](https://sageo2019.irstea.fr/actes/), pp. 218-231.
+
+::: {#refs}
+:::

@@ -1,0 +1,50 @@
+# Preface
+
+This Quarto book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping created within the geographic flow vizualisation research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr) (former IFSTTAR).
+
+\
+The gflowiz project was originally led by Françoise Bahoken and co-directed by Étienne Côme (Univ. Gustave Eiffel), with the scientific collaboration ofLaurent Jégou (Univ. Toulouse 2 Jean Jaurès). The main developer of the first version of *Arabesque* was Thomas Bapaume (ESIEE), then Paul Fabre (UGE/IGN). Tony Hauck is developping the second version. Other contributors to the design of the app include Marion Maisonobe and Grégoire le Campion (CNRS).
+
+*Arabesque* is an innovative cartographic application that meets the contemporary challenges and objectives of flows and networks geovisualisation.
+
+## Challenges
+
+The analysis of the dynamics of urban areas or metropolises in one hand, the delimitation of their functional areas and the spatio-temporal comparison of their patterns in the other hand, are often limited by two categories of problems inherent in data and tools.\
+\
+The lack of open origin-destination (OD) data sets depicting territorial interactions and interrelations limited the possibility of empirical analysis. Similarly, the lack of dedicated geovisualization and cartographic analysis tools means that many images of visual and analytical interest are no longer part of the current cartographic landscape. In addition to these specific problems regarding online OD data, it is important to focus attention on the current possibilities offered by online possibilities of OD cartography.
+
+The current range of possibilities for exploring flows and networks datasets on the geoweb is symptomatic of the ongoing enthusiasm of a growing interdisciplinary community. While for a long time the efforts were limited to direct visualisation alone, applications specifically dedicated to flows have recently come on line.
+
+Three development approaches seem to be coexisting. The first one seems to be dedicated to the development of large volumes of data in a digital cartographic form, as is the case with the United Nations [Comtrade](https://comtrade.un.org/) for example. The second approach consists of applications for the visual geographical exploration of one's own OD datasets as in [flowmap.blue](https://flowmap.blue/), for example. Academic applications offer different graphical models allowing co-visualization, such as the [Vistorian](https://networkcube.github.io/vistorian/index.html) (Serrano Molinero & al., 2017) and [Netscity](https://www.irit.fr/netscity/) (Maisonobe & al., 2019). The third approach is specific to heavy online thematic mapping software infrastructures such as [Magrit](#0) or [Kepler](#0) in response to the shortcomings of current editors regarding flow mapping. It is interesting to note that all these solutions are being developed in line with the growing practice of open-source development with a view to reproducibility (Giraud, Lambert, 2017).
+
+Few applications, however, appear to be fully aligned with the "visualization mapping" paradigm as defined by A. Mac Eachren (2004). Indeed, efforts still seem to be focused more on displaying layers and simply exploring them. Existing tools still do little to combine within a single interface the three pillars of cartographic representation: (geo)visualization and the processing of statistical and geographic data.
+
+In this context, *Arabesque's* objectives are as follows.
+
+## Objectives
+
+*Arabesque's* ambition is to meet the high demand for analysis of one's own flow dataset in a free, open source and ergonomic way - this need corresponding to the main result of our survey conducted in 2018. \
+\
+*Arabesque* is part of the french Lemaire Law for a digital republic. It falls under the general objective of increasing understanding of the geographical determinants of the spatial mobility of goods, people and so on. \
+\
+*Arabesque* aims to respond to the need to visualize the results of fundamental or applied research within theoretical and methodological development frameworks that can be considered both transverse to several subjects (population, habitat, environment, transport, i.e.) and interdisciplinary by nature (geography, demography, environment, geomatics, engineering sciences, human and social sciences, i.e.). These subjects also contribute to the societal challenges linked to the rise of the digital society, which they help to address.
+
+From a scientific point of view, *Arabesque* aims to innovate in the handling of flow and network data currently available on the geoweb (Bahoken et al, 2020). This is why it is part of the Mac Eachren (2005) new paradigm of "visualization mapping".\
+*Arabesque* combines in the same environment geo-visualization and geographic and statistical information processing devices - initially for descriptive purposes. On the other hand, it enables the processing of complex relational datasets, which can be both voluminous and display different dimensions of spatial mobilities (several thematic categories and/or temporalities). \
+Particular attention is paid to rendering, both in terms of drawing and the cartographic semiology of linear features. The desire to improve the quality of the images of flows produced should lead to the development of a sensible approach to the geo-visualization of mobilities and spatial interactions.
+
+Françoise Bahoken and Etienne Côme
+
+Paris, Mai 2024.
+
+**Quoted references:**
+
+Keim D., Andrienko G., Fekete J.-D., Görg C., Kohlhammer J., Melançon G. (2008), *Visual Analytics: Definition, Process, and Challenges*, In: Kerren A. & al. (Eds.): Information Visualization, Springer-Verlag Berlin Heidelberg, LNCS 4950, pp. 154–175.
+
+Mac Eachren A. (2005), *How Maps Work. Representation, Visualization, and Design, New-York, The Guildford Press.*
+
+Maisonobe M., Jégou L., Yakimovich N., Cabanac G. (2019), NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities, *International Conference on Scientometrics and Informetrics (ISSI 2019)*, sep. 2019, Rome, Italy, [〈hal-02301035〉](https://hal.science/hal-02301035)
+
+Giraud T., Lambert N. (2017), Reproducible cartography, in: *Advances in Cartography and GISsciences*, International Cartographic Conference, ICACI’2017, Springer, pp.173-183.
+
+Serrano Molinero V., Bach B., Plaisant C., Dufournaud N.,Fekete J.-D. (2017), Understanding the Use of The Vistorian: Complementing Logs with Context Mini-Questionnaires, *Visualization for the Digital Humanities*, Oct. 2017, Phoenix, United States. [⟨hal-01650259⟩](https://inria.hal.science/hal-01650259).

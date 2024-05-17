@@ -18,6 +18,10 @@ Côme E., Bapaume T., Jégou L., Bahoken F., Maisonobe M., Roelandt N., Le Campi
 
 Bahoken F., Le Campion G., Jégou L., Maisonobe M., Côme E. (2019), *Panorama d’un geoweb des flux et des réseaux* : [Actes_sageo2019](https://sageo2019.irstea.fr/actes/), pp. 218-231.
 
+Equipe gflowiz (2019), [Arabesque quick tutorial v.0](https://github.com/gflowiz/sageo-ricardo) for SAGEO 2019 - french version. Licence : CC-BY-SA 3.0-FR.
+
+Mac Eachren A., (2005), *How Maps Work, Representation, Visualization, and Design*, New-York, The Guildford Press.
+
 Girard P. et Dedinger B. (2020), Pourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? : Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque, *Humanistica*, Medialab Sciences-Po. et Centre d’histoire de Sciences-Po. [Access](http://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/)
 
 ::: {#refs}

@@ -10,9 +10,8 @@ It will be progressively updated following *Arabesque* 2 current development.
 
 -   On ligne version of *Arabesque* can be accessed here: [arabesque.univ-eiffel.fr](https://arabesque.univ-eiffel.fr/)
 
-```{=html}
 <!-- -->
-```
+
 -   The development version (the most complete) can be accessed here: [./dev-arabesque](https://tonhauck.github.io/dev-arabesque/)
 
 This book is reproducible and generated in R with Quarto. Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).

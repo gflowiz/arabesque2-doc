@@ -19,7 +19,7 @@ The different steps of the creation/exploration/geovisualization of a flowmap ar
 
 ![](images/main_banner.png)
 
-![](images/Buton_home.png) Return to the [home page](arabesque.ifsttar.fr) to start a new view.
+![](images/Buton_home.png) Return to [the home page](https://arabesque.univ-eiffel.fr/) to start a new view.
 
 ![](images/main_doc.png) Access to documentation
 
@@ -33,7 +33,7 @@ The different steps of the creation/exploration/geovisualization of a flowmap ar
 
 ### 1.1.2. The three panels
 
-The general structure of the interface is composed of three panels.
+Arabesque' interface is composed of three panels.
 
 -   The **central panel** is for displaying the map - centered in France here.
 
@@ -119,15 +119,15 @@ The position of the layers above and below (foreground/lowerground) can be modif
 
 ![](images/Layout_dragdrop.png)
 
-***Do it yoursel!***:
-
--- Click on the link layer and hold it down;
-
--- Drag/drop the link layer and place it in the foreground;
-
--- Release the layer;
-
--- Repeat the same operation with the node layer if necessary.\_
+> ***Do it yourself !***:
+>
+> -- Click on the link layer and hold it down;
+>
+> -- Drag/drop the link layer and place it in the foreground;
+>
+> -- Release the layer;
+>
+> -- Repeat the same operation with the node layer if necessary.
 
 After that, it can be seen that the layer of links has just been brought to the forefront.
 
@@ -137,11 +137,17 @@ The **right panel** is for playing with the flow data sets : the nodes and/or li
 
 ![](images/Add_filter.PNG)
 
-The statistics panel describes also the portion (in percentage) of flow information that is represented in the central view, before/after the application of a filter.
+The statistics panel describes also the share (as a percentage) of flow information that is represented in the central view, before/after the application of a filter.
 
 ![](images/Filter_statistics.png)
 
-The filters applied are displayed in the second part of the panel, , depending on the type of data (continuous, categorical, etc.). See
+> ***Interpretation:***
+>
+> -- for links: 1.3973 links are depicted on the map, i.e. 53.01% of the total number of links, which corresponds to a density (or matrix fill rate) of 53.01%. These links represent 49.31% of the total interaction.
+>
+> -- for nodes: 100% of nodes are represented (here N=100 nodes)
+
+The filters applied are displayed in the second part of the panel, depending on the type of data (continuous, categorical, etc.). See
 
 ![](images/icon_links_filtering.png) Filter on a link attribute
 

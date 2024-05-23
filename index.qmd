@@ -1,6 +1,6 @@
 # Welcome {.unnumbered}
 
-This is the *Flow mapping with Arabesque* online home book.
+This is the ***Flow mapping with Arabesque*** online home book.
 
 *Arabesque* is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.
 

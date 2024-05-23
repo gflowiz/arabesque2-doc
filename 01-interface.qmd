@@ -1,19 +1,35 @@
 # Interface
 
-The different steps of the creation/exploration/geovisualization of a flowmap are accessible through the interface of Arabesque.
+Arabesque interface is accessible via its general home page.
 
-> 1.  Importing flow dataset : at least one file for the links
-> 2.  Processing flow dataset (indicators calculation, ...)
+The different steps of the creation/exploration/geovisualization of a flowmap are accessible through the home page (step 1 and step 2) and the following via the general interface
+
+> 1.  Importing flow dataset: at least one file for the links
+> 2.  Processing flow dataset (automatic indicators calculation, ...)
 > 3.  Geographical data computing : designing the map background (layers, ...)
 > 4.  Cartographic symbolization : designing the flowmap signs (arrows, ...)
 > 5.  Statistical data computing (filtering, ...)
 > 6.  Export
 
-### 
+## Arabesque Home page
+
+![](images/Arabesque_homepage.png)
+
+Through this home page, you can:
+
+-   Start a new flowmap by loading at least your flow data. See Data importation chapter.
+
+![](images/Arabesque_homepage_newmap.png)
+
+-   Load a previous map via the Arabesque workspace
+
+    ![](images/Arabesque_homepage_savemap.png)
+
+-   Load the example of school mobility flows (mobscol data set). See Examples for more information.
+
+    ![](images/Arabesque_homepage_sample.png)
 
 ## General structure
-
-### 
 
 ### The main banner
 
@@ -33,7 +49,7 @@ The different steps of the creation/exploration/geovisualization of a flowmap ar
 
 ### The three panels
 
-Arabesque' interface is composed of three panels.
+Arabesque interface is composed of three panels.
 
 -   The **central panel** is for displaying the map - centered in France here.
 

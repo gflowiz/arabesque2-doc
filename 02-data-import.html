@@ -51,8 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Arabesque also allows you to import your own data sets :</p>
 <p>(1) at least a flowdata file in the form of an origin-destination matrice</p>
 <p>(2) a nodes file.</p>
-<p>For this tutorial, we will use for example the historical trade flows listed in the <a href="https://github.com/gflowiz/sageo-ricardo">RICardo database</a>.</p>
-<p>For more informations about the dataset and its use with Arabesque, see in arabesque-examples.</p>
+<p>For this tutorial, we will use for example the historical trade flows listed in the MOBSOL file. For more informations about this dataset see in arabesque-examples.</p>
 <p>In Arabesque2, you have to import your nodes firstly.</p>
 <section id="nodesvertex-data-importation" class="level2">
 <h2 class="anchored" data-anchor-id="nodesvertex-data-importation">Nodes/vertex data importation</h2>
@@ -150,14 +149,17 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>This aggregation function is important because it defines the default flowmap which will be proposed at the entry of <em>Arabesque</em>: the percent of links, nodes and interaction depicted, the intensity of the colors and the opacity of the corresponding signs (see Data processing chapter).</p>
 <p>After aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).</p>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.</p>
+<div class="callout-title-container flex-fill">
+Note:
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.</p>
 </div>
 </div>
 <p>After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.</p>
@@ -175,14 +177,17 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="import-a-previous-workspace">Import a previous workspace</h2>
 <p>Import a previously workspace of flowmapping by loading a project file in .zip format.</p>
 <p><img src="images/import_zipfile.png" class="img-fluid"></p>
-<div class="callout callout-style-simple callout-warning">
-<div class="callout-body d-flex">
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p>Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.</p>
+<div class="callout-title-container flex-fill">
+.zip file
 </div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.</p>
 </div>
 </div>
 </section>

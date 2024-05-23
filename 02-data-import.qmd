@@ -6,9 +6,7 @@ Arabesque also allows you to import your own data sets :
 
 \(2\) a nodes file.
 
-For this tutorial, we will use for example the historical trade flows listed in the [RICardo database](https://github.com/gflowiz/sageo-ricardo).
-
-For more informations about the dataset and its use with Arabesque, see in arabesque-examples.
+For this tutorial, we will use for example the historical trade flows listed in the MOBSOL file. For more informations about this dataset see in arabesque-examples.
 
 In Arabesque2, you have to import your nodes firstly.
 
@@ -117,6 +115,8 @@ This aggregation function is important because it defines the default flowmap wh
 After aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).
 
 ::: {.callout-note appearance="simple"}
+## Note:
+
 This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.
 :::
 
@@ -141,5 +141,7 @@ Import a previously workspace of flowmapping by loading a project file in .zip f
 ![](images/import_zipfile.png)
 
 ::: {.callout-warning appearance="simple"}
+## .zip file
+
 Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.
 :::

@@ -1,4 +1,4 @@
-# 1. Interface
+# Interface
 
 The different steps of the creation/exploration/geovisualization of a flowmap are accessible through the interface of Arabesque.
 
@@ -11,11 +11,11 @@ The different steps of the creation/exploration/geovisualization of a flowmap ar
 
 ### 
 
-## 1.1. General structure
+## General structure
 
 ### 
 
-### 1.1.1. The main banner
+### The main banner
 
 ![](images/main_banner.png)
 
@@ -31,7 +31,7 @@ The different steps of the creation/exploration/geovisualization of a flowmap ar
 
 [![](images/main_github-gflowiz.png)](https://github.com/gflowiz) go go to the home page of the [github/com/glowiz](https://github.com/gflowiz/arabesque-dev)
 
-### 1.1.2. The three panels
+### The three panels
 
 Arabesque' interface is composed of three panels.
 
@@ -45,13 +45,13 @@ The two side panels are for playing with information:
 
 ![](images/panels_arabesque.png)
 
-## 1.1. The central panel
+## The central panel
 
 The central part of Arabesque corresponds to the **map view**. It results from the choice of the layers to be displayed (from the left panel) and the filtering of the values of the links and nodes (from the right panel).
 
 This central panel also presents different buttons allowing the implementation of primary actions.
 
-### 1.1.1. Primary actions with butons
+### Primary actions with butons
 
 The white page of Arabesque is decorated with blue action buttons.
 
@@ -65,7 +65,7 @@ The white page of Arabesque is decorated with blue action buttons.
 
 ![](images/Buton_leg.png) Show/hide the legend.
 
-### 1.1.2. Primary legend
+### Primary legend
 
 A legend is automatically generated for each map for nodes and links plot.
 
@@ -73,7 +73,7 @@ A legend is automatically generated for each map for nodes and links plot.
 
 The symbolization elements (size, color and opacity) of the nodes and links are included in the legend. Here (for a default map), it is the volume of flows and the degree of places that are represented.
 
-## 1.2. The geographic panel
+## The geographic panel
 
 The left panel is to **design the map**:
 
@@ -93,7 +93,7 @@ Actions on the design/style is to set the parameters for the geometry of the lin
 
 See [Design flowmap signs](./Design-flowmap-signs.html) section.
 
-## 1.2.1. The geographic layer manager
+### The geographic layer manager
 
 In practice, a map is composed by several layer such as the bounding boxes, the graticules, the countries of land. All can be loaded in the map design background section Layers.
 
@@ -105,7 +105,7 @@ The present layers are all available on the map - but not necessarily all of the
 
 The layers on the view are positioned in an order that affects their visibility. The top layer will be visible in the foreground.
 
-### 1.2.1. Layer rearrangement
+### Layer rearrangement
 
 The drawing of the different layers and their objects can be finely parameterized in *Arabesque*, in order to take into account the possible complexity of the information (density of the matrix) which requires a particular management of the superimpositions and the arrangements of the layers of links and nodes.
 
@@ -131,7 +131,7 @@ The position of the layers above and below (foreground/lowerground) can be modif
 
 After that, it can be seen that the layer of links has just been brought to the forefront.
 
-## 1.3. The statistical panel
+### The statistical panel
 
 The **right panel** is for playing with the flow data sets : the nodes and/or links in order to **filter the map** with the Add filter button.
 

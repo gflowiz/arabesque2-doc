@@ -12,7 +12,7 @@ Arabesque accepts as input files in the following format: .CSV, .JSON and .geoJS
 
 > In Arabesque 2, you must first load the node file then the flow file.
 
-## 2.1. Nodes/vertex dataset importation
+## 2.1. Nodes/places dataset importation
 
 nodes can be declared using a local preset if they are standards nodes, or by loading an external node file.
 
@@ -60,11 +60,17 @@ Once you have identified these three columns (ID, lat, long), you can import the
 
 If you do not have a file for the geometry, you can use the codes identifying the reference data (e.g. INSEE codes of the French communes, ISO codes of the countries), to automatically geolocate your nodes. See Preset.
 
-## 2.2. Flow importation
+## 2.2. Flow/links importation
 
-Then you need to browse your directories to find the path to the OD matrix.
+After loading the nodes files, you have to browse your directories to upload your origin-destination matrix.
 
-The flow file must be in CSV (separator : , and decimal : .) and in long format. See example below.
+### 2.2.1. Unique flow OD matrices
+
+The flow/links file must be in **.CSV (separator : , and decimal : .**) in **long format**.
+
+It must contain at least 3 columns : the ID of the place of origin, the ID of the place of destination locations and the flow values.
+
+See example below.
 
 > Example: the Mobscol origin-destination .CSV file
 
@@ -74,21 +80,43 @@ The flow file must be in CSV (separator : , and decimal : .) and in long format.
 >
 > ![](images/Example_mobscol_OD.PNG){fig-align="left"}
 
-###  
+The ID of the place of origin is "CODE_DEP".
+
+The ID of the place of destunation is "DEP_ETUD"
+
+The flow value is "flow" or is "count".
 
 Once the origin and destination IDs have been identified, they need to be declared in Arabesque for importing flows.
 
 ![](images/Flowdata_import.png){fig-align="left"}
 
-If the matrix is complex (categorical and/or temporal), you are asked to select the link aggregation function, so that Arabesque draws only one line (and not as many lines for each attribute in the flow file).
+If the matrix is complex (as in that example), you have to choose a method for aggregating the links when importing. \[See [2.2.2. Complex OD matrices]\]
 
-Note that the flow mapping according to one of these attributes is done in the filtering section.
+### 2.2.2. Complex OD matrices
+
+The matrices concerned here are characterized by several attributes, for categorical matrices (e.g. flows that concern several social groups, several goods transported) or for temporal matrices (e.g. flows occur on several dates).
+
+If so, agregations procedures are suggested when importing the dataset in *Arabesque*. By default, the sum function is applied in the lack of any other specifications. However, you can choose to apply an average, minimum, maximum or median function calculated on all the matrices or graphs provided.
+
+It is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.
+
+> Example: the Mobscol origin-destination in .XLXS format.
+>
+> ![](images/Example_mobscol_OD.PNG){fig-align="left"}
+
+This OD matrix is available for different categories (i.e. SEXE="1" or SEXE="2"), so you will need to choose a method for aggregating the links when importing, hereby the sum function.
+
+![](images/Flowdata_import_aggregation.png){fig-align="left"}
+
+This aggregation function is important because it defines the default flowmap which will be proposed at the entry of *Arabesque*: the percent of links, nodes and interaction depicted, the intensity of the colors and the opacity of the corresponding signs (see Data processing chapter).
+
+After aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).
+
+*NOTE*: This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.
 
 After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.
 
-After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.
-
-2.3. Checking missing nodes/links features
+## 2.3. Checking missing nodes/links features
 
 Links that do not have an origin and/or destination ID are automatically deleted. Nodes that don't have an ID code that allows them to be geographically located are also not kept.
 
@@ -100,7 +128,7 @@ This list is for quick reference only. You must copy and paste it (into a text f
 
 After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files and computes indicator on botk links and nodes data.
 
-## 2.4. Import a flowmap project
+## 2.4. Import a previous workspace
 
 Import a previously workspace of flowmapping by loading a project file in .zip format.
 

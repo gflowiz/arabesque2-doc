@@ -1,4 +1,4 @@
-# Interface
+# Arabesque' interface
 
 Arabesque interface is accessible via its general home page.
 

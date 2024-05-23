@@ -12,15 +12,15 @@
 7.  Export
 :::
 
-Arabesque also allows you to import your own data sets :
+Arabesque also allows you to import your own data sets in the home page, in order to create a new map.
 
-\(1\) at least a flowdata file in the form of an origin-destination matrice
+At least a flowdata file is required, in the form of an origin-destination matrice file with three colums. A node file is also required for the geolocalisation of the origin and destination places.
 
-\(2\) a nodes file.
+In Arabesque 2, you have to declare or to import your nodes firstly.
+
+![](images/Arabesque_homepage_newmap.png)
 
 For this tutorial, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.
-
-In Arabesque2, you have to import your nodes firstly.
 
 ## Nodes/vertex data importation
 

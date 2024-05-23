@@ -1,6 +1,10 @@
 # Summary
 
-In summary, this book has no content whatsoever.
+This is the ***Flow mapping with Arabesque*** online home book, a free and open Source Software web application funded by the french Université Gustave Eiffel.
+
+Arabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesques allows users to filter flow data sets (nodes, links and flow values), to play with geographic context (add tiles), reprojecting geography and to parameterise the semiology of the drawings.
+
+Arabesque 2 is currently under development.
 
 ```{r}
 1 + 1

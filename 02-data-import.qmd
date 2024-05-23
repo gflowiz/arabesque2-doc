@@ -1,4 +1,22 @@
-## Standard localisation codes
+# Data importation
+
+Arabesque also allows you to import your own data sets :
+
+\(1\) at least a flowdata file in the form of an origin-destination matrice
+
+\(2\) a nodes file.
+
+For this tutorial, we will use for example the historical trade flows listed in the [RICardo database](https://github.com/gflowiz/sageo-ricardo).
+
+For more informations about the dataset and its use with Arabesque, see in arabesque-examples.
+
+In Arabesque2, you have to import your nodes firstly.
+
+## Nodes/vertex data importation
+
+If your nodes are specific, see [Custom localisation file], otherwise you can use predefined locations with [Standard localisation codes].
+
+### Standard localisation codes
 
 ![](images/Nodes_import_standard.PNG){fig-align="left"}
 
@@ -18,7 +36,7 @@ Once the type of identifier code has been selected (e.g. ISO2), the link file mu
 
 ![](images/Flow_import.PNG){fig-align="left"}
 
-## 2.1.2. Custom localisation file
+### Custom localisation file
 
 If you have custom nodes data associated with your ODs, you can load the corresponding files by selecting the custom button.
 
@@ -104,7 +122,7 @@ This aggregation does not interfere with the geo-visualization possibilities tha
 
 After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.
 
-## 2.3. Checking missing nodes/links features
+## Checking missing nodes/links features
 
 Links that do not have an origin and/or destination ID are automatically deleted. Nodes that don't have an ID code that allows them to be geographically located are also not kept.
 
@@ -116,8 +134,12 @@ This list is for quick reference only. You must copy and paste it (into a text f
 
 After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files and computes indicator on botk links and nodes data.
 
-## 2.4. Import a previous workspace
+## Import a previous workspace
 
 Import a previously workspace of flowmapping by loading a project file in .zip format.
 
 ![](images/import_zipfile.png)
+
+::: {.callout-warning appearance="simple"}
+Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.
+:::

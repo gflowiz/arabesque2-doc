@@ -98,7 +98,9 @@ This aggregation function is important because it defines the default flowmap wh
 
 After aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).
 
-*NOTE*: This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.
+::: {.callout-note appearance="simple"}
+This aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.
+:::
 
 After loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.
 

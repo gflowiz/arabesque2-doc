@@ -1,5 +1,17 @@
 # Data importation
 
+::: {.callout-tip appearance="simple"}
+## Flow mapping tips
+
+1.  **Importing flow data (links/nodes)**
+2.  Processing flow data (indicators calculation, ...)
+3.  Geographical data computing (layering, ...)
+4.  Statistical data computing (filtering, ...)
+5.  Cartographic symbolization (designing arrows, ...)
+6.  Map cosmetics (naming, ...)
+7.  Export
+:::
+
 Arabesque also allows you to import your own data sets :
 
 \(1\) at least a flowdata file in the form of an origin-destination matrice

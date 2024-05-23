@@ -1,22 +1,4 @@
-# 2. Data import
-
-Arabesque also allows you to import your own data sets (at least a file of links/flows)
-
-\(1\) flowdata in the form of an origin-destination matrix (adjacency long format in .csv), to agregate them if necessary and (2) nodes dataset before building a readable flowmap.
-
-For this tutorial, we will use for example the historical trade flows listed in the [RICardo database](https://github.com/gflowiz/sageo-ricardo).
-
-For more informations about the dataset and its use with Arabesque, see in DATA SETS AND EXAMPLES.
-
-Arabesque accepts as input files in the following format: .CSV, .JSON and .geoJSON.
-
-> In Arabesque 2, you must first load the node file then the flow file.
-
-## 2.1. Nodes/places dataset importation
-
-nodes can be declared using a local preset if they are standards nodes, or by loading an external node file.
-
-## 2.1.1. Standard localisation codes
+## Standard localisation codes
 
 ![](images/Nodes_import_standard.PNG){fig-align="left"}
 
@@ -60,39 +42,37 @@ Once you have identified these three columns (ID, lat, long), you can import the
 
 If you do not have a file for the geometry, you can use the codes identifying the reference data (e.g. INSEE codes of the French communes, ISO codes of the countries), to automatically geolocate your nodes. See Preset.
 
-## 2.2. Flow/links importation
+## Flow/links importation
 
 After loading the nodes files, you have to browse your directories to upload your origin-destination matrix.
-
-### 2.2.1. Unique flow OD matrices
 
 The flow/links file must be in **.CSV (separator : , and decimal : .**) in **long format**.
 
 It must contain at least 3 columns : the ID of the place of origin, the ID of the place of destination locations and the flow values.
 
+### Unique flow OD matrices
+
+Unique OD matrices have a unique value for each pair of locations - this makes them different from complex matrices \[See [Complex OD matrices]\].
+
 See example below.
 
-> Example: the Mobscol origin-destination .CSV file
-
-> ![](images/Example_mobscol_OD_CSV.PNG){fig-align="left"}
+> Example: the Mobscol origin-destination .CSV file. Simple matrice with 3 columns.
 >
-> The same file in .XLSX format.
->
-> ![](images/Example_mobscol_OD.PNG){fig-align="left"}
+> ![](images/Example_mobscol_ODsimple_CSV.PNG)
 
 The ID of the place of origin is "CODE_DEP".
 
-The ID of the place of destunation is "DEP_ETUD"
+The ID of the place of destination is "DEP_ETUD"
 
 The flow value is "flow" or is "count".
 
 Once the origin and destination IDs have been identified, they need to be declared in Arabesque for importing flows.
 
-![](images/Flowdata_import.png){fig-align="left"}
+![](images/Flowdata_import_simple.png){fig-align="left"}
 
-If the matrix is complex (as in that example), you have to choose a method for aggregating the links when importing. \[See [2.2.2. Complex OD matrices]\]
+If the matrix is complex (as in that example), you have to choose a method for aggregating the links when importing. \[See [Complex OD matrices]\]
 
-### 2.2.2. Complex OD matrices
+### Complex OD matrices
 
 The matrices concerned here are characterized by several attributes, for categorical matrices (e.g. flows that concern several social groups, several goods transported) or for temporal matrices (e.g. flows occur on several dates).
 
@@ -100,7 +80,13 @@ If so, agregations procedures are suggested when importing the dataset in *Arabe
 
 It is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.
 
-> Example: the Mobscol origin-destination in .XLXS format.
+> Example: the Mobscol origin-destination. Complex matrice.
+>
+> .CSV format
+>
+> ![](images/Example_mobscol_OD_CSV.PNG)
+>
+> .XLXS format.
 >
 > ![](images/Example_mobscol_OD.PNG){fig-align="left"}
 

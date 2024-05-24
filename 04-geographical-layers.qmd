@@ -1,0 +1,33 @@
+# Geographical data computing
+
+This chapter is about re projecting geographical layers, adding external or personal layers as the flow map background, and their customization.
+
+::: callout-tip
+## Flow mapping tips
+
+1.  Importing flow data (links/nodes)
+2.  Processing flow data (indicators calculation, ...)
+3.  **Geographical data computing (layering, ...)**
+4.  Statistical data computing (filtering, ...)
+5.  Cartographic symbolization (designing arrows, ...)
+6.  Map cosmetics (naming, ...)
+7.  Export
+:::
+
+## (re)Projecting layers
+
+Geographic layers can be reprojected, by choosing one of the proposed formulas in the projection button.
+
+![](images/Geo_projection.png){fig-align="left"}
+
+## Geographical layers
+
+The management of the map background is related to the geographic information. It can be accessed via the Layer button, and is composed of three sub-sections.
+
+![](images/Geo_layers.PNG){fig-align="left"}
+
+### Add reference layer
+
+### Add tile layer
+
+### Add Geojson layer

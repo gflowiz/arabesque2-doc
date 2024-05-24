@@ -14,7 +14,7 @@ It will be progressively updated following *Arabesque* 2 current development.
 
 -   The development version (the most complete) can be accessed here: [./dev-arabesque](https://tonhauck.github.io/dev-arabesque/)
 
-This book is reproducible and generated in R with Quarto. \
+This book is reproducible and generated in R with Quarto.\
 Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png){alt="Creative Commons License"}](http://creativecommons.org/licenses/by-nc-sa/4.0/)\

@@ -1,6 +1,6 @@
 # Welcome {.unnumbered}
 
-This is the ***Flow mapping with Arabesque*** online home book.
+This is the ***Flow mapping with Arabesque 2*** online home book.
 
 *Arabesque* is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.
 
@@ -14,7 +14,8 @@ It will be progressively updated following *Arabesque* 2 current development.
 
 -   The development version (the most complete) can be accessed here: [./dev-arabesque](https://tonhauck.github.io/dev-arabesque/)
 
-This book is reproducible and generated in R with Quarto. Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
+This book is reproducible and generated in R with Quarto. \
+Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png){alt="Creative Commons License"}](http://creativecommons.org/licenses/by-nc-sa/4.0/)\
 

@@ -7,7 +7,7 @@ This chapter is about re projecting geographical layers, adding external or pers
 
 1.  Importing flow data (links/nodes)
 2.  Processing flow data (indicators calculation, ...)
-3.  **Geographical data computing (layering, ...)**
+3.  Geographical data computing (layering, ...)
 4.  Statistical data computing (filtering, ...)
 5.  Cartographic symbolization (designing arrows, ...)
 6.  Map cosmetics (naming, ...)
@@ -16,9 +16,13 @@ This chapter is about re projecting geographical layers, adding external or pers
 
 ## (re)Projecting layers
 
-Geographic layers can be reprojected, by choosing one of the proposed formulas in the projection button.
+The cartographic projection of the layers can be changed, by choosing one of the proposed formulas in the projection menu.
 
 ![](images/Geo_projection.png){fig-align="left"}
+
+> Example: several projections applied on the RICardo world trade map
+
+![](images/RIcardo_reprojection.png)
 
 ## Geographical layers
 
@@ -28,6 +32,42 @@ The management of the map background is related to the geographic information. I
 
 ### Add reference layer
 
+Add reference layers consists in calling a remote geographic information layer from Natural Earth data features, to contextualize the flowmap.
+
+![](images/Add_reference_layer.PNG){fig-align="left"}
+
+![](images/Geo_Add_reference_layer.png){fig-align="left"}
+
+Selected reference layers are:
+
+-   geographical graticules are grids at 5, 10, 15, 20 and 30° intervals. Includes WGS84 bounding box. [See details...](https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-graticules/)
+
+    > Example: Add graticule layer 20° interval
+
+    ![](images/Add_reference_Layer_Graticule.png){fig-align="left"}
+
+-   world's countries divisions at spatial resolutions of 110 meters or 50 meters, and the disputed areas. [See details...](https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/)
+
+> Example: countries
+
+![](images/Add_reference_Layer_Country.png){fig-align="left"}
+
+-   world urban areas (of dense human habitations) coverage derived from MODIS satellite, at spatial resolutions of 50 meters or 10 meters. [See details...](https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-urban-areas/)
+
+-   world landscape based on lands including major islands. [See details...](https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/)
+
+For all these layers, their fill and stroke can be defined by picking colors, then click on Add layer button.
+
 ### Add tile layer
 
+The Base type of tiles layers come from Open Street Map (OSM) [tile server](https://wiki.openstreetmap.org/wiki/Tile_servers), CARTO DB and [ESRI tile server](https://enterprise.arcgis.com/fr/server/latest/publish-services/linux/vector-tile-services.htm).
+
+![](images/Add_tyle_layer.PNG){fig-align="left"}
+
+![](images/Geo_Add_tile_layer.png)
+
 ### Add Geojson layer
+
+Import Geojson is to load a personal vector layer.
+
+![](images/Geo_Add_geojson.png){fig-align="left"}

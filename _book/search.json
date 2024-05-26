@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Flow mapping with Arabesque",
+    "title": "Flow mapping with Arabesque 2",
     "section": "",
-    "text": "Welcome\nThis is the Flow mapping with Arabesque online home book.\nArabesque is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.\nThis books presents the functionnalities and how Arabesque 2 can be used to draw flowmaps.\nIt will be progressively updated following Arabesque 2 current development.\n\nOn ligne version of Arabesque can be accessed here: arabesque.univ-eiffel.fr\n\n\n\nThe development version (the most complete) can be accessed here: ./dev-arabesque\n\nThis book is reproducible and generated in R with Quarto. Feel free to help us make it better and report any issue on GitHub.\n\n\nThis work by the geographic flow vizualisation research team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "text": "Welcome\nThis is the Flow mapping with Arabesque 2 online home book.\nArabesque is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.\nThis books presents the functionnalities and how Arabesque 2 can be used to draw flowmaps.\nIt will be progressively updated following Arabesque 2 current development.\n\nOn ligne version of Arabesque can be accessed here: arabesque.univ-eiffel.fr\n\n\n\nThe development version (the most complete) can be accessed here: ./dev-arabesque\n\nThis book is reproducible and generated in R with Quarto.\nFeel free to help us make it better and report any issue on GitHub.\n\n\nThis work by the geographic flow vizualisation research team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
     "crumbs": [
       "Welcome"
     ]
@@ -207,6 +207,36 @@
     "text": "5.3 Suggested default flowmap\nLoading data in Arabesque leads to the creation of a default map to avoid visualizing a “spaghetti effect” when entering the application ; all the defined parameters can then be modified during the exploration.\nBy default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.\nExcept in the case of loading a projected geometry as input, the map is presented in WGS84.\nHereby is the Mobscol dataset default map in the central panel.\nFor all default map, only a small percent ( around 10%) of the most important links (in value) are represented and symbolized (see the automatic legend) according to their intensity (the flow variable entered at import).\nThe corresponding nodes are symbolized according to their degree (automatically calculated variable during the import). Their ID codes declared at the time of importation are also presented by default.\n\nThe right-hand panel shows :\n- overall statistics on the proportion of flow information represented on the map ;\n- a flow value distribution diagram\nAll graphic and data filtering parameters can be modified using the left (geography and semiology) and right (statistical filtering) panels.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
+    ]
+  },
+  {
+    "objectID": "04-geographical-layers.html",
+    "href": "04-geographical-layers.html",
+    "title": "6  Geographical data computing",
+    "section": "",
+    "text": "6.1 (re)Projecting layers\nThe cartographic projection of the layers can be changed, by choosing one of the proposed formulas in the projection menu.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Geographical data computing</span>"
+    ]
+  },
+  {
+    "objectID": "04-geographical-layers.html#reprojecting-layers",
+    "href": "04-geographical-layers.html#reprojecting-layers",
+    "title": "6  Geographical data computing",
+    "section": "",
+    "text": "Example: several projections applied on the RICardo world trade map",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Geographical data computing</span>"
+    ]
+  },
+  {
+    "objectID": "04-geographical-layers.html#geographical-layers",
+    "href": "04-geographical-layers.html#geographical-layers",
+    "title": "6  Geographical data computing",
+    "section": "6.2 Geographical layers",
+    "text": "6.2 Geographical layers\nThe management of the map background is related to the geographic information. It can be accessed via the Layer button, and is composed of three sub-sections.\n\n\n\n\n\n\n6.2.1 Add reference layer\nAdd reference layers consists in calling a remote geographic information layer from Natural Earth data features, to contextualize the flowmap.\n\n\n\n\n\n\n\n\n\n\nSelected reference layers are:\n\ngeographical graticules are grids at 5, 10, 15, 20 and 30° intervals. Includes WGS84 bounding box. See details…\n\nExample: Add graticule layer 20° interval\n\n\n\n\n\n\nworld’s countries divisions at spatial resolutions of 110 meters or 50 meters, and the disputed areas. See details…\n\n\nExample: countries\n\n\n\n\n\n\n\nworld urban areas (of dense human habitations) coverage derived from MODIS satellite, at spatial resolutions of 50 meters or 10 meters. See details…\nworld landscape based on lands including major islands. See details…\n\nFor all these layers, their fill and stroke can be defined by picking colors, then click on Add layer button.\n\n\n6.2.2 Add tile layer\nThe Base type of tiles layers come from Open Street Map (OSM) tile server, CARTO DB and ESRI tile server.\n\n\n\n\n\n\n\n\n6.2.3 Add Geojson layer\nImport Geojson is to load a personal vector layer.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Geographical data computing</span>"
     ]
   }
 ]

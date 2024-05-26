@@ -12,6 +12,7 @@ book:
     - 01-interface.qmd
     - 02-data-import.qmd
     - 03-data-pre-processing.qmd
+    - 04-geographical-layers.qmd
     - references.qmd
 
 bibliography: references.bib

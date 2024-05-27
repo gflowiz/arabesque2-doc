@@ -38,7 +38,7 @@ Several types of actions can be performed on all the layer level available in th
 
 Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin' (1967) principes.
 
-### Semiology paramaters
+### Semiology parameters
 
 Hereby the general window.
 
@@ -58,11 +58,15 @@ The color of the nodes can be shaded in a range of tones.
 
 The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palette is also proposed in Arabesque.
 
-The color of the node can be set according to one of the variables (initial or calculated by Arabesque) present in the dataset.
+The color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.
 
 ![](images/geom_add_nodes_1_color_variable.png)
 
-By definition, the type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
+::: {.callout-caution appearance="simple"}
+## Caution
+
+The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
+:::
 
 ![](images/geom_add_nodes_1_color_variable2.png)
 
@@ -124,7 +128,7 @@ or
 
 ![](./images/Icon_links_geom.png) Modify the style of the links
 
-![](./images/Icon_links_brush.png) gives access to the window for setting the style of the link layer.
+![](./images/Icon_links_brush.png) gives access to the window for setting the semiology of the link layer.
 
 ### Semiology parameters
 
@@ -132,17 +136,17 @@ The color, size and style of the links can be set
 
 ![](./images/Links_change_style.png)
 
+![](images/Buton_action_geom.png) gives access to the window for setting the geometry of the link layer.
+
 ### Geometry parameters : Change arrow shape
 
 Drawing the links opens a window that allows you to act on several dimensions of their geometry.
 
 ![](images/Design_links_arrows.png)
 
-This section is the same of the [Design Link features/geometry](https://gflowiz.github.io/arabesque-doc/design-and-style-of-the-map-background.html#add-link-features) one.
-
 #### Geometry
 
-The geometry of the link can be oriented or not.
+The link can be oriented or not, in the form of an arrow.
 
 ![](images/geom_add_links_geometry1.png)
 
@@ -150,7 +154,9 @@ Oriented geometry takes into account the direction of the **flow** to define the
 
 ![](images/geom_add_links_oriented.png)
 
-**Available forms of flow lines** are : straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.
+**Available forms of flow lines** are :
+
+straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.
 
 ![](images/Links_geom.png)
 

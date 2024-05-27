@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>design-of-the-flowmap</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="05-design-of-the-flowmap_files/libs/clipboard/clipboard.min.js"></script>
+<script src="05-design-of-the-flowmap_files/libs/quarto-html/quarto.js"></script>
+<script src="05-design-of-the-flowmap_files/libs/quarto-html/popper.min.js"></script>
+<script src="05-design-of-the-flowmap_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="05-design-of-the-flowmap_files/libs/quarto-html/anchor.min.js"></script>
+<link href="05-design-of-the-flowmap_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="05-design-of-the-flowmap_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="05-design-of-the-flowmap_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="05-design-of-the-flowmap_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="05-design-of-the-flowmap_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="design-of-the-flowmap-signs" class="level1">
+<h1>Design of the flowmap signs</h1>
+<p>This chapter concerns the drawing of flow features (setting of their geometry) and the configuration of their semiology.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Flow mapping tips
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li>Importing flow data (links/nodes)</li>
+<li>Processing flow data (indicators calculation, …)</li>
+<li>Geographical data computing (layering, …)</li>
+<li>Statistical data computing (filtering, …)</li>
+<li><strong>Cartographic symbolization (designing arrows, …)</strong></li>
+<li>Map cosmetics (naming, …)</li>
+<li>Export</li>
+</ol>
+</div>
+</div>
+<p>Sign parameters are set on the left panel - in the layer management section ie. the lower part, which displays at least two geographical layers : one on links and one on nodes.</p>
+<p><img src="images/geom_panel_flowsigns.png" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>NOTE: a tile or other geographic information layer can also be displayed in this section.</p>
+</div>
+</div>
+<p>Several types of actions can be performed on all the layer level available in the layer management section, using the following icon-buttons.</p>
+<section id="types-of-action-on-a-layer" class="level2">
+<h2 class="anchored" data-anchor-id="types-of-action-on-a-layer">Types of action on a layer</h2>
+<p><img src="images/Buton_action_visible.png" class="img-fluid"> Visible/invisible the layer.</p>
+<p><img src="images/Buton_action_semio.png" class="img-fluid"> Semiology parameters for nodes and links: color, size, text, opacity.</p>
+<p><img src="images/Buton_action_geom.png" class="img-fluid"> Geometry parameters for changing links/arrows shape only (not available for nodes): orientation, type of link (curve, triange, …) and arrow head parameters.</p>
+<p><img src="images/Buton_action_delete.png" class="img-fluid"> Definitively deletes the layer.</p>
+</section>
+<section id="designing-the-nodes" class="level2">
+<h2 class="anchored" data-anchor-id="designing-the-nodes">Designing the nodes</h2>
+<p>Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin’ (1967) principes.</p>
+<section id="semiology-paramaters" class="level3">
+<h3 class="anchored" data-anchor-id="semiology-paramaters">Semiology paramaters</h3>
+<p>Hereby the general window.</p>
+<p><img src="images/Design_nodes.png" class="img-fluid"></p>
+<section id="the-color-of-nodes" class="level4">
+<h4 class="anchored" data-anchor-id="the-color-of-nodes">The color of nodes</h4>
+<p><img src="images/geom_add_nodes_1.png" class="img-fluid"></p>
+<p>The color of the nodes can be fixed (e.g.&nbsp;in black) or shaded in a range of tones.</p>
+<p><img src="images/choose_fixed_color.png" class="img-fluid"></p>
+<p>The color of the nodes can be shaded in a range of tones.</p>
+<p><img src="images/geom_add_nodes_1_color.png" class="img-fluid"></p>
+<p>The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3">Color Brewer advices for maps</a>. An Extra Palette is also proposed in Arabesque.</p>
+<p>The color of the node can be set according to one of the variables (initial or calculated by Arabesque) present in the dataset.</p>
+<p><img src="images/geom_add_nodes_1_color_variable.png" class="img-fluid"></p>
+<p>By definition, the type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).</p>
+<p><img src="images/geom_add_nodes_1_color_variable2.png" class="img-fluid"></p>
+<p>The progression (up/down) of the <strong>color range</strong> depends on that of the <strong>value range</strong>: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.</p>
+<p><img src="images/geom_add_nodes_1_color_variable3.png" class="img-fluid"></p>
+</section>
+<section id="size" class="level4">
+<h4 class="anchored" data-anchor-id="size"><strong>Size</strong></h4>
+<p>The size of the nodes can be fixed and the weight defined.</p>
+<p><img src="images/geom_add_nodes_2_size.png" class="img-fluid"></p>
+<p>The size can be <strong>weighted by a variable</strong> according to one of the initial or additional <strong>variables</strong> available in the dataset (hereby the balance).</p>
+<p><img src="images/geom_add_nodes_2_size_variable.png" class="img-fluid"></p>
+<p>Three functions to set the size of the node according to the corresponding value are proposed: the square, the square root and the logarithm.</p>
+<p><img src="images/geom_add_nodes_2_size_fct.png" class="img-fluid"></p>
+<p>The <strong>ratio</strong> representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).</p>
+<p><img src="images/geom_add_nodes_2_size_ratio.png" class="img-fluid"></p>
+</section>
+<section id="text" class="level4">
+<h4 class="anchored" data-anchor-id="text"><strong>Text</strong></h4>
+<p>Textuals elements can also be added near the nodes.</p>
+<p><img src="images/geom_add_nodes_3_texte.png" class="img-fluid"></p>
+<p>The text can be defined according to one of the variable available in the dataset.</p>
+<p><img src="images/geom_add_nodes_3_texte2.png" class="img-fluid"></p>
+<p>The opacity of the text shade (currently set to black) can be set to a given value (here 0.85).</p>
+<p><img src="images/geom_add_nodes_3_texte_fixe.png" class="img-fluid"></p>
+<p>The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset.</p>
+<p><img src="images/geom_add_nodes_3_texte_variable.png" class="img-fluid"></p>
+</section>
+</section>
+</section>
+<section id="the-nodes-geometric-parameters" class="level2">
+<h2 class="anchored" data-anchor-id="the-nodes-geometric-parameters">The nodes’ geometric parameters</h2>
+<p>Not implemented yet.</p>
+<p>Upcoming projects.</p>
+</section>
+<section id="designing-the-links" class="level2">
+<h2 class="anchored" data-anchor-id="designing-the-links">Designing the links</h2>
+<p>The visual appearance of the link layers (shape, color, opacity, size) can be modified at two points:</p>
+<p>– either when importing/creating the layer - which will then result in the current layer being deleted</p>
+<p>or</p>
+<p>– when managing the displayed layers, by using the following icons:</p>
+<p><img src="./images/Icon_links_geom.png" class="img-fluid"> Modify the style of the links</p>
+<p><img src="./images/Icon_links_brush.png" class="img-fluid"> gives access to the window for setting the style of the link layer.</p>
+<section id="semiology-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="semiology-parameters">Semiology parameters</h3>
+<p>The color, size and style of the links can be set</p>
+<p><img src="./images/Links_change_style.png" class="img-fluid"></p>
+</section>
+<section id="geometry-parameters-change-arrow-shape" class="level3">
+<h3 class="anchored" data-anchor-id="geometry-parameters-change-arrow-shape">Geometry parameters : Change arrow shape</h3>
+<p>Drawing the links opens a window that allows you to act on several dimensions of their geometry.</p>
+<p><img src="images/Design_links_arrows.png" class="img-fluid"></p>
+<p>This section is the same of the <a href="https://gflowiz.github.io/arabesque-doc/design-and-style-of-the-map-background.html#add-link-features">Design Link features/geometry</a> one.</p>
+<section id="geometry" class="level4">
+<h4 class="anchored" data-anchor-id="geometry">Geometry</h4>
+<p>The geometry of the link can be oriented or not.</p>
+<p><img src="images/geom_add_links_geometry1.png" class="img-fluid"></p>
+<p>Oriented geometry takes into account the direction of the <strong>flow</strong> to define the <strong>graphic form</strong> of the sign.</p>
+<p><img src="images/geom_add_links_oriented.png" class="img-fluid"></p>
+<p><strong>Available forms of flow lines</strong> are : straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.</p>
+<p><img src="images/Links_geom.png" class="img-fluid"></p>
+<ul>
+<li><p><strong>Straight</strong>: The link is straight and oriented, with a half arrowhead</p></li>
+<li><p><strong>Straight no hook</strong>: The link is straight and oriented, it has a point without hook</p></li>
+<li><p><strong>Triangle</strong>: The link is straight and takes the shape of a triangle</p></li>
+<li><p><strong>Curve</strong> : The link is curved and oriented, its curvature is configurable.</p></li>
+<li><p><strong>Triangle curve</strong>: The link is curved and takes the shape of a drop of water, its curvature is configurable.</p></li>
+<li><p><strong>Non oriented</strong>: The link is straight, validated or not, it has no orientation.</p></li>
+</ul>
+</section>
+<section id="design-of-arrows" class="level4">
+<h4 class="anchored" data-anchor-id="design-of-arrows">Design of arrows</h4>
+<p>The arrow geometry - which corresponds to the visual shape variable - can be rectilinear or curvilinear.</p>
+<p>The curvature of the line is generated according to the Chaikin algorithm which allows to parameterize its height and its base, with respect to the body of the link.</p>
+<p><img src="images/geom_add_links_curve.png" class="img-fluid"></p>
+<ul>
+<li><p><strong>Arrow / Height curve</strong>: The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link - the width being itself a function of the value of the flow.</p></li>
+<li><p><strong>Arrow / Height</strong>: The value of ([0,1]) is that of the center of the curve; the point is identified by the indication of a distance from the origin node of the link.</p></li>
+</ul>
+</section>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

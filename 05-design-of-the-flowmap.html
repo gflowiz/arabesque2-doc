@@ -96,8 +96,8 @@ Note
 <section id="designing-the-nodes" class="level2">
 <h2 class="anchored" data-anchor-id="designing-the-nodes">Designing the nodes</h2>
 <p>Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin’ (1967) principes.</p>
-<section id="semiology-paramaters" class="level3">
-<h3 class="anchored" data-anchor-id="semiology-paramaters">Semiology paramaters</h3>
+<section id="semiology-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="semiology-parameters">Semiology parameters</h3>
 <p>Hereby the general window.</p>
 <p><img src="images/Design_nodes.png" class="img-fluid"></p>
 <section id="the-color-of-nodes" class="level4">
@@ -108,9 +108,21 @@ Note
 <p>The color of the nodes can be shaded in a range of tones.</p>
 <p><img src="images/geom_add_nodes_1_color.png" class="img-fluid"></p>
 <p>The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: <a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3">Color Brewer advices for maps</a>. An Extra Palette is also proposed in Arabesque.</p>
-<p>The color of the node can be set according to one of the variables (initial or calculated by Arabesque) present in the dataset.</p>
+<p>The color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.</p>
 <p><img src="images/geom_add_nodes_1_color_variable.png" class="img-fluid"></p>
-<p>By definition, the type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).</p>
+<div class="callout callout-style-simple callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).</p>
+</div>
+</div>
 <p><img src="images/geom_add_nodes_1_color_variable2.png" class="img-fluid"></p>
 <p>The progression (up/down) of the <strong>color range</strong> depends on that of the <strong>value range</strong>: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.</p>
 <p><img src="images/geom_add_nodes_1_color_variable3.png" class="img-fluid"></p>
@@ -151,24 +163,25 @@ Note
 <p>or</p>
 <p>– when managing the displayed layers, by using the following icons:</p>
 <p><img src="./images/Icon_links_geom.png" class="img-fluid"> Modify the style of the links</p>
-<p><img src="./images/Icon_links_brush.png" class="img-fluid"> gives access to the window for setting the style of the link layer.</p>
-<section id="semiology-parameters" class="level3">
-<h3 class="anchored" data-anchor-id="semiology-parameters">Semiology parameters</h3>
+<p><img src="./images/Icon_links_brush.png" class="img-fluid"> gives access to the window for setting the semiology of the link layer.</p>
+<section id="semiology-parameters-1" class="level3">
+<h3 class="anchored" data-anchor-id="semiology-parameters-1">Semiology parameters</h3>
 <p>The color, size and style of the links can be set</p>
 <p><img src="./images/Links_change_style.png" class="img-fluid"></p>
+<p><img src="images/Buton_action_geom.png" class="img-fluid"> gives access to the window for setting the geometry of the link layer.</p>
 </section>
 <section id="geometry-parameters-change-arrow-shape" class="level3">
 <h3 class="anchored" data-anchor-id="geometry-parameters-change-arrow-shape">Geometry parameters : Change arrow shape</h3>
 <p>Drawing the links opens a window that allows you to act on several dimensions of their geometry.</p>
 <p><img src="images/Design_links_arrows.png" class="img-fluid"></p>
-<p>This section is the same of the <a href="https://gflowiz.github.io/arabesque-doc/design-and-style-of-the-map-background.html#add-link-features">Design Link features/geometry</a> one.</p>
 <section id="geometry" class="level4">
 <h4 class="anchored" data-anchor-id="geometry">Geometry</h4>
-<p>The geometry of the link can be oriented or not.</p>
+<p>The link can be oriented or not, in the form of an arrow.</p>
 <p><img src="images/geom_add_links_geometry1.png" class="img-fluid"></p>
 <p>Oriented geometry takes into account the direction of the <strong>flow</strong> to define the <strong>graphic form</strong> of the sign.</p>
 <p><img src="images/geom_add_links_oriented.png" class="img-fluid"></p>
-<p><strong>Available forms of flow lines</strong> are : straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.</p>
+<p><strong>Available forms of flow lines</strong> are :</p>
+<p>straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.</p>
 <p><img src="images/Links_geom.png" class="img-fluid"></p>
 <ul>
 <li><p><strong>Straight</strong>: The link is straight and oriented, with a half arrowhead</p></li>

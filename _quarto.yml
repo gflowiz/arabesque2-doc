@@ -4,7 +4,7 @@ project:
 book:
   title: "Flow mapping with Arabesque 2"
   author: "Françoise Bahoken"
-  date: "16/05/2024"
+  date: "27/05/2024"
   chapters:
     - index.qmd
     - intro.qmd
@@ -13,6 +13,8 @@ book:
     - 02-data-import.qmd
     - 03-data-pre-processing.qmd
     - 04-geographical-layers.qmd
+    - 05-design-of-the-flowmap.qmd
+    - 06-filtering-flowdata.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -27,5 +29,5 @@ format:
 editor: visual
 
 epub:
-    cover-image: arabesque_cover.png
+    cover-image: cover-image.png
 

@@ -1,0 +1,21 @@
+# Filtering flowdata
+
+This chapter concerns the filtering procedures for flowdata in order to reduce the graphic complexity of the flow map - the so-called *spaghetti effect*.
+
+::: callout-tip
+## Flowmapping tips
+
+1.  Importing flow data (links/nodes)
+2.  Processing flow data (indicators calculation, ...)
+3.  Geographical data computing (layering, ...)
+4.  **Statistical data computing (filtering, ...)**
+5.  Cartographic symbolization (designing arrows, ...)
+6.  Map cosmetics (naming, ...)
+7.  Export
+:::
+
+Filtering procedures are also important to select useful information: links and/or nodes to obtain an interesting flowmap.
+
+*EXAMPLE:* RICardo international trade flows like a dish of spaghetti.
+
+![](images/RICardo_spaghetti.png){fig-align="left"}

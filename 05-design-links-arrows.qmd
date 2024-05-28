@@ -20,155 +20,93 @@ Sign parameters are set on the left panel - in the layer management section ie. 
 ![](images/geom_panel_flowsigns.png)
 
 ::: callout-note
-Note:
+## Note:
 
-A tile or other geographic information layers can also be displayed in this section.
+Other geographic information layers (tiles, ...) can also be displayed in this section.
 :::
-
-## Designing the nodes
-
-Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin' (1967) principes.
-
-Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).
-
-![](images/Nodes_semio.PNG){fig-align="left"}
-
-### **The color**
-
-The colour of a node can be set according to three criteria: a setting mode, a variable and the type of the variable.
-
-#### The setting modes of the color
-
--   **Constant mode** means that the color of the nodes is fixed and identical for all nodes.
-
-![](images/Nodes_color_constant.png)
-
--   **Conditional mode** means that the color of the nodes will vary according to the character value (of a variable)
-
-![](images/Nodes_color_conditionnal.PNG){fig-align="left"}
-
-The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palette is also proposed in Arabesque.
-
-The color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.
-
-![](images/geom_add_nodes_1_color_variable.png)
-
-::: {.callout-caution appearance="simple"}
-## Caution
-
-The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
-:::
-
-![](images/geom_add_nodes_1_color_variable2.png)
-
-The progression (up/down) of the **color range** depends on that of the **value range**: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.
-
-![](images/geom_add_nodes_1_color_variable3.png)
-
-#### **Size**
-
-The size of the nodes can be fixed and the weight defined.
-
-![](images/geom_add_nodes_2_size.png)
-
-The size of the nodes can be **weighted by a variable** according to one of the initial or additional **variables** available in the dataset (hereby the balance).
-
-![](images/geom_add_nodes_2_size_variable.png)
-
-Three functions to set the size of the node according to the corresponding value are proposed: the square, the square root and the logarithm.
-
-![](images/geom_add_nodes_2_size_fct.png)
-
-The **ratio** representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).
-
-![](images/geom_add_nodes_2_size_ratio.png)
-
-#### **Text**
-
-Textuals elements can also be added near the nodes.
-
-![](images/geom_add_nodes_3_texte.png)
-
-The text can be defined according to one of the variable available in the nodes' dataset, here the name, the type, etc..
-
-The opacity of the text shade (currently set to black) can be set to a given value (here 0.91).
-
-![](images/geom_add_nodes_3_texte_fixe.png)
-
-The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes' original variables and the precalculated ones (degree, ...).
-
-![](images/geom_add_nodes_3_texte_variable.png)
-
-## The nodes' geometric parameters
-
-Not implemented yet.
-
-Upcoming projects.
 
 ## Designing the links
 
-The visual appearance of the link layers (shape, color, opacity, size) can be modified at two points:
-
--- either when importing/creating the layer - which will then result in the current layer being deleted
-
-or
-
--- when managing the displayed layers, by using the following icons:
+the design of the links can be modified in two ways: their semiology and their geometry by using the following icons:
 
 ![](./images/Icon_links_geom.png) Modify the style of the links
 
-![](./images/Icon_links_brush.png) gives access to the window for setting the semiology of the link layer.
+## Links's semiology
 
-### Semiology parameters
-
-The color, size and style of the links can be set
+![](images/Buton_action_semio.png) Three semiological parameters are available for designing the links : their color, their size and their opacity.
 
 ![](./images/Links_change_style.png)
 
-![](images/Buton_action_geom.png) gives access to the window for setting the geometry of the link layer.
+## Links' geometry parameters
 
-### Geometry parameters : Change arrow shape
+Geometry parameter is to change arrow shape
 
-Drawing the links opens a window that allows you to act on several dimensions of their geometry.
+![](images/Buton_action_geom.png) Three geometrical parameters are available for designing the links : their shape, their type, their arrow head and their width
 
 ![](images/Design_links_arrows.png)
 
-#### Geometry
+### Links' orientation
 
-The link can be oriented or not, in the form of an arrow.
+The link can be oriented in the form of an arrow or not (remain as a simple line).
 
 ![](images/geom_add_links_geometry1.png)
 
 Oriented geometry takes into account the direction of the **flow** to define the **graphic form** of the sign.
 
-![](images/geom_add_links_oriented.png)
+::: {.callout-note appearance="simple"}
+## Note about to the orientation
 
-**Available forms of flow lines** are :
+The link's orientation is related to the declared from-to parameter adjusted when the links were imported. See Data importation chapter.
+:::
 
-straight (as euclidian distance symbolisation), straight no hook, Triangle, (line) Curve and Triangle curve.
+### **Link's types** 
+
+Five forms of flow lines are available.
+
+-   **straight** ;
+
+-   **straight no hook** ;
+
+-   **triangle** ;
+
+-   (line) **curve**
+
+-   **Triangle curve**.
 
 ![](images/Links_geom.png)
 
--   **Straight**: The link is straight and oriented, with a half arrowhead
+-   **Straight** (as euclidian distance symbolisation): The link is straight and oriented, with a half arrowhead.
 
--   **Straight no hook**: The link is straight and oriented, it has a point without hook
+-   **Straight no hook**: The link is straight and oriented, it has a point without hook.
 
--   **Triangle**: The link is straight and takes the shape of a triangle
+-   **Triangle**: The link is straight and takes the shape of a triangle.
 
--   **Curve** : The link is curved and oriented, its curvature is configurable.
+-   **Curve** : The link is curved and oriented, its curvature is configurable in the Arrow head section if selected.
 
--   **Triangle curve**: The link is curved and takes the shape of a drop of water, its curvature is configurable.
+-   **Triangle curve**: The link is curved and takes the shape of a drop of water, its curvature is configurable in the Arrow head section if selected.
 
--   **Non oriented**: The link is straight, validated or not, it has no orientation.
-
-#### Design of arrows
+-   **Non oriented**: The link is straight, valuate or not, it has no direction.
 
 The arrow geometry - which corresponds to the visual shape variable - can be rectilinear or curvilinear.
 
+### Design of linear arrows
+
+The **straight** and **straight no hook** type of line (oriented as arrows or not) is for rectilinear flow features.
+
+Only the **arrow head** can be set if required.
+
+![](images/geom_add_links_straight.png)
+
+-   **Arrow head-Height** (curve): The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link
+
+-   **Arrow head-Width** being itself a function of the value of the flow, but it can be set as constant here.
+
+### Design curved lines/arrows
+
 The curvature of the line is generated according to the Chaikin algorithm which allows to parameterize its height and its base, with respect to the body of the link.
 
-![](images/geom_add_links_curve.png)
+![](images/Add_links_curve_arrow.png){fig-align="left"}
 
--   **Arrow / Height curve**: The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link - the width being itself a function of the value of the flow.
+-   **Height curve**: the (\[0,5\] is identified as a distance from the origin node of the link. Here, the point is approximately in the middle of the curve.
 
--   **Arrow / Height**: The value of (\[0,1\]) is that of the center of the curve; the point is identified by the indication of a distance from the origin node of the link.
+-   **Center Curve:** the value of (\[0,5\]) is that of the center of the curve for a pseudo 3D rendering.

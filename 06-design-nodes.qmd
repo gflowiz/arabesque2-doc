@@ -25,7 +25,7 @@ Note: other geographic information layers (tiles, ...) can also be displayed in 
 
 ## Nodes semiology
 
-Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin' (1967) principes.
+![](images/Buton_action_semio.png) Three semiological parameters are available for designing the links : their color, their size their topononym or label and their opacity.
 
 Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).
 

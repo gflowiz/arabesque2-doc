@@ -1,6 +1,6 @@
-# Design of the flowmap signs
+# Designing the links/arrows
 
-This chapter concerns the drawing of flow features : links and nodes, and the configuration of their semiology.
+This chapter concerns the drawing of the links features : their geometry/shape and their semiology.
 
 ::: {.callout-tip appearance="simple"}
 ## Flow mapping tips

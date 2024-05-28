@@ -1,6 +1,6 @@
 # Designing the nodes of the flowmap
 
-This chapter concerns the drawing of nodes features, especially the configuration of their semiology.
+This chapter concerns the drawing of the nodes, especially the configuration of their semiology.
 
 ::: {.callout-tip appearance="simple"}
 ## Flow mapping tips

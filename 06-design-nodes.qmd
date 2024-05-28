@@ -1,0 +1,106 @@
+# Designing the nodes of the flowmap
+
+This chapter concerns the drawing of nodes features, especially the configuration of their semiology.
+
+::: {.callout-tip appearance="simple"}
+## Flowmapping tips
+
+1.  Importing flow data (links/nodes)
+2.  Processing flow data (indicators calculation, ...)
+3.  Geographical data computing (layering, ...)
+4.  Statistical data computing (filtering, ...)
+5.  Designing links and arrows (geometry and semiology)
+6.  **Designing nodes (semiology)**
+7.  Map cosmetics (naming, ...)
+8.  Export
+:::
+
+::: callout-note
+Note: A link layer, a tile or other geographic information layers can also be displayed in this section.
+:::
+
+## Nodes semiology
+
+Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin' (1967) principes.
+
+Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).
+
+![](images/Nodes_semio.PNG){fig-align="left"}
+
+## **Nodes' color**
+
+The colour of a node can be set according to three criteria: a setting mode, a variable and the type of the variable.
+
+### Setting modes of the color
+
+-   **Constant mode** means that the color of the nodes is fixed and identical for all nodes.
+
+![](images/Nodes_color_constant.png)
+
+-   **Conditional mode** means that the color of the nodes will vary according to the character value (of a variable)
+
+![](images/Nodes_color_conditionnal.PNG){fig-align="left"}
+
+The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palette is also proposed in Arabesque.
+
+### Colour variation as a function of a variable
+
+The color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.
+
+![](images/geom_add_nodes_1_color_variable.png)
+
+### Colour variation as a function of the type of a variable
+
+::: {.callout-caution appearance="simple"}
+## Caution
+
+The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
+:::
+
+![](images/geom_add_nodes_1_color_variable2.png)
+
+The progression (up/down) of the **color range** depends on that of the **value range**: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.
+
+![](images/geom_add_nodes_1_color_variable3.png)
+
+## **Node's size**
+
+The size of the nodes can be fixed and the weight defined.
+
+![](images/geom_add_nodes_2_size.png)
+
+### Nodes' size weighted by a variable
+
+The size of the nodes can be **weighted by a variable** according to one of the initial or additional **variables** available in the dataset (hereby the balance).
+
+![](images/geom_add_nodes_2_size_variable.png)
+
+Three functions to set the size of the node according to the corresponding value are proposed: the square, the square root and the logarithm.
+
+![](images/geom_add_nodes_2_size_fct.png)
+
+### Nodes' size ratio
+
+The **ratio** representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).
+
+![](images/geom_add_nodes_2_size_ratio.png)
+
+## **Node's label (text)**
+
+Textuals elements can also be added near the nodes.
+
+![](images/geom_add_nodes_3_texte.png)
+
+The text can be defined according to one of the variable available in the nodes' dataset, here the name, the type, etc..
+
+The opacity of the text shade (currently set to black) can be set to a given value (here 0.91).
+
+![](images/geom_add_nodes_3_texte_fixe.png)
+
+The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes' original variables and the precalculated ones (degree, ...).
+
+![](images/geom_add_nodes_3_texte_variable.png)
+
+## The nodes' geometric parameters
+
+Not implemented yet. Upcoming projects.

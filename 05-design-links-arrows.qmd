@@ -9,9 +9,10 @@ This chapter concerns the drawing of flow features : links and nodes, and the co
 2.  Processing flow data (indicators calculation, ...)
 3.  Geographical data computing (layering, ...)
 4.  Statistical data computing (filtering, ...)
-5.  **Cartographic symbolization (designing arrows, ...)**
-6.  Map cosmetics (naming, ...)
-7.  Export
+5.  **Designing links and arrows (geometry and semiology)**
+6.  Designing nodes (semiology)
+7.  Map cosmetics (naming, ...)
+8.  Export
 :::
 
 Sign parameters are set on the left panel - in the layer management section ie. the lower part, which displays at least two geographical layers : one on links and one on nodes.

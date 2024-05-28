@@ -3,7 +3,7 @@
 This chapter concerns the drawing of nodes features, especially the configuration of their semiology.
 
 ::: {.callout-tip appearance="simple"}
-## Flowmapping tips
+## Flow mapping tips
 
 1.  Importing flow data (links/nodes)
 2.  Processing flow data (indicators calculation, ...)
@@ -15,8 +15,12 @@ This chapter concerns the drawing of nodes features, especially the configuratio
 8.  Export
 :::
 
-::: callout-note
-Note: A link layer, a tile or other geographic information layers can also be displayed in this section.
+![](images/geom_panel_nodessigns.png){fig-align="left"}
+
+::: {.callout-note appearance="simple"}
+## Note
+
+Note: other geographic information layers (tiles, ...) can also be displayed in this section.
 :::
 
 ## Nodes semiology

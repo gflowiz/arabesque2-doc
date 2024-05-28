@@ -13,9 +13,10 @@ book:
     - 02-data-import.qmd
     - 03-data-pre-processing.qmd
     - 04-geographical-layers.qmd
-    - 05-design-of-the-flowmap.qmd
-    - 06-filtering-flowdata.qmd
-    - 07-flowmap-cosmetics.qmd
+    - 05-design-links-arrows.qmd
+    - 06-design-nodes.qmd
+    - 07-filtering-flowdata.qmd
+    - 08-flowmap-cosmetics.qmd
     - references.qmd
 
 bibliography: references.bib

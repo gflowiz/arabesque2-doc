@@ -3,7 +3,7 @@
 This Quarto book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping created within the geographic flow vizualisation research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr) (former IFSTTAR).
 
 \
-The gflowiz project was originally led by Françoise Bahoken and co-directed by Étienne Côme (Univ. Gustave Eiffel), with the scientific collaboration ofLaurent Jégou (Univ. Toulouse 2 Jean Jaurès). The main developer of the first version of *Arabesque* was Thomas Bapaume (ESIEE), then Paul Fabre (UGE/IGN). Tony Hauck is developping the second version. Other contributors to the design of the app include Marion Maisonobe and Grégoire le Campion (CNRS).
+The gflowiz project was originally led by Françoise Bahoken and co-directed by Étienne Côme (Univ. Gustave Eiffel), with the scientific collaboration ofLaurent Jégou (Univ. Toulouse 2 Jean Jaurès). The main developer of the first version of *Arabesque* was Thomas Bapaume (ESIEE), then Paul Fabre (UGE/IGN). Tony Hauck is developping the *Arabesque2* version. Other contributors include Marion Maisonobe and Grégoire le Campion (CNRS) for the design of the app, and Nicolas Roelandt for the Arabesque 1 documentation.
 
 *Arabesque* is an innovative cartographic application that meets the contemporary challenges and objectives of flows and networks geovisualisation.
 
@@ -23,14 +23,14 @@ In this context, *Arabesque's* objectives are as follows.
 
 ## Objectives
 
-*Arabesque's* ambition is to meet the high demand for analysis of one's own flow dataset in a free, open source and ergonomic way - this need corresponding to the main result of our survey conducted in 2018. \
+*Arabesque's* ambition is to meet the high demand for analysis of one's own flow dataset in a free, open source and ergonomic way - this need corresponding to the main result of our survey conducted in 2018.\
 \
-*Arabesque* is part of the french Lemaire Law for a digital republic. It falls under the general objective of increasing understanding of the geographical determinants of the spatial mobility of goods, people and so on. \
+*Arabesque* is part of the french Lemaire Law for a digital republic. It falls under the general objective of increasing understanding of the geographical determinants of the spatial mobility of goods, people and so on.\
 \
 *Arabesque* aims to respond to the need to visualize the results of fundamental or applied research within theoretical and methodological development frameworks that can be considered both transverse to several subjects (population, habitat, environment, transport, i.e.) and interdisciplinary by nature (geography, demography, environment, geomatics, engineering sciences, human and social sciences, i.e.). These subjects also contribute to the societal challenges linked to the rise of the digital society, which they help to address.
 
 From a scientific point of view, *Arabesque* aims to innovate in the handling of flow and network data currently available on the geoweb (Bahoken et al, 2020). This is why it is part of the Mac Eachren (2005) new paradigm of "visualization mapping".\
-*Arabesque* combines in the same environment geo-visualization and geographic and statistical information processing devices - initially for descriptive purposes. On the other hand, it enables the processing of complex relational datasets, which can be both voluminous and display different dimensions of spatial mobilities (several thematic categories and/or temporalities). \
+*Arabesque* combines in the same environment geo-visualization and geographic and statistical information processing devices - initially for descriptive purposes. On the other hand, it enables the processing of complex relational datasets, which can be both voluminous and display different dimensions of spatial mobilities (several thematic categories and/or temporalities).\
 Particular attention is paid to rendering, both in terms of drawing and the cartographic semiology of linear features. The desire to improve the quality of the images of flows produced should lead to the development of a sensible approach to the geo-visualization of mobilities and spatial interactions.
 
 Françoise Bahoken and Etienne Côme

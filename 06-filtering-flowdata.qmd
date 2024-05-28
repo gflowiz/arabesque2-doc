@@ -74,7 +74,7 @@ Three main possibilities are proposed
 
 ### Add filter
 
-![](images/Add_stats_Filter.png)
+![](images/Add_filter.PNG)
 
 First, it is to click on Add filter on the bottom of the right panel, then on Link in the opened window.
 

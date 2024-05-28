@@ -27,5 +27,5 @@ Other map editing functions will be added progressively.
 ::: {.callout-note appearance="simple"}
 ## Note
 
-When exporting, the name will also be the name of the export file.
+When exporting the flow map, the name will also be the name of the export file.
 :::

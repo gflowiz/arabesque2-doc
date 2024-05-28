@@ -15,6 +15,7 @@ book:
     - 04-geographical-layers.qmd
     - 05-design-of-the-flowmap.qmd
     - 06-filtering-flowdata.qmd
+    - 07-flowmap-cosmetics.qmd
     - references.qmd
 
 bibliography: references.bib

@@ -1,17 +1,18 @@
 # Data pre processing
 
-After loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps:
+After loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.
 
 ::: {.callout-tip appearance="simple"}
 ## Flow mapping tips
 
 1.  Importing flow data (links/nodes)
-2.  **Processing flow data (indicators calculation, ...)**
+2.  Processing flow data (automatic indicators calculation, ...)
 3.  Geographical data computing (layering, ...)
 4.  Statistical data computing (filtering, ...)
-5.  Cartographic symbolization (designing arrows, ...)
-6.  Map cosmetics (naming, ...)
-7.  Export
+5.  Designing links and arrows (geometry and semiology)
+6.  Designing nodes (semiology)
+7.  Map cosmetics (title, sources, ...)
+8.  Export
 :::
 
 The links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.

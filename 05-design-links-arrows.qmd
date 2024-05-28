@@ -2,19 +2,6 @@
 
 This chapter concerns the drawing of the links features : their geometry/shape and their semiology.
 
-::: {.callout-tip appearance="simple"}
-## Flow mapping tips
-
-1.  Importing flow data (links/nodes)
-2.  Processing flow data (indicators calculation, ...)
-3.  Geographical data computing (layering, ...)
-4.  Statistical data computing (filtering, ...)
-5.  **Designing links and arrows (geometry and semiology)**
-6.  Designing nodes (semiology)
-7.  Map cosmetics (naming, ...)
-8.  Export
-:::
-
 Sign parameters are set on the left panel - in the layer management section ie. the lower part, which displays at least two geographical layers : one on links and one on nodes.
 
 ![](images/geom_panel_flowsigns.png)
@@ -59,7 +46,7 @@ Oriented geometry takes into account the direction of the **flow** to define the
 The link's orientation is related to the declared from-to parameter adjusted when the links were imported. See Data importation chapter.
 :::
 
-### **Link's types** 
+### **Link's types**
 
 Five forms of flow lines are available.
 

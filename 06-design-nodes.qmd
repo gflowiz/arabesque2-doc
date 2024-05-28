@@ -2,19 +2,6 @@
 
 This chapter concerns the drawing of the nodes, especially the configuration of their semiology.
 
-::: {.callout-tip appearance="simple"}
-## Flow mapping tips
-
-1.  Importing flow data (links/nodes)
-2.  Processing flow data (indicators calculation, ...)
-3.  Geographical data computing (layering, ...)
-4.  Statistical data computing (filtering, ...)
-5.  Designing links and arrows (geometry and semiology)
-6.  **Designing nodes (semiology)**
-7.  Map cosmetics (naming, ...)
-8.  Export
-:::
-
 ![](images/geom_panel_nodessigns.png){fig-align="left"}
 
 ::: {.callout-note appearance="simple"}

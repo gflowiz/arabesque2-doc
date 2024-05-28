@@ -1,20 +1,8 @@
 # Data importation
 
-::: {.callout-tip appearance="simple"}
-## Flow mapping tips
+Arabesque also allows you to import your own data sets via the home page, in order to create a new map.
 
-1.  **Importing flow data (links/nodes)**
-2.  Processing flow data (indicators calculation, ...)
-3.  Geographical data computing (layering, ...)
-4.  Statistical data computing (filtering, ...)
-5.  Cartographic symbolization (designing arrows, ...)
-6.  Map cosmetics (naming, ...)
-7.  Export
-:::
-
-Arabesque also allows you to import your own data sets in the home page, in order to create a new map.
-
-At least a flowdata file is required, in the form of an origin-destination matrice file with three colums. A node file is also required for the geolocalisation of the origin and destination places.
+At least a link/flow origin-destination data file is required, formatting with three colums. A node file is also required for the geolocalisation of the origin and destination places.
 
 In Arabesque 2, you have to declare or to import your nodes firstly.
 
@@ -22,7 +10,7 @@ In Arabesque 2, you have to declare or to import your nodes firstly.
 
 For this tutorial, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.
 
-## Nodes/vertex data importation
+## Nodes importation
 
 If your nodes are specific, see [Custom localisation file], otherwise you can use predefined locations with [Standard localisation codes].
 

@@ -1,17 +1,5 @@
 # Flowmap **cosmetics**
 
-::: callout-tip
-## Flowmapping tips
-
-1.  Importing flow data (links/nodes)
-2.  Processing flow data (indicators calculation, ...)
-3.  Geographical data computing (layering, ...)
-4.  Statistical data computing (filtering, ...)
-5.  Cartographic symbolization (designing arrows, ...)
-6.  **Map cosmetics (naming, ...)**
-7.  Export
-:::
-
 One of the new features of version 2 of Arabesque is this chapter related to the customization of the map before exporting it.
 
 You can enter a title, the author's name and the sources.

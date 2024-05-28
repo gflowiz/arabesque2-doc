@@ -2,17 +2,7 @@
 
 This chapter is about re projecting geographical layers, adding external or personal layers as the flow map background, and their customization.
 
-::: callout-tip
-## Flow mapping tips
-
-1.  Importing flow data (links/nodes)
-2.  Processing flow data (indicators calculation, ...)
-3.  **Geographical data computing (layering, ...)**
-4.  Statistical data computing (filtering, ...)
-5.  Cartographic symbolization (designing arrows, ...)
-6.  Map cosmetics (naming, ...)
-7.  Export
-:::
+First you can project or reproject your layers.
 
 ## (re)Projecting layers
 

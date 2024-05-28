@@ -2,20 +2,6 @@
 
 Arabesque interface is accessible via its general home page.
 
-The different steps of the creation/exploration/geovisualization of a flowmap are accessible through the home page (step 1 and step 2) and the following via the general interface.
-
-::: {.callout-tip appearance="simple"}
-## Flow mapping tips
-
-1.  **Importing flow data (links/nodes)**
-2.  Processing flow data (indicators calculation, ...)
-3.  Geographical data computing (layering, ...)
-4.  Statistical data computing (filtering, ...)
-5.  Cartographic symbolization (designing arrows, ...)
-6.  Map cosmetics (naming, ...)
-7.  Export
-:::
-
 ## Arabesque Home page
 
 ![](images/Arabesque_homepage.png)

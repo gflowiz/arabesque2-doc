@@ -86,25 +86,27 @@ The most common filtering consists in thresholding on the flow values (the volum
 
 For links, the possibility of filtering according to the distance traveled is also proposed.
 
+It is possible to choose the variable - or declare/type its format in order to draw an histogram for example.
+
 ### Choose the format of the variable to be filtered
 
 You must declare the type of data so that the corresponding graph can be displayed to allow visual thresholding.
 
-![](images/Add_filter_links.png)
+![](images/Add_filter_links_volume_continuous.png)
 
 **Categorial** is for qualitative categorical variables
 
-**Numeral** is for filtering with the slider on a measure or on an interval of values, on a quantitative variable.
+**Continuous** is for filtering quantitative variable with the slider on a measure or on an interval of values.
 
-**Remove** is for deleting one or more modality/measure relating to links (and the corresponding nodes, and reversly) from be flowmap.
+**Discrete** is for selecting one or more modality/measure relating to links (and the corresponding nodes, and reversly) from be flowmap.
 
-**One category** is for filtering on a single modality of a qualitative variable
-
-**Temporal** is for filtering with a slider a time variable.
+**Categorical** is for filtering on a single/several modality of a qualitative variable
 
 Above, the volume is declare as numeral for plotting the resulting map with RICardo data set:
 
-![](images/RICardo_filter_links_numeral.png)
+![](images/Add_links_filter_volume_histogramme.png)
+
+![](images/RICardo_filter_links_continuous.png){fig-align="left"}
 
 The selected information shown is described in percent on the bottom of the panel. Here only 2,6% of the links and 15% of the nodes represents 56% of the total volume of trade flows.
 
@@ -132,7 +134,15 @@ Then, it is a matter of specifying a type, here categorical, to display the flow
 
 ![](images/Add_filter_links_origin_categorial.png)
 
-You must then choose the country displayed, below, France.
+You must then choose the country in the list or enter the name of the selected one.
+
+![](images/Add_filter_node_category_select.png){fig-align="left"}
+
+Here we entered France.
+
+![](images/Add_filter_links_origin_categorial_SelectFrance.png){fig-align="left"}
+
+In order to display all flows from France, the (possible) other active filters have been set to zero.
 
 ![](images/Add_links_filter_origin_France.png)
 

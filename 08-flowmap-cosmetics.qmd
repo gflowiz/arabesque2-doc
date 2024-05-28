@@ -1,4 +1,4 @@
-# Flowmap **cosmetics**
+# Flowmap cosmetics
 
 One of the new features of version 2 of Arabesque is this chapter related to the customization of the map before exporting it.
 

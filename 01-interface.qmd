@@ -138,7 +138,7 @@ The position of the layers above and below (foreground/lowerground) can be modif
 
 After that, it can be seen that the layer of links has just been brought to the forefront.
 
-### The statistical panel
+## The statistical panel
 
 The **right panel** is for playing with the flow data sets : the nodes and/or links in order to **filter the map** with the Add filter button.
 

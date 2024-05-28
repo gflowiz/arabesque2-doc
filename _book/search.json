@@ -134,7 +134,7 @@
     "href": "02-data-import.html",
     "title": "4  Data importation",
     "section": "",
-    "text": "4.1 Nodes/vertex data importation\nIf your nodes are specific, see Custom localisation file, otherwise you can use predefined locations with Standard localisation codes.",
+    "text": "4.1 Nodes importation\nIf your nodes are specific, see Custom localisation file, otherwise you can use predefined locations with Standard localisation codes.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data importation</span>"
     ]
@@ -327,6 +327,156 @@
     "text": "Flowmapping tips\n\n\n\n\nImporting flow data (links/nodes)\nProcessing flow data (indicators calculation, …)\nGeographical data computing (layering, …)\nStatistical data computing (filtering, …)\nCartographic symbolization (designing arrows, …)\nMap cosmetics (naming, …)\nExport\n\n\n\nOne of the new features of version 2 of Arabesque is this chapter related to the customization of the map before exporting it.\nYou can enter a title, the author’s name and the sources.\n\n\n\n\n\nYou can enter a title, which will be placed at the top centre of the map.\nThe author’s name and the sources will be placed at the bottom right of the map.\nOther map editing functions will be added progressively.\n\n\n\n\n\n\nNote\n\n\n\nWhen exporting the flow map, the name will also be the name of the export file.",
     "crumbs": [
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Flowmap **cosmetics**</span>"
+    ]
+  },
+  {
+    "objectID": "04-geographical-layers.html#types-of-actions-on-a-layer-displayed",
+    "href": "04-geographical-layers.html#types-of-actions-on-a-layer-displayed",
+    "title": "6  Geographical data computing",
+    "section": "6.3 Types of actions on a layer displayed",
+    "text": "6.3 Types of actions on a layer displayed\nSeveral actions can be performed on all the layer level displayed, via the layer management section using icon-buttons.\n Visible/invisible the layer.\n Semiology parameters of flow features (nodes and links) : color, size, text, opacity.\n Geometry parameters for changing links/arrows shape only. This is not available for nodes). It is possible to change their orientation, the type of link (curve, triange, …) and arrow head parameters.\n Definitively deletes the layer.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Geographical data computing</span>"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html",
+    "href": "05-design-links-arrows.html",
+    "title": "7  Designing the links/arrows",
+    "section": "",
+    "text": "7.1 Designing the links\nthe design of the links can be modified in two ways: their semiology and their geometry by using the following icons:\nModify the style of the links",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html#linkss-semiology",
+    "href": "05-design-links-arrows.html#linkss-semiology",
+    "title": "7  Designing the links/arrows",
+    "section": "7.2 Links’s semiology",
+    "text": "7.2 Links’s semiology\n Three semiological parameters are available for designing the links : their color, their size and their opacity.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html#links-geometry-parameters",
+    "href": "05-design-links-arrows.html#links-geometry-parameters",
+    "title": "7  Designing the links/arrows",
+    "section": "7.3 Links’ geometry parameters",
+    "text": "7.3 Links’ geometry parameters\nGeometry parameter is to change arrow shape\n Three geometrical parameters are available for designing the links : their shape, their type, their arrow head and their width\n\n\n7.3.1 Links’ orientation\nThe link can be oriented in the form of an arrow or not (remain as a simple line).\n\nOriented geometry takes into account the direction of the flow to define the graphic form of the sign.\n\n\n\n\n\n\nNote about to the orientation\n\n\n\nThe link’s orientation is related to the declared from-to parameter adjusted when the links were imported. See Data importation chapter.\n\n\n\n\n7.3.2 Link’s types\nFive forms of flow lines are available.\n\nstraight ;\nstraight no hook ;\ntriangle ;\n(line) curve\nTriangle curve.\n\n\n\nStraight (as euclidian distance symbolisation): The link is straight and oriented, with a half arrowhead.\nStraight no hook: The link is straight and oriented, it has a point without hook.\nTriangle: The link is straight and takes the shape of a triangle.\nCurve : The link is curved and oriented, its curvature is configurable in the Arrow head section if selected.\nTriangle curve: The link is curved and takes the shape of a drop of water, its curvature is configurable in the Arrow head section if selected.\nNon oriented: The link is straight, valuate or not, it has no direction.\n\nThe arrow geometry - which corresponds to the visual shape variable - can be rectilinear or curvilinear.\n\n\n7.3.3 Design of linear arrows\nThe straight and straight no hook type of line (oriented as arrows or not) is for rectilinear flow features.\nOnly the arrow head can be set if required.\n\n\nArrow head-Height (curve): The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link\nArrow head-Width being itself a function of the value of the flow, but it can be set as constant here.\n\n\n\n7.3.4 Design curved lines/arrows\nThe curvature of the line is generated according to the Chaikin algorithm which allows to parameterize its height and its base, with respect to the body of the link.\n\n\n\n\n\n\nHeight curve: the ([0,5] is identified as a distance from the origin node of the link. Here, the point is approximately in the middle of the curve.\nCenter Curve: the value of ([0,5]) is that of the center of the curve for a pseudo 3D rendering.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html",
+    "href": "06-design-nodes.html",
+    "title": "8  Designing the nodes of the flowmap",
+    "section": "",
+    "text": "8.1 Nodes semiology\nThree semiological parameters are available for designing the links : their color, their size their topononym or label and their opacity.\nHereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-color",
+    "href": "06-design-nodes.html#nodes-color",
+    "title": "8  Designing the nodes of the flowmap",
+    "section": "8.2 Nodes’ color",
+    "text": "8.2 Nodes’ color\nThe colour of a node can be set according to three criteria: a setting mode, a variable and the type of the variable.\n\n8.2.1 Setting modes of the color\n\nConstant mode means that the color of the nodes is fixed and identical for all nodes.\n\n\n\nConditional mode means that the color of the nodes will vary according to the character value (of a variable)\n\n\n\n\n\n\nThe reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: Color Brewer advices for maps. An Extra Palette is also proposed in Arabesque.\n\n\n8.2.2 Colour variation as a function of a variable\nThe color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.\n\n\n\n8.2.3 Colour variation as a function of the type of a variable\n\n\n\n\n\n\nCaution\n\n\n\nThe type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).\n\n\n\nThe progression (up/down) of the color range depends on that of the value range: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-size",
+    "href": "06-design-nodes.html#nodes-size",
+    "title": "8  Designing the nodes of the flowmap",
+    "section": "8.3 Node’s size",
+    "text": "8.3 Node’s size\nThe size of the nodes can be fixed and the weight defined.\n\n\n8.3.1 Nodes’ size weighted by a variable\nThe size of the nodes can be weighted by a variable according to one of the initial or additional variables available in the dataset (hereby the balance).\n\nThree functions to set the size of the node according to the corresponding value are proposed: the square, the square root and the logarithm.\n\n\n\n8.3.2 Nodes’ size ratio\nThe ratio representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-label-text",
+    "href": "06-design-nodes.html#nodes-label-text",
+    "title": "8  Designing the nodes of the flowmap",
+    "section": "8.4 Node’s label (text)",
+    "text": "8.4 Node’s label (text)\nTextuals elements can also be added near the nodes.\n\nThe text can be defined according to one of the variable available in the nodes’ dataset, here the name, the type, etc..\nThe opacity of the text shade (currently set to black) can be set to a given value (here 0.91).\n\nThe opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes’ original variables and the precalculated ones (degree, …).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#the-nodes-geometric-parameters",
+    "href": "06-design-nodes.html#the-nodes-geometric-parameters",
+    "title": "8  Designing the nodes of the flowmap",
+    "section": "8.5 The nodes’ geometric parameters",
+    "text": "8.5 The nodes’ geometric parameters\nNot implemented yet. Upcoming projects.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+    ]
+  },
+  {
+    "objectID": "07-filtering-flowdata.html",
+    "href": "07-filtering-flowdata.html",
+    "title": "9  Filtering flowdata",
+    "section": "",
+    "text": "9.1 Available filtering procedures",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Filtering flowdata</span>"
+    ]
+  },
+  {
+    "objectID": "07-filtering-flowdata.html#available-filtering-procedures",
+    "href": "07-filtering-flowdata.html#available-filtering-procedures",
+    "title": "9  Filtering flowdata",
+    "section": "",
+    "text": "9.1.1 Filtering possibilities\nFiltering is available on numerical, temporal and categorical variables.\n\n9.1.1.1 Numerical variables\nNumerical filtering applies to quantitative (absolute, continuous or pseudo-continuous) dat is done either visually with a brush on an interactive histogram or bar chart. It is also possible to indicate a threshold.\n\n\n9.1.1.2 Temporal variables\nThe filtering possibilities of the temporal matrices are currently only available for links. They concern the choice of a date or a period, in a numerical or graphical form (slider). Three date formats are available (string, hours, timestamp).\n\n\n9.1.1.3 Categorical variables\nCategorical filtering is applied to nominal qualitative data available in node and/or link datasets. Three possibilities are offered, graphically and numerically:\n– Selection of multiple variables: the user chooses one or more of the available categorical variables (e.g., prefectures and sub-prefectures if a variable specifying the administrative profile of French cities is available) or the type of links (e.g., import or export for trade data);\n– Selection of a single variable: the user chooses a single variable (for the nodes: for example, the flows from and to France for mobility data; the import type flows for trade data);\n– Selection by deletion of a single variable: the user chooses one or more variables relating to the nodes and links to be deleted. If the deletion selection concerns nodes, all the corresponding links (for example, the Ile-de-France region for an analysis at the national level) are deleted.\n\n\n\n9.1.2 Implementing filtering\nThe Arabesque filtering possibilities depend on the type of variable/procedure of filtering, as well as the corresponding graph for visual implementation.\nThree main possibilities are proposed\n– (1) visual filtering using modular* selection area (brush) applied on an histogram or an bar chart (see above) ;\n– (2) numerical thresholding by indicating a threshold ;\n\n\n– (3) visual filtering using a slider (hereby, on links)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Filtering flowdata</span>"
+    ]
+  },
+  {
+    "objectID": "07-filtering-flowdata.html#filtering-by-links",
+    "href": "07-filtering-flowdata.html#filtering-by-links",
+    "title": "9  Filtering flowdata",
+    "section": "9.2 Filtering by links",
+    "text": "9.2 Filtering by links\n Icon indicating the existence of a filtering possibility applied on the links.\n\n9.2.1 Add filter\n\nFirst, it is to click on Add filter on the bottom of the right panel, then on Link in the opened window.\n\nThe most common filtering consists in thresholding on the flow values (the volume variable declared when importing the data)\n\nFor links, the possibility of filtering according to the distance traveled is also proposed.\nIt is possible to choose the variable - or declare/type its format in order to draw an histogram for example.\n\n\n9.2.2 Choose the format of the variable to be filtered\nYou must declare the type of data so that the corresponding graph can be displayed to allow visual thresholding.\n\nCategorial is for qualitative categorical variables\nContinuous is for filtering quantitative variable with the slider on a measure or on an interval of values.\nDiscrete is for selecting one or more modality/measure relating to links (and the corresponding nodes, and reversly) from be flowmap.\nCategorical is for filtering on a single/several modality of a qualitative variable\nAbove, the volume is declare as numeral for plotting the resulting map with RICardo data set:\n\n\n\n\n\n\nThe selected information shown is described in percent on the bottom of the panel. Here only 2,6% of the links and 15% of the nodes represents 56% of the total volume of trade flows.\nThe minimum and maximum values are automatically shown on the histogram. It is possible to change these values by brushing on the histogram.\n\n\n9.2.3 Multi variables filtering\nSeveral filter can be applied on links. Hereby, we add a second filter on the distance variable.\n\nThe two filter will then be available in the right panel (hereby, volume and distance)\n\nOnly flows that have traveled less than 4900 km are depicted.\n\n\n9.2.4 Local filter of links: by origin or destination\nIt is also possible to filter the links by origin or by destination.\n\nThen, it is a matter of specifying a type, here categorical, to display the flows issued from a country.\n\nYou must then choose the country in the list or enter the name of the selected one.\n\n\n\n\n\nHere we entered France.\n\n\n\n\n\nIn order to display all flows from France, the (possible) other active filters have been set to zero.\n\nNOTE: in order to be able to see all the flows from one place of origin (or destination), it is necessary to set the previous filters to zero (but it is not necessary to delete them).\n\n\n9.2.5 Filter by a categorical variable\nIt is possible to select several categorical variables (ie several countries of origin).\n\n\n\n9.2.6 Filter by a temporal variable\nThe filtering of temporal data considers different field formats: date, hours and time stamp.\n\n\n\n9.2.7 Filter by a Remove",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Filtering flowdata</span>"
+    ]
+  },
+  {
+    "objectID": "07-filtering-flowdata.html#filtering-by-nodes",
+    "href": "07-filtering-flowdata.html#filtering-by-nodes",
+    "title": "9  Filtering flowdata",
+    "section": "9.3 Filtering by nodes",
+    "text": "9.3 Filtering by nodes\nFirst, it is to click on Add filter, then on Node.\n Icon indicating the existence of a filtering possibility applied on the nodes.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Filtering flowdata</span>"
+    ]
+  },
+  {
+    "objectID": "08-flowmap-cosmetics.html",
+    "href": "08-flowmap-cosmetics.html",
+    "title": "10  Flowmap cosmetics",
+    "section": "",
+    "text": "One of the new features of version 2 of Arabesque is this chapter related to the customization of the map before exporting it.\nYou can enter a title, the author’s name and the sources.\n\n\n\n\n\nYou can enter a title, which will be placed at the top centre of the map.\nThe author’s name and the sources will be placed at the bottom right of the map.\nOther map editing functions will be added progressively.\n\n\n\n\n\n\nNote\n\n\n\nWhen exporting the flow map, the name will also be the name of the export file.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Flowmap **cosmetics**</span>"
+    ]
+  },
+  {
+    "objectID": "02-data-import.html#nodes-importation",
+    "href": "02-data-import.html#nodes-importation",
+    "title": "4  Data importation",
+    "section": "",
+    "text": "4.1.1 Standard localisation codes\n\n\n\n\n\nArabesque provides a list of codes identifying the most common spatial units at different geographical scales, at global, at European or at a national level.\n\nAt global level, for example, different grids are available (countries, towns, ports, etc.).\n\nThe choice of the world country level, for example, then leads to the identification of the type of identifier code: ISO2, ISO3, etc.\n\nOnce the type of identifier code has been selected (e.g. ISO2), the link file must be chosen.\n\n\n\n\n\n\n\n4.1.2 Custom localisation file\nIf you have custom nodes data associated with your ODs, you can load the corresponding files by selecting the custom button.\n\n\n\n\n\nThen you have to browse to pick a .CSV or a GEOJSON file.\nThe .CSV file must be in long format, and have separator : , and decimal : .\nSee example below.\n\nExample: the SAGEO_RIcardo_nodes.CSV file\n\n\nThe most important here are the column ‘lat’ (Y) and ‘long’ (X) which will be used to geolocate the origin and the destination places, then the column ‘ID’\nOnce you have identified these three columns (ID, lat, long), you can import the nodes.\n\n\n\n\n\nIf you do not have a file for the geometry, you can use the codes identifying the reference data (e.g. INSEE codes of the French communes, ISO codes of the countries), to automatically geolocate your nodes. See Preset.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data importation</span>"
     ]
   }
 ]

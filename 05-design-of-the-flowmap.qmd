@@ -1,6 +1,6 @@
 # Design of the flowmap signs
 
-This chapter concerns the drawing of flow features (setting of their geometry) and the configuration of their semiology.
+This chapter concerns the drawing of flow features : links and nodes, and the configuration of their semiology.
 
 ::: {.callout-tip appearance="simple"}
 ## Flow mapping tips
@@ -19,7 +19,9 @@ Sign parameters are set on the left panel - in the layer management section ie. 
 ![](images/geom_panel_flowsigns.png)
 
 ::: callout-note
-NOTE: a tile or other geographic information layer can also be displayed in this section.
+Note:
+
+A tile or other geographic information layers can also be displayed in this section.
 :::
 
 Several types of actions can be performed on all the layer level available in the layer management section, using the following icon-buttons.
@@ -38,23 +40,23 @@ Several types of actions can be performed on all the layer level available in th
 
 Drawing the nodes opens a window that allows you to act on their parameters related to semiology, respecting the Jacques Bertin' (1967) principes.
 
-### Semiology parameters
+Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).
 
-Hereby the general window.
+![](images/Nodes_semio.PNG){fig-align="left"}
 
-![](images/Design_nodes.png)
+### **The color**
 
-#### The color of nodes
+The colour of a node can be set according to three criteria: a setting mode, a variable and the type of the variable.
 
-![](images/geom_add_nodes_1.png)
+#### The setting modes of the color
 
-The color of the nodes can be fixed (e.g. in black) or shaded in a range of tones.
+-   **Constant mode** means that the color of the nodes is fixed and identical for all nodes.
 
-![](images/choose_fixed_color.png)
+![](images/Nodes_color_constant.png)
 
-The color of the nodes can be shaded in a range of tones.
+-   **Conditional mode** means that the color of the nodes will vary according to the character value (of a variable)
 
-![](images/geom_add_nodes_1_color.png)
+![](images/Nodes_color_conditionnal.PNG){fig-align="left"}
 
 The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palette is also proposed in Arabesque.
 
@@ -80,7 +82,7 @@ The size of the nodes can be fixed and the weight defined.
 
 ![](images/geom_add_nodes_2_size.png)
 
-The size can be **weighted by a variable** according to one of the initial or additional **variables** available in the dataset (hereby the balance).
+The size of the nodes can be **weighted by a variable** according to one of the initial or additional **variables** available in the dataset (hereby the balance).
 
 ![](images/geom_add_nodes_2_size_variable.png)
 
@@ -98,15 +100,13 @@ Textuals elements can also be added near the nodes.
 
 ![](images/geom_add_nodes_3_texte.png)
 
-The text can be defined according to one of the variable available in the dataset.
+The text can be defined according to one of the variable available in the nodes' dataset, here the name, the type, etc..
 
-![](images/geom_add_nodes_3_texte2.png)
-
-The opacity of the text shade (currently set to black) can be set to a given value (here 0.85).
+The opacity of the text shade (currently set to black) can be set to a given value (here 0.91).
 
 ![](images/geom_add_nodes_3_texte_fixe.png)
 
-The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset.
+The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes' original variables and the precalculated ones (degree, ...).
 
 ![](images/geom_add_nodes_3_texte_variable.png)
 

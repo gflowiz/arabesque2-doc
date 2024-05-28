@@ -4,7 +4,7 @@ project:
 book:
   title: "Flow mapping with Arabesque 2"
   author: "Françoise Bahoken"
-  date: "27/05/2024"
+  date: "05/27/2024"
   chapters:
     - index.qmd
     - intro.qmd

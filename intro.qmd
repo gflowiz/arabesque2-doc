@@ -13,5 +13,5 @@ There are 5 main stages in creating a flowmap with *Arabesque*:
 3.  Data exploration and configuration
     1.  Numerical filtering of data
     2.  Dealing with geography layers or tiles
-4.  Graphical symbolization (geometry and semiologu)
+4.  Graphical symbolization (geometry and semiology)
 5.  Exporting and saving the *Arabesque* workspace

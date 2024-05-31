@@ -18,5 +18,6 @@ This book is reproducible and generated in R with Quarto.\
 Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png){alt="Creative Commons License"}](http://creativecommons.org/licenses/by-nc-sa/4.0/)\
-
 This work by the geographic flow vizualisation research team is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+![]() [![](images/github.png){width="40"}](https://github.com/gflowiz/arabesque2-doc "Arabesque 2 source") View source

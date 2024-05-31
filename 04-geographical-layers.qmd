@@ -62,14 +62,38 @@ Import Geojson is to load a personal vector layer.
 
 ![](images/Geo_Add_geojson.png){fig-align="left"}
 
-## Types of actions on a layer displayed
+## Layer management
 
-Several actions can be performed on all the layer level displayed, via the layer management section using icon-buttons.
+Displaying geographic information layers adds layers in the Layer management section. Depending on their position, the added layers (hereby Land 110m and graticules 20) can hide the initial node and link layers, with the most recently added layers in the foreground.
 
-![](images/Buton_action_visible.png) Visible/invisible the layer.
+![](images/Dispositions_all.png)
+
+### Changing the layer layout
+
+To make the new layer visible in a correct order, you need to change the layout of the different layers, by modifying their order by drag & drop.
+
+-   Click and hold on the link layer;
+
+-   Drag and drop the link layer to the foreground;
+
+-   Release the layer;
+
+-   Repeat the same operation with the node layer if necessary.
+
+    ![](images/Dispositions_all_change.png)
+
+    ### Manage the visibility of a layer
+
+-   Differents icons are useful to manage the layers' appearance.
+
+    ![](images/buton_hide.png) Hide a layer
+
+    ![](images/Buton_show.png) Show a layer (make it visible)
+
+    ![](images/Buton_action_delete.png) Delete a layer
+
+-   Icons for modifying the design of a layer
 
 ![](images/Buton_action_semio.png) Semiology parameters of flow features (nodes and links) : color, size, text, opacity.
 
 ![](images/Buton_action_geom.png) Geometry parameters for changing links/arrows shape only. This is not available for nodes). It is possible to change their orientation, the type of link (curve, triange, ...) and arrow head parameters.
-
-![](images/Buton_action_delete.png) Definitively deletes the layer.

@@ -24,7 +24,7 @@ Built in javascript and HTML 5, Arabesque provides a full toolset to explore, fi
 This book is reproducible and generated in R with Quarto.\
 Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
 
-[![](images/github.png){width="40"}](#0 "Arabesque 2 source") View source
+[![](images/github.png){width="40"}](https://github.com/gflowiz/arabesque "Arabesque 2 source") View source
 
 ## Licence
 

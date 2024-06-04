@@ -10,7 +10,6 @@ book:
     - index.qmd
     - preface.qmd
     - intro.qmd
-    - summary.qmd
     - 01-interface.qmd
     - 02-data-import.qmd
     - 03-data-pre-processing.qmd

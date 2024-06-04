@@ -1,23 +1,32 @@
-# Welcome {.unnumbered}
+![](images/bandeau.png)
+
+# Welcome ! {.unnumbered}
 
 This is the ***Flow mapping with Arabesque 2*** online home book.
 
-*Arabesque* is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.
-
+*Arabesque* is funded by the french Université Gustave Eiffel. It is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.\
+\
 This books presents the functionnalities and how *Arabesque* 2 can be used to draw flowmaps.
 
 It will be progressively updated following *Arabesque* 2 current development.
 
 -   On ligne version of *Arabesque* can be accessed here: [arabesque.univ-eiffel.fr](https://arabesque.univ-eiffel.fr/)
-
-<!-- -->
-
 -   The development version (the most complete) can be accessed here: [./dev-arabesque](https://tonhauck.github.io/dev-arabesque/)
+
+## **Summary**
+
+Arabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesque allows users to filter flow data sets (nodes, links and flow values), to play with geographic context (add tiles), reprojecting geography and to parameterise the semiology of the drawings.
+
+Built in javascript and HTML 5, Arabesque provides a full toolset to explore, filter and geovisualize your Origin-Destination matrices. It allows also to build clearer and understandable flow maps that respect the principles of contemporary cartographic semiology.
+
+## About
 
 This book is reproducible and generated in R with Quarto.\
 Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
 
+[![](images/github.png){width="40"}](#0 "Arabesque 2 source") View source
+
+## Licence
+
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png){alt="Creative Commons License"}](http://creativecommons.org/licenses/by-nc-sa/4.0/)\
 This work by the geographic flow vizualisation research team is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-[![](images/github.png){width="40"}](https://github.com/gflowiz/arabesque2-doc "Arabesque 2 source") View source

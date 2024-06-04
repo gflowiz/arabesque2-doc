@@ -1,6 +1,6 @@
 # Welcome !
 
-![](images/bandeau.png){fig-align="left"}
+![](images/bandeau.png)
 
 This is the **Flow mapping with Arabesque** online book.
 

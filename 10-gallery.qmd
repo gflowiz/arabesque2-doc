@@ -1,1 +1,3 @@
-# Gallery of flowmap made with Arabesque
+# Gallery 
+
+Hereby are examples of flowmaps made with Arabesque.

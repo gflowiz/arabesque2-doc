@@ -314,7 +314,7 @@
     "href": "preface.html#authors-and-contributors",
     "title": "1  Preface",
     "section": "1.4 Authors and contributors",
-    "text": "1.4 Authors and contributors\nArabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel), with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès).\nThe main developer of the first version of Arabesque was Thomas BAPAUME (ESIEE student engineer), then Paul FABRE (UGE/IGN student geographer/geomatician).\nTony HAUCK (freelance geomatician) is developping the Arabesque 2 version.\nOther contributors include,\n- Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & design ;\n- Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown ;\n- as well as Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL for the initial users tests.",
+    "text": "1.4 Authors and contributors\nArabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel), with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès).\n- Thomas BAPAUME (ESIEE student engineer), was the main developer of the first version of Arabesque, then Paul FABRE (Univ. Gustave Eiffel/IGN student geographer/geomatician).\n- Tony HAUCK (freelance geomatician) is developping the Arabesque 2 version.\n- Luis Daniel MEDINA ZULUAGA (research engineer, CorText, Univ. Gustave Eiffel) for contributions to development\nOther contributors include,\n- Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & design ;\n- Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown ;\n- as well as Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL for the initial users tests.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -487,6 +487,16 @@
     "text": "11.3",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Arabesque interoperability</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html",
+    "href": "10-gallery.html",
+    "title": "12  Gallery",
+    "section": "",
+    "text": "Hereby are examples of flowmaps made with Arabesque.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
     ]
   }
 ]

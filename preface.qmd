@@ -36,20 +36,20 @@ Françoise BAHOKEN and Étienne CÔME
 
 Paris, Mai 2024.
 
-## **Authors and contributors**
+## Authors and contributors
 
 Arabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel), with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès).
 
-The main developer of the first version of *Arabesque* was Thomas BAPAUME (ESIEE student engineer), then Paul FABRE (UGE/IGN student geographer/geomatician).
-
-Tony HAUCK (freelance geomatician) is developping the *Arabesque 2* version.
+\- Thomas BAPAUME (ESIEE student engineer), was the main developer of the first version of *Arabesque*, then Paul FABRE (Univ. Gustave Eiffel/IGN student geographer/geomatician).\
+- Tony HAUCK (freelance geomatician) is developping the *Arabesque 2* version.\
+- Luis Daniel MEDINA ZULUAGA (research engineer, CorText, Univ. Gustave Eiffel) for contributions to development
 
 Other contributors include,\
 - Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & design ;\
 - Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown ;\
 - as well as Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL for the initial users tests.
 
-## **Quoted references:**
+## Quoted references
 
 Keim D., Andrienko G., Fekete J.-D., Görg C., Kohlhammer J., Melançon G. (2008), *Visual Analytics: Definition, Process, and Challenges*, In: Kerren A. & al. (Eds.): Information Visualization, Springer-Verlag Berlin Heidelberg, LNCS 4950, pp. 154–175.
 

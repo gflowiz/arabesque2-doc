@@ -394,7 +394,7 @@
     "href": "03-data-pre-processing.html",
     "title": "5  Data pre processing",
     "section": "",
-    "text": "5.1 Indicators on links\nAfter loading the data, the creationn of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nFor the moment, only the euclidean distance between the origin and destination entities is calculated.",
+    "text": "5.1 Indicators on links\nAfter loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nFor the moment, only the euclidean distance between the origin and destination entities is calculated.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]

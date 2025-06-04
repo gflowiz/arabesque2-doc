@@ -1,10 +1,10 @@
 # Flowmap cosmetics
 
-One of the new features of version 2 of Arabesque is this chapter related to the customization of the map before exporting it.
+One of the new features of version 2 of Arabesque is related to the customization of the map before exporting it.
 
 You can enter a title, the author's name and the sources.
 
-![](images/flowmap-customization.PNG){fig-align="left"}
+![](images/flowmap-customization.PNG){fig-align="left" width="200"}
 
 You can enter a **title**, which will be placed at the top centre of the map.
 

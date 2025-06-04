@@ -1,0 +1,17 @@
+# Arabesque interoperability
+
+L'une des nouveautés de la version 2 d'Arabesque réside dans son interopérabilité avec des applications de traitements de réseaux dédiés.
+
+## CorText manager
+
+## Netscity
+
+You can now vizualize your Netscity networks in Arabesque, ...
+
+::: {.callout-note appearance="simple"}
+## Note
+
+When exporting the flow map, the name will also be the name of the export file.
+:::
+
+## 

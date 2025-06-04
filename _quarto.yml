@@ -18,6 +18,8 @@ book:
     - 06-design-nodes.qmd
     - 07-filtering-flowdata.qmd
     - 08-flowmap-cosmetics.qmd
+    - 09-arabesque-interoperability.qmd
+    - 10-gallery.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -25,7 +27,7 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-    embed-resources: true
+    embed-resources: false
   pdf:
     documentclass: scrreprt
 

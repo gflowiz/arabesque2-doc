@@ -8,7 +8,7 @@ In Arabesque 2, you have to declare or to import your nodes firstly.
 
 ![](images/Arabesque_homepage_newmap.png)
 
-For this tutorial, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.
+For this example, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.
 
 ## Nodes importation
 
@@ -26,13 +26,15 @@ At global level, for example, different grids are available (countries, towns, p
 
 ![](images/Preset_world_countries.png)
 
-The choice of the world country level, for example, then leads to the identification of the type of identifier code: ISO2, ISO3, etc.
+The choice of any level leads to the identification of the type of the ID (identifier) code, such as ISO2, ISO3 for the world country level.
 
 ![](images/Preset_world_countries_iso.png)
 
-Once the type of identifier code has been selected (e.g. ISO2), the link file must be chosen.
+Once the ID code has been selected (e.g. ISO2), the link file must be chosen.
 
 ![](images/Flow_import.PNG){fig-align="left"}
+
+Go to [Flow/links importation]
 
 ### Custom localisation file
 
@@ -64,7 +66,19 @@ After loading the nodes files, you have to browse your directories to upload you
 
 The flow/links file must be in **.CSV (separator : , and decimal : .**) in **long format**.
 
-It must contain at least 3 columns : the ID of the place of origin, the ID of the place of destination locations and the flow values.
+It must contain at least 3 columns :
+
+-   the ID of the place of origin ;
+
+-   the ID of the place of destination locations ;
+
+-   the link/flow values.
+
+::: callout-important
+## Important:
+
+The ID of the places of origin and destination must be identical to that of the nodes.
+:::
 
 ### Unique flow OD matrices
 

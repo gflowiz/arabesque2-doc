@@ -44,17 +44,11 @@ The *Arabesque* filtering possibilities depend on the type of variable/procedure
 
 Three main possibilities are proposed
 
--- (1) visual filtering using modular\* **selection area (brush)** applied on an histogram or an bar chart (see above) ;
+-- (1) **Visual** filtering using modular **selection area (brush)** applied on the histogram of the distribution of links for a given variable.
 
--- (2) **numerical thresholding** by indicating a threshold ;
+-- (2) **Numerical** filtering by entering **a minimum (and/or maximum) threshold value**.
 
-![](images/schema_histogram.png)
-
-![](images/schema_BarChart.png)
-
--- (3) visual filtering **using a slider** (hereby, on links)
-
-![](images/schema_Slider_temp.png)
+-- (3) **Visual filtering** for categorizes data, by selecting **one or more values** from a drop-down list
 
 ## Filtering by links
 
@@ -138,22 +132,6 @@ In order to display all flows from France, the (possible) other active filters h
 
 ### Filter by a categorical variable
 
-It is possible to select several categorical variables (ie several countries of origin).
+It is possible to select one or several categorical variables (ie countries of origins, destinations, dates),
 
 ![](images/Add_filter_links_category.png)
-
-### Filter by a temporal variable
-
-The filtering of temporal data considers different field formats: date, hours and time stamp.
-
-![](images/Add_filter_links_temporal.png)
-
-### Filter by a Remove
-
-## Filtering by nodes
-
-First, it is to click on Add filter, then on Node.
-
-![](images/icon_nodes_filtering.png) Icon indicating the existence of a filtering possibility applied on the nodes.
-
-![](images/Add_filter_nodes1.png)

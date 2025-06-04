@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6&nbsp; Geographical data computing – Flow mapping with Arabesque 2</title>
+<title>11&nbsp; Arabesque interoperability – Flow mapping with Arabesque 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./05-design-links-arrows.html" rel="next">
-<link href="./03-data-pre-processing.html" rel="prev">
+<link href="./10-gallery.html" rel="next">
+<link href="./08-flowmap-cosmetics.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04-geographical-layers.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Geographical data computing</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./09-arabesque-interoperability.html"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Arabesque interoperability</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-geographical-layers.html" class="sidebar-item-text sidebar-link active">
+  <a href="./04-geographical-layers.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Geographical data computing</span></span></a>
   </div>
 </li>
@@ -174,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-arabesque-interoperability.html" class="sidebar-item-text sidebar-link">
+  <a href="./09-arabesque-interoperability.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Arabesque interoperability</span></span></a>
   </div>
 </li>
@@ -200,17 +200,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#reprojecting-layers" id="toc-reprojecting-layers" class="nav-link active" data-scroll-target="#reprojecting-layers"><span class="header-section-number">6.1</span> (re)Projecting layers</a></li>
-  <li><a href="#geographical-layers" id="toc-geographical-layers" class="nav-link" data-scroll-target="#geographical-layers"><span class="header-section-number">6.2</span> Geographical layers</a>
-  <ul class="collapse">
-  <li><a href="#add-reference-layer" id="toc-add-reference-layer" class="nav-link" data-scroll-target="#add-reference-layer"><span class="header-section-number">6.2.1</span> Add reference layer</a></li>
-  <li><a href="#add-tile-layer" id="toc-add-tile-layer" class="nav-link" data-scroll-target="#add-tile-layer"><span class="header-section-number">6.2.2</span> Add tile layer</a></li>
-  <li><a href="#add-geojson-layer" id="toc-add-geojson-layer" class="nav-link" data-scroll-target="#add-geojson-layer"><span class="header-section-number">6.2.3</span> Add Geojson layer</a></li>
-  </ul></li>
-  <li><a href="#layer-management" id="toc-layer-management" class="nav-link" data-scroll-target="#layer-management"><span class="header-section-number">6.3</span> Layer management</a>
-  <ul class="collapse">
-  <li><a href="#changing-the-layer-layout" id="toc-changing-the-layer-layout" class="nav-link" data-scroll-target="#changing-the-layer-layout"><span class="header-section-number">6.3.1</span> Changing the layer layout</a></li>
-  </ul></li>
+  <li><a href="#cortext-manager" id="toc-cortext-manager" class="nav-link active" data-scroll-target="#cortext-manager"><span class="header-section-number">11.1</span> CorText manager</a></li>
+  <li><a href="#netscity" id="toc-netscity" class="nav-link" data-scroll-target="#netscity"><span class="header-section-number">11.2</span> Netscity</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"><span class="header-section-number">11.3</span> </a></li>
   </ul>
 </nav>
     </div>
@@ -219,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Geographical data computing</span></h1>
+<h1 class="title"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Arabesque interoperability</span></h1>
 </div>
 
 
@@ -236,114 +228,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This chapter is about re projecting geographical layers, adding external or personal layers as the flow map background, and their customization.</p>
-<p>First you can project or reproject your layers.</p>
-<section id="reprojecting-layers" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="reprojecting-layers"><span class="header-section-number">6.1</span> (re)Projecting layers</h2>
-<p>The cartographic projection of the layers can be changed, by choosing one of the proposed formulas in the projection menu.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Geo_projection.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
-<blockquote class="blockquote">
-<p>Example: several projections applied on the RICardo world trade map</p>
-</blockquote>
-<p><img src="images/RIcardo_reprojection.png" class="img-fluid"></p>
+<p>L’une des nouveautés de la version 2 d’Arabesque réside dans son interopérabilité avec des applications de traitements de réseaux dédiés.</p>
+<section id="cortext-manager" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="cortext-manager"><span class="header-section-number">11.1</span> CorText manager</h2>
 </section>
-<section id="geographical-layers" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="geographical-layers"><span class="header-section-number">6.2</span> Geographical layers</h2>
-<p>The management of the map background is related to the geographic information. It can be accessed via the Layer button, and is composed of three sub-sections.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Geo_layers.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+<section id="netscity" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="netscity"><span class="header-section-number">11.2</span> Netscity</h2>
+<p>You can now vizualize your Netscity networks in Arabesque, …</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<section id="add-reference-layer" class="level3" data-number="6.2.1">
-<h3 data-number="6.2.1" class="anchored" data-anchor-id="add-reference-layer"><span class="header-section-number">6.2.1</span> Add reference layer</h3>
-<p>Add reference layers consists in calling a remote geographic information layer from Natural Earth data features, to contextualize the flowmap.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Add_reference_layer.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+<div class="callout-title-container flex-fill">
+Note
 </div>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Geo_Add_reference_layer.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
 </div>
-<p>Selected reference layers are:</p>
-<ul>
-<li><p>geographical graticules are grids at 5, 10, 15, 20 and 30° intervals. Includes WGS84 bounding box. <a href="https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-graticules/">See details…</a></p>
-<blockquote class="blockquote">
-<p>Example: Add graticule layer 20° interval</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Add_reference_Layer_Graticule.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div></li>
-<li><p>world’s countries divisions at spatial resolutions of 110 meters or 50 meters, and the disputed areas. <a href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/">See details…</a></p></li>
-</ul>
-<blockquote class="blockquote">
-<p>Example: countries</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Add_reference_Layer_Country.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
+<div class="callout-body-container callout-body">
+<p>When exporting the flow map, the name will also be the name of the export file.</p>
 </div>
-<ul>
-<li><p>world urban areas (of dense human habitations) coverage derived from MODIS satellite, at spatial resolutions of 50 meters or 10 meters. <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-urban-areas/">See details…</a></p></li>
-<li><p>world landscape based on lands including major islands. <a href="https://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-land/">See details…</a></p></li>
-</ul>
-<p>For all these layers, their fill and stroke can be defined by picking colors, then click on Add layer button.</p>
-</section>
-<section id="add-tile-layer" class="level3" data-number="6.2.2">
-<h3 data-number="6.2.2" class="anchored" data-anchor-id="add-tile-layer"><span class="header-section-number">6.2.2</span> Add tile layer</h3>
-<p>The Base type of tiles layers come from Open Street Map (OSM) <a href="https://wiki.openstreetmap.org/wiki/Tile_servers">tile server</a>, CARTO DB and <a href="https://enterprise.arcgis.com/fr/server/latest/publish-services/linux/vector-tile-services.htm">ESRI tile server</a>.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Add_tyle_layer.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
-</div>
-<p><img src="images/Geo_Add_tile_layer.png" class="img-fluid"></p>
-</section>
-<section id="add-geojson-layer" class="level3" data-number="6.2.3">
-<h3 data-number="6.2.3" class="anchored" data-anchor-id="add-geojson-layer"><span class="header-section-number">6.2.3</span> Add Geojson layer</h3>
-<p>Import Geojson is to load a personal vector layer.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/Geo_Add_geojson.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
-</figure>
 </div>
 </section>
-</section>
-<section id="layer-management" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="layer-management"><span class="header-section-number">6.3</span> Layer management</h2>
-<p>Displaying geographic information layers adds layers in the Layer management section. Depending on their position, the added layers (hereby Land 110m and graticules 20) can hide the initial node and link layers, with the most recently added layers in the foreground.</p>
-<p><img src="images/Dispositions_all.png" class="img-fluid"></p>
-<section id="changing-the-layer-layout" class="level3" data-number="6.3.1">
-<h3 data-number="6.3.1" class="anchored" data-anchor-id="changing-the-layer-layout"><span class="header-section-number">6.3.1</span> Changing the layer layout</h3>
-<p>To make the new layer visible in a correct order, you need to change the layout of the different layers, by modifying their order by drag &amp; drop.</p>
-<ul>
-<li><p>Click and hold on the link layer;</p></li>
-<li><p>Drag and drop the link layer to the foreground;</p></li>
-<li><p>Release the layer;</p></li>
-<li><p>Repeat the same operation with the node layer if necessary.</p>
-<p><img src="images/Dispositions_all_change.png" class="img-fluid"></p>
-<h3 id="manage-the-visibility-of-a-layer" data-number="6.3.2" class="anchored"><span class="header-section-number">6.3.2</span> Manage the visibility of a layer</h3></li>
-<li><p>Differents icons are useful to manage the layers’ appearance.</p>
-<p><img src="images/buton_hide.png" class="img-fluid"> Hide a layer</p>
-<p><img src="images/Buton_show.png" class="img-fluid"> Show a layer (make it visible)</p>
-<p><img src="images/Buton_action_delete.png" class="img-fluid"> Delete a layer</p></li>
-<li><p>Icons for modifying the design of a layer</p></li>
-</ul>
-<p><img src="images/Buton_action_semio.png" class="img-fluid"> Semiology parameters of flow features (nodes and links) : color, size, text, opacity.</p>
-<p><img src="images/Buton_action_geom.png" class="img-fluid"> Geometry parameters for changing links/arrows shape only. This is not available for nodes). It is possible to change their orientation, the type of link (curve, triange, …) and arrow head parameters.</p>
+<section id="section" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="section"><span class="header-section-number">11.3</span> </h2>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -766,13 +675,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./03-data-pre-processing.html" class="pagination-link" aria-label="Data pre processing">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Data pre processing</span></span>
+      <a href="./08-flowmap-cosmetics.html" class="pagination-link" aria-label="Flowmap cosmetics">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Flowmap cosmetics</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./05-design-links-arrows.html" class="pagination-link" aria-label="Designing the links/arrows">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Designing the links/arrows</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./10-gallery.html" class="pagination-link" aria-label="Gallery of flowmap made with Arabesque">
+        <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Gallery of flowmap made with Arabesque</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

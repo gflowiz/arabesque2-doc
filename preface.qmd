@@ -1,13 +1,10 @@
 # Preface
 
-This Quarto book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping created within the geographic flow vizualisation research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr) (former IFSTTAR).
-
-\
-The gflowiz project was originally led by Françoise Bahoken and co-directed by Étienne Côme (Univ. Gustave Eiffel), with the scientific collaboration of Laurent Jégou (Univ. Toulouse 2 Jean Jaurès). The main developer of the first version of *Arabesque* was Thomas Bapaume (ESIEE student engineer), then Paul Fabre (UGE/IGN student geographer/geomatician) ; Tony Hauck (freelance geomatician) is developping the *Arabesque2* version. Other contributors include for the conception & design of the app : Marion Maisonobe and Grégoire le Campion (CNRS), and t for the Arabesque 1 documentation : Nicolas Roelandt (Univ. Gustave Eiffel).
-
-*Arabesque* is an innovative cartographic application that meets the contemporary challenges of spatial networks geovisualisation.
+This Quarto book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping created within the geographic flow vizualisation research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr).
 
 ## Challenges
+
+*Arabesque* is an innovative cartographic application that meets the contemporary challenges of spatial networks geovisualisation.
 
 The analysis of the dynamics of urban areas or metropolises in one hand, the delimitation of their functional areas and the spatio-temporal comparison of their patterns in the other hand, are often limited by two categories of problems inherent in data and tools.\
 \
@@ -35,11 +32,24 @@ From a scientific point of view, *Arabesque* aims to innovate in the handling of
 *Arabesque* combines in the same environment geo-visualization and geographic and statistical information processing devices - initially for descriptive purposes. On the other hand, it enables the processing of complex relational datasets, which can be both voluminous and display different dimensions of spatial mobilities (several thematic categories and/or temporalities).\
 Particular attention is paid to rendering, both in terms of drawing and the cartographic semiology of linear features. The desire to improve the quality of the images of flows produced should lead to the development of a sensible approach to the geo-visualization of mobilities and spatial interactions.
 
-Françoise Bahoken and Étienne Côme
+Françoise BAHOKEN and Étienne CÔME
 
 Paris, Mai 2024.
 
-**Quoted references:**
+## **Authors and contributors**
+
+Arabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel), with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès).
+
+The main developer of the first version of *Arabesque* was Thomas BAPAUME (ESIEE student engineer), then Paul FABRE (UGE/IGN student geographer/geomatician).
+
+Tony HAUCK (freelance geomatician) is developping the *Arabesque 2* version.
+
+Other contributors include,\
+- Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & design ;\
+- Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown ;\
+- as well as Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL for the initial users tests.
+
+## **Quoted references:**
 
 Keim D., Andrienko G., Fekete J.-D., Görg C., Kohlhammer J., Melançon G. (2008), *Visual Analytics: Definition, Process, and Challenges*, In: Kerren A. & al. (Eds.): Information Visualization, Springer-Verlag Berlin Heidelberg, LNCS 4950, pp. 154–175.
 

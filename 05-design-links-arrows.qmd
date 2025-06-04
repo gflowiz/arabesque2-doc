@@ -24,6 +24,60 @@ the design of the links can be modified in two ways: their semiology and their g
 
 ![](./images/Links_change_style.png)
 
+## Links's color
+
+The colour of the links can be set according to three criteria: a colorimetric space, a variable ; the type of the variable.
+
+### Setting the colorimetric space
+
+The colour/tone of the links can be defined in the following three spaces, by clicking on the double arrow icon ![](images/icon_color_doublearrow.PNG):
+
+\- Red Green Blue (RGB)
+
+![](images/Color_RGB.png)
+
+\- Hue, saturation, luminosity (HSL)
+
+![](images/Color_HSL.png)
+
+\- HEXagesimal (HEX)
+
+![](images/Color_HEX.png)
+
+### Setting modes of the color
+
+-   **Fixed mode of color** means that the ton is identical for all nodes.
+
+![](images/Color_fixed.png)
+
+-   **Conditional mode** means that the color of the **nodes will vary** according to several parameters.
+
+![](images/Color_varied.png)
+
+The color/tone can vary according to a specific variable and its type.
+
+![](images/Nodes_color_conditionnal.PNG){fig-align="left"}
+
+The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palettes is also proposed in Arabesque.
+
+### Color variation as a function of a variable
+
+The color of the links can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.
+
+### Color variation as a function of the type of a variable
+
+::: {.callout-caution appearance="simple"}
+## Caution
+
+The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
+:::
+
+![](images/Color_varied_type.png){fig-align="left"}
+
+The progression (up/down) of the **color range** depends on that of the **value range**: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.
+
+![](images/geom_add_nodes_1_color_variable3.png)
+
 ## Links' geometry parameters
 
 Geometry parameter is to change arrow shape

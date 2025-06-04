@@ -48,7 +48,7 @@ The two side panels are for playing with information:
 
 -   The **left panel** is for dealing with geometries and geographical layers.
 
--   The **right panel** is for fitering the flow data set. Here, only the flows up to
+-   The **right panel** is for filtering the flow data set.
 
 ![](images/panels_arabesque.png)
 

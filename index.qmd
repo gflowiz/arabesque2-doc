@@ -10,7 +10,7 @@ This books presents the functionnalities and how *Arabesque* 2 can be used to dr
 
 It will be progressively updated following *Arabesque* 2 current development.
 
--   On ligne version of *Arabesque* can be accessed here: [arabesque.univ-eiffel.fr](https://arabesque.univ-eiffel.fr/)
+-   On line version of *Arabesque* can be accessed here: [arabesque.univ-eiffel.fr](https://arabesque.univ-eiffel.fr/)
 -   The development version (the most complete) can be accessed here: [./dev-arabesque](https://tonhauck.github.io/dev-arabesque/)
 
 ## **Summary**
@@ -22,7 +22,7 @@ Built in javascript and HTML 5, Arabesque provides a full toolset to explore, fi
 ## About
 
 This book is reproducible and generated in R with Quarto.\
-Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque).
+Feel free to help us make it better and report any issue on [GitHub](https://github.com/gflowiz/arabesque2-doc).
 
 [![](images/github.png){width="40"}](https://github.com/gflowiz/arabesque "Arabesque 2 source") View source
 

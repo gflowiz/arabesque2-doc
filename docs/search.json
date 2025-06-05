@@ -464,7 +464,7 @@
     "href": "09-arabesque-interoperability.html",
     "title": "11  Arabesque interoperability",
     "section": "",
-    "text": "11.1 CorText manager\nL’une des nouveautés de la version 2 d’Arabesque réside dans son interopérabilité avec des applications de traitements de réseaux dédiés.",
+    "text": "11.1 CorText manager\nOne of the new features of Arabesque2 is its interoperability with dedicated network processing applications, which use its filtering and geovisualisation functionalities.\nCortext Manager is a publicly available web application providing data analysis methods curated and developed by a team of researchers and engineers. Upload a textual corpus in order to analyse its discourse, names, categories, citations, places, dates etc, with methods for science/controversy/issue mapping, distant reading, document clustering, geo-spatial and network visualizations, and more.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Arabesque interoperability</span>"
     ]
@@ -474,7 +474,7 @@
     "href": "09-arabesque-interoperability.html#netscity",
     "title": "11  Arabesque interoperability",
     "section": "11.2 Netscity",
-    "text": "11.2 Netscity\nYou can now vizualize your Netscity networks in Arabesque, …\n\n\n\n\n\n\nNote\n\n\n\nWhen exporting the flow map, the name will also be the name of the export file.",
+    "text": "11.2 Netscity\n\n\n\n\n\n\nNote\n\n\n\nIf you want to add a note, please use this.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Arabesque interoperability</span>"
     ]
@@ -497,6 +497,16 @@
     "text": "Hereby are examples of flowmaps made with Arabesque.",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "09-arabesque-interoperability.html#cortext-manager",
+    "href": "09-arabesque-interoperability.html#cortext-manager",
+    "title": "11  Arabesque interoperability",
+    "section": "",
+    "text": "11.1.1 How to play with Arabesque ?\nYou can jump straight to Cortext Manager and create an account, but we suggest taking a look at the Documentation and Tutorials as you start your journey.\n\n\n\n11.1.2 What is it ?\nCortext Manager the main attraction of Cortext Plateform and our goal is to empower researchers by promoting advanced qualitative-quantitative mixed methods. Our primary focus is on studies about the dynamics of science, technology and innovation, and about the roles of knowledge and expertise in societies. We understand the move towards digital humanities and computational methods not as addressing a technological gap for the social sciences, but rather as entailing entirely new assemblages between its disciplines and those of modern statistics and computer sciences. And we work to tackle ever more complex research problems and deal with the profusion of new and diverse sources of information without losing sight of the situatedness and reflexivity required of studies of human societies.\n\n\n11.1.3 Credits\nCortext is hosted by the LISIS research unit at Université Gustave Eiffel, and was launched by French institutes IFRIS and INRAE, receiving their continued support.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Arabesque interoperability</span>"
     ]
   }
 ]

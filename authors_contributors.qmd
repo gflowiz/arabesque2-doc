@@ -1,0 +1,22 @@
+# Authors and contributors {.unnumbered}
+
+## Coordination & scientific responsability
+
+Arabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel).
+
+## Developers
+
+\- 2019: Thomas BAPAUME (ESIEE student engineer), was the main developer of the first version of *Arabesque*\
+- 2020: Paul FABRE (Univ. Gustave Eiffel/IGN student geographer/geomatician), in 2019.\
+- 2022: Tony HAUCK (freelance geomatician) is developping the *Arabesque 2* version.\
+- 20215: Luis Daniel MEDINA ZULUAGA (research engineer, CorText, Univ. Gustave Eiffel) for contributions to development and the transition to interoperability.
+
+## Other contributors
+
+Arabesque was developed with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès), from 2018 to 2020.
+
+Others contributors include\
+- Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & the application design ;\
+- Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown support ;\
+
+\- Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL did the tests for the first version.

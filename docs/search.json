@@ -92,51 +92,51 @@
   {
     "objectID": "06-design-nodes.html",
     "href": "06-design-nodes.html",
-    "title": "8  Designing the nodes of the flowmap",
+    "title": "8  Designing the nodes",
     "section": "",
     "text": "8.1 Nodes semiology\nThis chapter concerns the drawing of the nodes, especially the configuration of their semiology.\nThree semiological parameters are available for designing the nodes : their color, their size ; their topononym or label and their opacity.\nHereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
   },
   {
     "objectID": "06-design-nodes.html#nodes-color",
     "href": "06-design-nodes.html#nodes-color",
-    "title": "8  Designing the nodes of the flowmap",
+    "title": "8  Designing the nodes",
     "section": "8.2 Nodes’ color",
     "text": "8.2 Nodes’ color\nThe colour of the nodes can be set according to three criteria: a color setting mode, a variable and the type of the variable.\n\n8.2.1 Setting the colorimetric space\nthe colour/tone of the nodes can be defined in the following three spaces, by clicking on the double arrow icon :\n- Red Green Blue (RGB)\n\n- Hue, saturation, luminosity (HSL)\n\n- HEXagesimal (HEX)\n\n\n\n8.2.2 Setting modes of the color\n\nFixed mode of color means that the ton is identical for all nodes.\n\n\n\nConditional mode means that the color of the nodes will vary according to several parameters.\n\n\nThe color/tone can vary according to a specific variable and its type.\n\n\n\n\n\nThe reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: Color Brewer advices for maps. An Extra Palettes is also proposed in Arabesque.\n\n\n8.2.3 Color variation as a function of a variable\nThe color of the nodes can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.\n\n\n\n8.2.4 Color variation as a function of the type of a variable\n\n\n\n\n\n\nCaution\n\n\n\nThe type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).\n\n\n\nThe progression (up/down) of the color range depends on that of the value range: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
   },
   {
     "objectID": "06-design-nodes.html#nodes-size",
     "href": "06-design-nodes.html#nodes-size",
-    "title": "8  Designing the nodes of the flowmap",
+    "title": "8  Designing the nodes",
     "section": "8.3 Node’s size",
     "text": "8.3 Node’s size\nThe size of the nodes can be fixed and the weight defined.\n\n\n8.3.1 Nodes’ size weighted by a variable\nThe size of the nodes can be weighted by a variable according to one of the initial or additional variables available in the dataset (hereby the balance).\n\nThree functions to set the size of the node according to the corresponding value are proposed: linear, square, square root and logarithmic.s\n\n\n\n8.3.2 Nodes’ size ratio\nThe ratio representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
   },
   {
     "objectID": "06-design-nodes.html#nodes-label-text",
     "href": "06-design-nodes.html#nodes-label-text",
-    "title": "8  Designing the nodes of the flowmap",
+    "title": "8  Designing the nodes",
     "section": "8.4 Node’s label (text)",
     "text": "8.4 Node’s label (text)\nTextual elements can also be added near the nodes.\n\nThe text can be defined according to one of the variable available in the nodes’ dataset, here the name, the type, etc..\nThe opacity of the text shade (currently set to black) can be set to a given value (here 0.91).\n\nThe opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes’ original variables and the precalculated ones (degree, …).",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
   },
   {
     "objectID": "06-design-nodes.html#the-nodes-geometric-parameters",
     "href": "06-design-nodes.html#the-nodes-geometric-parameters",
-    "title": "8  Designing the nodes of the flowmap",
+    "title": "8  Designing the nodes",
     "section": "8.5 The nodes’ geometric parameters",
     "text": "8.5 The nodes’ geometric parameters\nNot implemented yet. Upcoming projects.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes of the flowmap</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
   },
   {
@@ -154,7 +154,7 @@
     "href": "01-interface.html#arabesque-home-page",
     "title": "3  Arabesque’ interface",
     "section": "",
-    "text": "Start a new flowmap by loading at least your flow data. See Data importation chapter.\n\n\n\nLoad a previous map via the Arabesque workspace\n\nLoad the example of school mobility flows (mobscol data set). See Examples for more information.",
+    "text": "Start a new flowmap by loading at least your flow data. See Data importation chapter.\n\n\n\nLoad a previous map via the Arabesque workspace\n\nLoad one of the three example to see an example of Arabesque in use.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Arabesque' interface</span>"
     ]
@@ -194,7 +194,7 @@
     "href": "01-interface.html#the-statistical-panel",
     "title": "3  Arabesque’ interface",
     "section": "3.5 The statistical panel",
-    "text": "3.5 The statistical panel\nThe right panel is for playing with the flow data sets : the nodes and/or links in order to filter the map with the Add filter button.\n\nThe statistics panel describes also the share (as a percentage) of flow information that is represented in the central view, before/after the application of a filter.\n\n\nInterpretation:\n– for links: 1.3973 links are depicted on the map, i.e. 53.01% of the total number of links, which corresponds to a density (or matrix fill rate) of 53.01%. These links represent 49.31% of the total interaction.\n– for nodes: 100% of nodes are represented (here N=100 nodes)\n\nThe filters applied are displayed in the second part of the panel, depending on the type of data (continuous, categorical, etc.). See\n Filter on a link attribute\n Filter on a node attribute\nSee filtering flow data section.",
+    "text": "3.5 The statistical panel\nThe right panel is for playing with the flow data sets : the nodes and/or links in order to filter the map with the Add filter button.\n\nThe statistics panel describes also the share (as a percentage) of flow information that is represented in the central view, before/after the application of a filter.\n\n\nInterpretation:\n– for links: 1.3973 links are depicted on the map, i.e. 53.01% of the total number of links, which corresponds to a density (or matrix fill rate) of 53.01%. These links represent 49.31% of the total interaction.\n– for nodes: 100% of nodes are represented (here N=100 nodes)\n\nThe filters applied are displayed in the second part of the panel, depending on the type of data (continuous, categorical, etc.). See\n Filter on a link attribute\nSee filtering flow data section.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Arabesque' interface</span>"
     ]
@@ -253,8 +253,8 @@
     "objectID": "05-design-links-arrows.html#links-geometry-parameters",
     "href": "05-design-links-arrows.html#links-geometry-parameters",
     "title": "7  Designing the links/arrows",
-    "section": "7.4 Links’ geometry parameters",
-    "text": "7.4 Links’ geometry parameters\nGeometry parameter is to change arrow shape\n Three geometrical parameters are available for designing the links : their shape, their type, their arrow head and their width\n\n\n7.4.1 Links’ orientation\nThe link can be oriented in the form of an arrow or not (remain as a simple line).\n\nOriented geometry takes into account the direction of the flow to define the graphic form of the sign.\n\n\n\n\n\n\nNote about to the orientation\n\n\n\nThe link’s orientation is related to the declared from-to parameter adjusted when the links were imported. See Data importation chapter.\n\n\n\n\n7.4.2 Link’s types\nFive forms of flow lines are available.\n\nstraight ;\nstraight no hook ;\ntriangle ;\n(line) curve\nTriangle curve.\n\n\n\nStraight (as euclidian distance symbolisation): The link is straight and oriented, with a half arrowhead.\nStraight no hook: The link is straight and oriented, it has a point without hook.\nTriangle: The link is straight and takes the shape of a triangle.\nCurve : The link is curved and oriented, its curvature is configurable in the Arrow head section if selected.\nTriangle curve: The link is curved and takes the shape of a drop of water, its curvature is configurable in the Arrow head section if selected.\nNon oriented: The link is straight, valuate or not, it has no direction.\n\nThe arrow geometry - which corresponds to the visual shape variable - can be rectilinear or curvilinear.\n\n\n7.4.3 Design of linear arrows\nThe straight and straight no hook type of line (oriented as arrows or not) is for rectilinear flow features.\nOnly the arrow head can be set if required.\n\n\nArrow head-Height (curve): The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link\nArrow head-Width being itself a function of the value of the flow, but it can be set as constant here.\n\n\n\n7.4.4 Design curved lines/arrows\nThe curvature of the line is generated according to the Chaikin algorithm which allows to parameterize its height and its base, with respect to the body of the link.\n\n\n\n\n\n\nHeight curve: the ([0,5] is identified as a distance from the origin node of the link. Here, the point is approximately in the middle of the curve.\nCenter Curve: the value of ([0,5]) is that of the center of the curve for a pseudo 3D rendering.",
+    "section": "7.3 Links’ geometry parameters",
+    "text": "7.3 Links’ geometry parameters\nGeometry parameter is to change arrow shape\n Three geometrical parameters are available for designing the links : their shape, their type, their arrow head and their width\n\n\n7.3.1 Links’ orientation\nThe link can be oriented in the form of an arrow or not (remain as a simple line).\n\nOriented geometry takes into account the direction of the flow to define the graphic form of the sign.\n\n\n\n\n\n\nNote about to the orientation\n\n\n\nThe link’s orientation is related to the declared from-to parameter adjusted when the links were imported. See Data importation chapter.\n\n\n\n\n7.3.2 Link’s types\nFive forms of flow lines are available.\n\nstraight ;\nstraight no hook ;\ntriangle ;\n(line) curve\nTriangle curve.\n\n\n\nStraight (as euclidian distance symbolisation): The link is straight and oriented, with a half arrowhead.\nStraight no hook: The link is straight and oriented, it has a point without hook.\nTriangle: The link is straight and takes the shape of a triangle.\nCurve : The link is curved and oriented, its curvature is configurable in the Arrow head section if selected.\nTriangle curve: The link is curved and takes the shape of a drop of water, its curvature is configurable in the Arrow head section if selected.\nNon oriented: The link is straight, valuate or not, it has no direction.\n\nThe arrow geometry - which corresponds to the visual shape variable - can be rectilinear or curvilinear.\n\n\n7.3.3 Design of linear arrows\nThe straight and straight no hook type of line (oriented as arrows or not) is for rectilinear flow features.\nOnly the arrow head can be set if required.\n\n\nArrow head-Height (curve): The value of the height of the head is the percentage of the map distance of the link (distance between the origin and the destination) used to define the maximum (map) width of the link\nArrow head-Width being itself a function of the value of the flow, but it can be set as constant here.\n\n\n\n7.3.4 Design curved lines/arrows\nThe curvature of the line is generated according to the Chaikin algorithm which allows to parameterize its height and its base, with respect to the body of the link.\n\n\n\n\n\n\nHeight curve: the ([0,5] is identified as a distance from the origin node of the link. Here, the point is approximately in the middle of the curve.\nCenter Curve: the value of ([0,5]) is that of the center of the curve for a pseudo 3D rendering.",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
     ]
@@ -303,8 +303,8 @@
     "objectID": "preface.html#quoted-references",
     "href": "preface.html#quoted-references",
     "title": "1  Preface",
-    "section": "1.5 Quoted references:",
-    "text": "1.5 Quoted references:\nKeim D., Andrienko G., Fekete J.-D., Görg C., Kohlhammer J., Melançon G. (2008), Visual Analytics: Definition, Process, and Challenges, In: Kerren A. & al. (Eds.): Information Visualization, Springer-Verlag Berlin Heidelberg, LNCS 4950, pp. 154–175.\nMac Eachren A. (2005), How Maps Work. Representation, Visualization, and Design, New-York, The Guildford Press.\nMaisonobe M., Jégou L., Yakimovich N., Cabanac G. (2019), NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities, International Conference on Scientometrics and Informetrics (ISSI 2019), sep. 2019, Rome, Italy, 〈hal-02301035〉\nGiraud T., Lambert N. (2017), Reproducible cartography, in: Advances in Cartography and GISsciences, International Cartographic Conference, ICACI’2017, Springer, pp.173-183.\nSerrano Molinero V., Bach B., Plaisant C., Dufournaud N.,Fekete J.-D. (2017), Understanding the Use of The Vistorian: Complementing Logs with Context Mini-Questionnaires, Visualization for the Digital Humanities, Oct. 2017, Phoenix, United States. ⟨hal-01650259⟩.",
+    "section": "1.4 Quoted references",
+    "text": "1.4 Quoted references\nKeim D., Andrienko G., Fekete J.-D., Görg C., Kohlhammer J., Melançon G. (2008), Visual Analytics: Definition, Process, and Challenges, In: Kerren A. & al. (Eds.): Information Visualization, Springer-Verlag Berlin Heidelberg, LNCS 4950, pp. 154–175.\nMac Eachren A. (2005), How Maps Work. Representation, Visualization, and Design, New-York, The Guildford Press.\nMaisonobe M., Jégou L., Yakimovich N., Cabanac G. (2019), NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities, International Conference on Scientometrics and Informetrics (ISSI 2019), sep. 2019, Rome, Italy, 〈hal-02301035〉\nGiraud T., Lambert N. (2017), Reproducible cartography, in: Advances in Cartography and GISsciences, International Cartographic Conference, ICACI’2017, Springer, pp.173-183.\nSerrano Molinero V., Bach B., Plaisant C., Dufournaud N.,Fekete J.-D. (2017), Understanding the Use of The Vistorian: Complementing Logs with Context Mini-Questionnaires, Visualization for the Digital Humanities, Oct. 2017, Phoenix, United States. ⟨hal-01650259⟩.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -394,7 +394,7 @@
     "href": "03-data-pre-processing.html",
     "title": "5  Data pre processing",
     "section": "",
-    "text": "5.1 Indicators on links\nAfter loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nFor the moment, only the euclidean distance between the origin and destination entities is calculated.",
+    "text": "5.1 Indicators on links\nAfter loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nThree indicators are automatically calculated on the links.\ndistance: euclidean distance between the origin and destination entities is calculated (in WGS1984 projection).\nbalance: corresponds to the bilateral balance, calculated as the difference of the flow value from (A to B) - (B to A). For migrations, corresponds to net migration.\ngrossFlow: correspond to the bilateral volume, calculated as the sum of the flow value from (A to B) + (B to A).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -404,7 +404,7 @@
     "href": "03-data-pre-processing.html#indicators-on-nodes",
     "title": "5  Data pre processing",
     "section": "5.2 Indicators on nodes",
-    "text": "5.2 Indicators on nodes\nA list of various simple and weighted indicators are calculated on the nodes (with reference to the Social Network Analysis (SNA) theory are proposed.\nbalance : difference between the number of in and out degrees.\noutdegree : number of outgoing links from a places\nindegree : number of ingoing links from a places\nweigthed Balance : difference between the number of in and out degrees weighted by the flow value (.ie. volume)\nweigthed degree : difference between the number of ingoing and outgoing links weigthed by the flow value (.ie. volume).\nSee below the additional indicators automatically calculated on the nodes of the RIcardo data\nSee below the Additional variables that have been automatically computed (ie the additional variable) on the nodes of the RIcardo data.\n\nThese indicators can be downloaded in . csv format (see Export and Save sections).\nLoading links and nodes data into Arabesque leads to the creation of a default map, which is placed in the center of the interface.",
+    "text": "5.2 Indicators on nodes\nA list of various simple and weighted indicators are calculated on the nodes, with reference to the Social Network Analysis (SNA) theory, are proposed.\nbalancedegree: difference between the number of in and out degrees.\noutdegree: number of outgoing links from a place.\nindegree: number of ingoing links from a node/place.\nweigthed balance: difference between the number of in and out degrees weighted by the flow value.\nweigthed degree: difference between the number of ingoing and outgoing links weigthed by the flow value.\nvolume: is the sum of the incoming and outgoing flow values for each node. In other words: sum between row and column marginal sums.\nbalance: corresponds to the difference between the sum of the incoming flow values and the sum of the outgoing flow values for each node. in other words: the difference between the row and column marginal sums.\nAsymetry:corresponds to the ratio of the balance (balance) to the volume of flows.\nSee below the additional indicators automatically calculated on the nodes of the RIcardo data\nSee below the Additional variables that have been automatically computed (ie the additional variable) on the nodes of the RIcardo data.\n\nThese indicators can be downloaded in . csv format (see Export and Save sections).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -414,7 +414,7 @@
     "href": "03-data-pre-processing.html#suggested-default-flowmap",
     "title": "5  Data pre processing",
     "section": "5.3 Suggested default flowmap",
-    "text": "5.3 Suggested default flowmap\nLoading data in Arabesque leads to the creation of a default map to avoid visualizing a “spaghetti effect” when entering the application ; all the defined parameters can then be modified during the exploration.\nBy default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.\nExcept in the case of loading a projected geometry as input, the map is presented in WGS84.\nHereby is the Mobscol dataset default map in the central panel.\nFor all default map, only a small percent ( around 10%) of the most important links (in value) are represented and symbolized (see the automatic legend) according to their intensity (the flow variable entered at import).\nThe corresponding nodes are symbolized according to their degree (automatically calculated variable during the import). Their ID codes declared at the time of importation are also presented by default.\n\nThe right-hand panel shows :\n- overall statistics on the proportion of flow information represented on the map ;\n- a flow value distribution diagram\nAll graphic and data filtering parameters can be modified using the left (geography and semiology) and right (statistical filtering) panels.",
+    "text": "5.3 Suggested default flowmap\nLoading data in Arabesque leads to the creation of a default map to avoid visualizing a “spaghetti effect” when entering the application ; all the defined parameters can then be modified during the exploration.\nBy default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.\nExcept in the case of loading a projected geometry as input, the map is presented in WGS84.\nHereby is the Mobscol dataset default map in the central panel.\nFor all default map, only a small percent (around to 10 - 20% depending on the flow dataset) of the most important links (in value) are drawnaccording to their intensity of the declared flow variable at import.\nThe corresponding nodes are symbolized according to their degree (automatically calculated variable during the import).\n\nThe right-hand panel shows :\n- overall statistics on the proportion of flow information represented on the map ;\n- a flow value distribution diagram\nAll graphic and data filtering parameters can be modified using the left (geography and graphical semiology) and right (statistical filtering) panels.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "04-geographical-layers.html#geographical-layers",
     "title": "6  Geographical data computing",
     "section": "6.2 Geographical layers",
-    "text": "6.2 Geographical layers\nThe management of the map background is related to the geographic information. It can be accessed via the Layer button, and is composed of three sub-sections.\n\n\n\n\n\n\n6.2.1 Add reference layer\nAdd reference layers consists in calling a remote geographic information layer from Natural Earth data features, to contextualize the flowmap.\n\n\n\n\n\n\n\n\n\n\nSelected reference layers are:\n\ngeographical graticules are grids at 5, 10, 15, 20 and 30° intervals. Includes WGS84 bounding box. See details…\n\nExample: Add graticule layer 20° interval\n\n\n\n\n\n\nworld’s countries divisions at spatial resolutions of 110 meters or 50 meters, and the disputed areas. See details…\n\n\nExample: countries\n\n\n\n\n\n\n\nworld urban areas (of dense human habitations) coverage derived from MODIS satellite, at spatial resolutions of 50 meters or 10 meters. See details…\nworld landscape based on lands including major islands. See details…\n\nFor all these layers, their fill and stroke can be defined by picking colors, then click on Add layer button.\n\n\n6.2.2 Add tile layer\nThe Base type of tiles layers come from Open Street Map (OSM) tile server, CARTO DB and ESRI tile server.\n\n\n\n\n\n\n\n\n6.2.3 Add Geojson layer\nImport Geojson is to load a personal vector layer.",
+    "text": "6.2 Geographical layers\nThe management of the map background is related to the geographic information. It can be accessed via the Layer button, and is composed of three sub-sections.\n\n\n\n\n\n\n6.2.1 Add reference layer\nAdd reference layers consists in calling a remote geographic information layer from Natural Earth data features, to contextualize the flowmap.\n\n\n\n\n\n\n\n\n\n\nSelected reference layers are:\n\ngeographical graticules are grids at 5, 10, 15, 20 and 30° intervals. Includes WGS84 bounding box. See details…\n\nExample: Add graticule layer 20° interval\n\n\n\n\n\n\nworld’s countries divisions at spatial resolutions of 110 meters or 50 meters, and the disputed areas. See details…\n\n\nExample: countries\n\n\n\n\n\n\n\nworld urban areas (of dense human habitations) coverage derived from MODIS satellite, at spatial resolutions of 50 meters or 10 meters. See details…\nworld landscape based on lands including major islands. See details…\n\nFor all these layers, their fill and stroke can be defined by picking colors, then click on Add layer button.\n\n\n6.2.2 Add tile layer\nThe Base type of tiles layers come from Open Street Map (OSM) tile server, CARTO DB and ESRI tile server.\n\n\n\n\n\n\nExamples:\n\n\n\n\n\n\n\n6.2.3 Add Geojson layer\nImport Geojson is to load a personal vector layer.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Geographical data computing</span>"
     ]
@@ -507,6 +507,186 @@
     "text": "11.1.1 What is it ?\nCortext Manager is the main attraction of Cortext Plateform and our goal is to empower researchers by promoting advanced qualitative-quantitative mixed methods. Our primary focus is on studies about the dynamics of science, technology and innovation, and about the roles of knowledge and expertise in societies. We understand the move towards digital humanities and computational methods not as addressing a technological gap for the social sciences, but rather as entailing entirely new assemblages between its disciplines and those of modern statistics and computer sciences. And we work to tackle ever more complex research problems and deal with the profusion of new and diverse sources of information without losing sight of the situatedness and reflexivity required of studies of human societies.\n\n\n11.1.2 How to play with Arabesque ?\nYou can jump straight to Cortext Manager and create an account, but we suggest taking a look at the Documentation and Tutorials as you start your journey.\nAt the end of your work in Cortext manager, you have reached the next stage.\n\nTo geovisualise and explore your spatial networks with Arabesque, you can :\n- either copy the interoperability link entitled “urban and rural areas arabesque” into your browser, which will put you in the Arabesque geovisualisation environment\n- or, as with any spatial network, import the two node and link files on the Arabesque home page [see Data importation].\n\n\n11.1.3 Credits\nCortext is hosted by the LISIS research unit at Université Gustave Eiffel, and was launched by French institutes IFRIS and INRAE, receiving their continued support.",
     "crumbs": [
       "<span class='chapter-number'>11</span>  <span class='chapter-title'>Arabesque interoperability</span>"
+    ]
+  },
+  {
+    "objectID": "preface.html#add-on-version-2.",
+    "href": "preface.html#add-on-version-2.",
+    "title": "1  Preface",
+    "section": "1.4 Add on version 2.",
+    "text": "1.4 Add on version 2.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html#linkss-stroke",
+    "href": "05-design-links-arrows.html#linkss-stroke",
+    "title": "7  Designing the links/arrows",
+    "section": "7.4 Links’s stroke",
+    "text": "7.4 Links’s stroke\nThe outline of the lines or arrows can be modified: their color and their thickness (between 0 and 1 px).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "authors_contributors.html",
+    "href": "authors_contributors.html",
+    "title": "Authors and contributors",
+    "section": "",
+    "text": "Coordination & scientific responsability\nArabesque is part of the geographic flow vizualisation (gflowiz) project, led by Françoise BAHOKEN (Univ. Gustave Eiffel) and Étienne CÔME (Univ. Gustave Eiffel).",
+    "crumbs": [
+      "Authors and contributors"
+    ]
+  },
+  {
+    "objectID": "authors_contributors.html#developers",
+    "href": "authors_contributors.html#developers",
+    "title": "Authors and contributors",
+    "section": "Developers",
+    "text": "Developers\n- 2019: Thomas BAPAUME (ESIEE student engineer), was the main developer of the first version of Arabesque\n- 2020: Paul FABRE (Univ. Gustave Eiffel/IGN student geographer/geomatician), in 2019.\n- 2022: Tony HAUCK (freelance geomatician) is developping the Arabesque 2 version.\n- 20215: Luis Daniel MEDINA ZULUAGA (research engineer, CorText, Univ. Gustave Eiffel) for contributions to development and the transition to interoperability.",
+    "crumbs": [
+      "Authors and contributors"
+    ]
+  },
+  {
+    "objectID": "authors_contributors.html#other-contributors",
+    "href": "authors_contributors.html#other-contributors",
+    "title": "Authors and contributors",
+    "section": "Other contributors",
+    "text": "Other contributors\nArabesque was developed with the scientific collaboration of Laurent JÉGOU (Univ. Toulouse 2 Jean Jaurès), from 2018 to 2020.\nOthers contributors include\n- Marion MAISONOBE and Grégoire LE CAMPION (CNRS), for the conception & the application design ;\n- Nicolas ROELANDT (Univ. Gustave Eiffel), for the first documentation bookdown support ;\n\n- Anne-Christine BRONNER, Nicolas LAMBERT, Mathieu MERLET, Julie PIERSON, Matthieu RAJERISON and Cédric RIDEL did the tests for the first version.",
+    "crumbs": [
+      "Authors and contributors"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html#linkss-size",
+    "href": "05-design-links-arrows.html#linkss-size",
+    "title": "7  Designing the links/arrows",
+    "section": "7.5 Links’s size",
+    "text": "7.5 Links’s size",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html",
+    "href": "11-tracking-changes.html",
+    "title": "13  Tracking changes",
+    "section": "",
+    "text": "13.1 Customize\nThis section summarises the changes made to Arabesque over time, for each of the chapters and sections.\nJuillet 2024:\nFirst step towards the possibility of improving flowmap layouts.\nAdded the possibility to write a title (at the top and center of the page), to add some sources and authors (at the footer to the left).",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#indicators",
+    "href": "11-tracking-changes.html#indicators",
+    "title": "13  Tracking changes",
+    "section": "13.2 Indicators",
+    "text": "13.2 Indicators\nJanuary 2025\nAutomatic calculation on import of indicators for lines",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#linesarrows",
+    "href": "11-tracking-changes.html#linesarrows",
+    "title": "13  Tracking changes",
+    "section": "13.3 Lines/arrows",
+    "text": "13.3 Lines/arrows\nImprovements of the semiology/symbology of lines or arrows.\nMarch 2025\n\nLines’ size : possibility to select all variables available in the dataset (and not only on the variable declared at import of data.\n\nJune 2025\n\nLines’ stroke: possibility of action on the contour of the lines : color and thickness.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#nodes",
+    "href": "11-tracking-changes.html#nodes",
+    "title": "13  Tracking changes",
+    "section": "13.4 Nodes",
+    "text": "13.4 Nodes\nImprovements of the semiology/symbology of nodes.\njune 2024\nAdded the possibility of displaying labels of nodes.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#customize",
+    "href": "11-tracking-changes.html#customize",
+    "title": "13  Tracking changes",
+    "section": "13.2 Customize",
+    "text": "13.2 Customize\nJune 2025:\nFirst steps towards the possibility of improving flowmap layouts.\nAdded the possibility to write a title (at the top and center of the page), to add some sources and authors (at the footer to the left).",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#data-pre-processing",
+    "href": "11-tracking-changes.html#data-pre-processing",
+    "title": "13  Tracking changes",
+    "section": "13.2 Data pre processing",
+    "text": "13.2 Data pre processing\nAutomatic calculation of indicators when importing the edge dataset. See here.\nJuin 2025\n\nFor nodes: rename balance into balancedegree.\n\nJanuary 2025\n\nFor links: added balance and gross flow indicators\nFor nodes: added balance, volume and asymmetry indicators.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#designing-the-linksarrows",
+    "href": "11-tracking-changes.html#designing-the-linksarrows",
+    "title": "13  Tracking changes",
+    "section": "13.3 Designing the links/arrows",
+    "text": "13.3 Designing the links/arrows\nImprovements of the graphical semiology or the geometry of lines or arrows. See here.\nJune 2025\n\nLines’ stroke: possibility of action on the contour of the lines : color and thickness.\n\nMarch 2025\n\nLines’ size : possibility to select all variables available in the dataset (and not only on the variable declared at import of data.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#designing-the-nodes",
+    "href": "11-tracking-changes.html#designing-the-nodes",
+    "title": "13  Tracking changes",
+    "section": "13.4 Designing the nodes",
+    "text": "13.4 Designing the nodes\nImprovements of the semiology/symbology of nodes. See here.\njune 2024\n\nAdded the possibility of displaying labels of nodes.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#interoperability",
+    "href": "11-tracking-changes.html#interoperability",
+    "title": "13  Tracking changes",
+    "section": "13.5 Interoperability",
+    "text": "13.5 Interoperability\nMarch 2025: Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See Interoperability.\nMay 2025\n\nAbility to read datasets from CorText manager through a single link.\nYou can still import two sets of data (one for nodes and one for edges) from the Arabesque’ import home page.\n\nApril 2025\n\nAbility to read data from Netscity, by playing with Arabesque in Netscity.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "05-design-links-arrows.html#links-semiology",
+    "href": "05-design-links-arrows.html#links-semiology",
+    "title": "7  Designing the links/arrows",
+    "section": "7.2 Links’ semiology",
+    "text": "7.2 Links’ semiology\n Three semiological parameters are available for designing the links : their color, their size and their opacity.\n\n\n7.2.1 Links’ color\nThe colour of the links can be set according to three criteria: a colorimetric space, a variable ; the type of the variable.\n\n7.2.1.1 Setting the colorimetric space\nThe colour/tone of the links can be defined in the following three spaces, by clicking on the double arrow icon :\n- Red Green Blue (RGB)\n\n- Hue, saturation, luminosity (HSL)\n\n- HEXagesimal (HEX)\n\n\n\n7.2.1.2 Setting modes of the color\n\nFixed mode of color means that the ton is identical for all nodes.\n\n\n\nConditional mode means that the color of the nodes will vary according to several parameters.\n\n\nThe color/tone can vary according to a specific variable and its type.\n\n\n\n\n\nThe reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: Color Brewer advices for maps. An Extra Palettes is also proposed in Arabesque.\n\n\n7.2.1.3 Color variation as a function of a variable\nThe color of the links can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.\n\n\n7.2.1.4 Color variation as a function of the type of a variable\n\n\n\n\n\n\nCaution\n\n\n\nThe type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).\n\n\n\n\n\n\n\nThe progression (up/down) of the color range depends on that of the value range: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.\n\n\n\n\n7.2.2 Links’ stroke\nThe outline of the lines or arro\nws can be modified: their color and their thickness (between 0 and 1 px).\n\n\n\n7.2.3 Links’ size\nThe size of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe choice of the varied option then leads to selecting the variable to consider?\n\n\n\n\n\nThe graphic width of the links can be parameterized according to three scales: linear, square root and logarithmic.\nThis choice must be decided according to the distribution of your flow dataset. It can be achieved by applying a filter to the value to be mapped.\n\n\n\n\n\nThe parameterization of the ratio parameter makes it possible to balance the drawing of the flows with respect to the whole of the map and to the bounding box, and, so that the draw lines are neither too wide nor too thin. This parameter is subjective and must be assessed according to the phenomenon and the audience receiving the map.\n\n\n\n7.2.4 Links’ opacity\nThe transparency of the color of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe transparency can be parameterized according to four scales: linear, square, square root and logarithmic.\n\n\n\n\n\nThe opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#data-import",
+    "href": "11-tracking-changes.html#data-import",
+    "title": "13  Tracking changes",
+    "section": "13.6 Data import",
+    "text": "13.6 Data import\nJuin 2020\nIn Arabesque 2, you have to declare or to import your nodes firstly, both for standard import and for “standard localisation codes” and “custom localisation file”.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#data-importation",
+    "href": "11-tracking-changes.html#data-importation",
+    "title": "13  Tracking changes",
+    "section": "13.3 Data importation",
+    "text": "13.3 Data importation\nJuin 2020\nIn Arabesque 2, you have to declare or to import your nodes firstly, both for standard import and for “standard localisation codes” and “custom localisation file”.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
   }
 ]

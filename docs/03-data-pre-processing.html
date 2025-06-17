@@ -114,6 +114,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./authors_contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Authors and contributors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
   </div>
@@ -157,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-design-nodes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes of the flowmap</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,6 +188,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./10-gallery.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Gallery</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-tracking-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tracking changes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -254,21 +266,26 @@ Flow mapping tips
 <p>The links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.</p>
 <section id="indicators-on-links" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="indicators-on-links"><span class="header-section-number">5.1</span> Indicators on links</h2>
-<p>For the moment, only the euclidean distance between the origin and destination entities is calculated.</p>
+<p>Three indicators are automatically calculated on the links.</p>
+<p><strong>distance:</strong> euclidean distance between the origin and destination entities is calculated (in WGS1984 projection).</p>
+<p><strong>balance:</strong> corresponds to the <em>bilateral balance</em>, calculated as the difference of the flow value from (A to B) - (B to A). For migrations, corresponds to net migration.</p>
+<p><strong>grossFlow:</strong> correspond to the <em>bilateral volume</em>, calculated as the sum of the flow value from (A to B) + (B to A).</p>
 </section>
 <section id="indicators-on-nodes" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="indicators-on-nodes"><span class="header-section-number">5.2</span> Indicators on nodes</h2>
-<p>A list of various simple and weighted indicators are calculated on the nodes (with reference to the Social Network Analysis (SNA) theory are proposed.</p>
-<p><strong>balance</strong> : difference between the number of in and out degrees.</p>
-<p><strong>outdegree</strong> : number of outgoing links from a places</p>
-<p><strong>indegree</strong> : number of ingoing links from a places</p>
-<p><strong>weigthed Balance</strong> : difference between the number of in and out degrees weighted by the flow value (.ie. volume)</p>
-<p><strong>weigthed degree</strong> : difference between the number of ingoing and outgoing links weigthed by the flow value (.ie. volume).</p>
+<p>A list of various simple and weighted indicators are calculated on the nodes, with reference to the Social Network Analysis (SNA) theory, are proposed.</p>
+<p><strong>balancedegree</strong>: difference between the number of in and out degrees.</p>
+<p><strong>outdegree</strong>: number of outgoing links from a place.</p>
+<p><strong>indegree</strong>: number of ingoing links from a node/place.</p>
+<p><strong>weigthed balance</strong>: difference between the number of in and out degrees weighted by the flow value.</p>
+<p><strong>weigthed degree</strong>: difference between the number of ingoing and outgoing links weigthed by the flow value.</p>
+<p><strong>volume</strong>: is the sum of the incoming and outgoing flow values for each node. In other words: sum between row and column marginal sums.</p>
+<p><strong>balance</strong>: corresponds to the difference between the sum of the incoming flow values and the sum of the outgoing flow values for each node. in other words: the difference between the row and column marginal sums.</p>
+<p><strong>Asymetry</strong>:corresponds to the ratio of the balance (balance) to the volume of flows.</p>
 <p>See below the additional indicators automatically calculated on the nodes of the RIcardo data</p>
 <p>See below the <strong>Additional variables</strong> that have been automatically computed (ie the additional variable) on the nodes of the RIcardo data.</p>
 <p><img src="images/import_indic.png" class="img-fluid"></p>
 <p>These indicators can be downloaded in . csv format (see Export and Save sections).</p>
-<p>Loading links and nodes data into <em>Arabesque</em> leads to the creation of a default map, which is placed in the center of the interface.</p>
 </section>
 <section id="suggested-default-flowmap" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="suggested-default-flowmap"><span class="header-section-number">5.3</span> Suggested default flowmap</h2>
@@ -276,13 +293,13 @@ Flow mapping tips
 <p>By default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.</p>
 <p>Except in the case of loading a projected geometry as input, the map is presented in WGS84.</p>
 <p>Hereby is the Mobscol dataset default map in the central panel.</p>
-<p><strong>For all default map, only a small percent ( around 10%) of the most important links (in value) are represented</strong> and symbolized (see the automatic legend) according to their intensity (the flow variable entered at import).</p>
-<p>The corresponding nodes are symbolized according to their degree (automatically calculated variable during the import). Their ID codes declared at the time of importation are also presented by default.</p>
+<p>For all default map, only a small percent (around to 10 - 20% depending on the flow dataset) of the most important links (in value) are drawnaccording to their intensity of the declared flow variable at import.</p>
+<p>The corresponding nodes are symbolized according to their degree (automatically calculated variable during the import).</p>
 <p><img src="images/default_flowmap-mobscol.png" class="img-fluid"></p>
 <p>The right-hand panel shows :</p>
 <p>- overall statistics on the proportion of flow information represented on the map ;</p>
 <p>- a flow value distribution diagram</p>
-<p>All graphic and data filtering parameters can be modified using the left (geography and semiology) and right (statistical filtering) panels.</p>
+<p>All graphic and data filtering parameters can be modified using the left (geography and graphical semiology) and right (statistical filtering) panels.</p>
 
 
 </section>

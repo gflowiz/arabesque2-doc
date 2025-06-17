@@ -18,25 +18,15 @@ Filtering can be performed in *Arabesque* on all variables describing the nodes 
 
 ### Filtering possibilities
 
-Filtering is available on numerical, temporal and categorical variables.
+Filtering is available on numerical variables : discrete or continuous and on categorical variables. Time variables must be filtered in the same way as categorical variables.
 
 #### Numerical variables
 
-Numerical filtering applies to quantitative (absolute, continuous or pseudo-continuous) dat is done either visually with a brush on an interactive histogram or bar chart. It is also possible to indicate a threshold.
-
-#### Temporal variables
-
-The filtering possibilities of the temporal matrices are currently only available for links. They concern the choice of a date or a period, in a numerical or graphical form (slider). Three date formats are available (string, hours, timestamp).
+Numerical filtering applies to quantitative (absolute, continuous or pseudo-continuous variables) is done either visually with a brush on an interactive histogram or bar chart. It is also possible to indicate a threshold : a maximum and or a minimum value.
 
 #### Categorical variables
 
-Categorical filtering is applied to nominal qualitative data available in node and/or link datasets. Three possibilities are offered, graphically and numerically:
-
--- **Selection of multiple variables**: the user chooses one or more of the available categorical variables (e.g., prefectures and sub-prefectures if a variable specifying the administrative profile of French cities is available) or the type of links (e.g., import or export for trade data);
-
--- **Selection of a single variable**: the user chooses a single variable (for the nodes: for example, the flows from and to France for mobility data; the import type flows for trade data);
-
--- **Selection by deletion of a single variable**: the user chooses one or more variables relating to the nodes and links to be deleted. If the deletion selection concerns nodes, all the corresponding links (for example, the Ile-de-France region for an analysis at the national level) are deleted.
+Categorical filtering is applied to nominal qualitative data available. The user chooses one or more categories from the drop-down list (e.g.: prefectures and sub-prefectures if a variable specifying the administrative profile of French cities is available) .
 
 ### Implementing filtering
 

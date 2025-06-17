@@ -19,21 +19,33 @@ The links and nodes datasets are automatically modified by creating new columns 
 
 ## Indicators on links
 
-For the moment, only the euclidean distance between the origin and destination entities is calculated.
+Three indicators are automatically calculated on the links.
+
+**distance:** euclidean distance between the origin and destination entities is calculated (in WGS1984 projection).
+
+**balance:** corresponds to the *bilateral balance*, calculated as the difference of the flow value from (A to B) - (B to A). For migrations, corresponds to net migration.
+
+**grossFlow:** correspond to the *bilateral volume*, calculated as the sum of the flow value from (A to B) + (B to A).
 
 ## Indicators on nodes
 
-A list of various simple and weighted indicators are calculated on the nodes (with reference to the Social Network Analysis (SNA) theory are proposed.
+A list of various simple and weighted indicators are calculated on the nodes, with reference to the Social Network Analysis (SNA) theory, are proposed.
 
-**balance** : difference between the number of in and out degrees.
+**balancedegree**: difference between the number of in and out degrees.
 
-**outdegree** : number of outgoing links from a places
+**outdegree**: number of outgoing links from a place.
 
-**indegree** : number of ingoing links from a places
+**indegree**: number of ingoing links from a node/place.
 
-**weigthed Balance** : difference between the number of in and out degrees weighted by the flow value (.ie. volume)
+**weigthed balance**: difference between the number of in and out degrees weighted by the flow value.
 
-**weigthed degree** : difference between the number of ingoing and outgoing links weigthed by the flow value (.ie. volume).
+**weigthed degree**: difference between the number of ingoing and outgoing links weigthed by the flow value.
+
+**volume**: is the sum of the incoming and outgoing flow values for each node. In other words: sum between row and column marginal sums.
+
+**balance**: corresponds to the difference between the sum of the incoming flow values and the sum of the outgoing flow values for each node. in other words: the difference between the row and column marginal sums.
+
+**Asymetry**:corresponds to the ratio of the balance (balance) to the volume of flows.
 
 See below the additional indicators automatically calculated on the nodes of the RIcardo data
 
@@ -42,8 +54,6 @@ See below the **Additional variables** that have been automatically computed (ie
 ![](images/import_indic.png)
 
 These indicators can be downloaded in . csv format (see Export and Save sections).
-
-Loading links and nodes data into *Arabesque* leads to the creation of a default map, which is placed in the center of the interface.
 
 ## Suggested default flowmap
 
@@ -55,9 +65,9 @@ Except in the case of loading a projected geometry as input, the map is presente
 
 Hereby is the Mobscol dataset default map in the central panel.
 
-**For all default map, only a small percent ( around 10%) of the most important links (in value) are represented** and symbolized (see the automatic legend) according to their intensity (the flow variable entered at import).
+For all default map, only a small percent (around to 10 - 20% depending on the flow dataset) of the most important links (in value) are drawnaccording to their intensity of the declared flow variable at import.
 
-The corresponding nodes are symbolized according to their degree (automatically calculated variable during the import). Their ID codes declared at the time of importation are also presented by default.
+The corresponding nodes are symbolized according to their degree (automatically calculated variable during the import).
 
 ![](images/default_flowmap-mobscol.png)
 
@@ -67,4 +77,4 @@ The right-hand panel shows :
 
 \- a flow value distribution diagram
 
-All graphic and data filtering parameters can be modified using the left (geography and semiology) and right (statistical filtering) panels.
+All graphic and data filtering parameters can be modified using the left (geography and graphical semiology) and right (statistical filtering) panels.

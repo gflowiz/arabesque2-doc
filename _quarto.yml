@@ -8,6 +8,7 @@ book:
   date: "today"
   chapters:
     - index.qmd
+    - authors_contributors.qmd
     - preface.qmd
     - intro.qmd
     - 01-interface.qmd
@@ -20,6 +21,7 @@ book:
     - 08-flowmap-cosmetics.qmd
     - 09-arabesque-interoperability.qmd
     - 10-gallery.qmd
+    - 11-tracking-changes.qmd
     - references.qmd
 
 bibliography: references.bib

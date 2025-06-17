@@ -1,4 +1,4 @@
-# Designing the nodes of the flowmap
+# Designing the nodes
 
 This chapter concerns the drawing of the nodes, especially the configuration of their semiology.
 

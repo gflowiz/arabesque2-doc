@@ -16,7 +16,7 @@ Through this home page, you can:
 
     ![](images/Arabesque_homepage_savemap.png)
 
--   Load the example of school mobility flows (mobscol data set). See Examples for more information.
+-   Load one of the three example to see an example of Arabesque in use.
 
     ![](images/Arabesque_homepage_sample.png)
 
@@ -158,6 +158,4 @@ The filters applied are displayed in the second part of the panel, depending on 
 
 ![](images/icon_links_filtering.png) Filter on a link attribute
 
-![](images/icon_nodes_filtering.png) Filter on a node attribute
-
-See filtering flow data section.
+See [filtering flow data section](docs/07-filtering-flowdata.html).

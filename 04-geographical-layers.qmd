@@ -56,6 +56,10 @@ The Base type of tiles layers come from Open Street Map (OSM) [tile server](http
 
 ![](images/Geo_Add_tile_layer.png)
 
+Examples:
+
+![](images/Add_tiles_layers_examples.png){fig-align="left"}
+
 ### Add Geojson layer
 
 Import Geojson is to load a personal vector layer.

@@ -18,17 +18,17 @@ the design of the links can be modified in two ways: their semiology and their g
 
 ![](./images/Icon_links_geom.png) Modify the style of the links
 
-## Links's semiology
+## Links' semiology
 
 ![](images/Buton_action_semio.png) Three semiological parameters are available for designing the links : their color, their size and their opacity.
 
 ![](./images/Links_change_style.png)
 
-## Links's color
+### Links' color
 
 The colour of the links can be set according to three criteria: a colorimetric space, a variable ; the type of the variable.
 
-### Setting the colorimetric space
+#### Setting the colorimetric space
 
 The colour/tone of the links can be defined in the following three spaces, by clicking on the double arrow icon ![](images/icon_color_doublearrow.PNG):
 
@@ -44,7 +44,7 @@ The colour/tone of the links can be defined in the following three spaces, by cl
 
 ![](images/Color_HEX.png)
 
-### Setting modes of the color
+#### Setting modes of the color
 
 -   **Fixed mode of color** means that the ton is identical for all nodes.
 
@@ -56,18 +56,18 @@ The colour/tone of the links can be defined in the following three spaces, by cl
 
 The color/tone can vary according to a specific variable and its type.
 
-![](images/Nodes_color_conditionnal.PNG){fig-align="left"}
+![](images/Links_color_conditionnal.png){fig-align="left"}
 
 The reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: [Color Brewer advices for maps](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). An Extra Palettes is also proposed in Arabesque.
 
-### Color variation as a function of a variable
+#### Color variation as a function of a variable
 
 The color of the links can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.
 
-### Color variation as a function of the type of a variable
+#### Color variation as a function of the type of a variable
 
 ::: {.callout-caution appearance="simple"}
-## Caution
+### Caution 
 
 The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
 :::
@@ -77,6 +77,48 @@ The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have
 The progression (up/down) of the **color range** depends on that of the **value range**: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.
 
 ![](images/geom_add_nodes_1_color_variable3.png)
+
+### Links' stroke
+
+The outline of the lines or arro
+
+ws can be modified: their color and their thickness (between 0 and 1 px).
+
+![](images/Links_stroke.png)
+
+### Links' size
+
+The size of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).
+
+![](images/Link_size_varied.png){fig-align="left"}
+
+The choice of the varied option then leads to selecting the variable to consider?
+
+![](images/Link_size_varied_var.png){fig-align="left"}
+
+The graphic width of the links can be parameterized according to three scales: linear, square root and logarithmic.
+
+This choice must be decided according to the distribution of your flow dataset. It can be achieved by applying a filter to the value to be mapped.
+
+![](images/Link_size_varied_var_scale.png){fig-align="left"}
+
+The parameterization of the ratio parameter makes it possible to balance the drawing of the flows with respect to the whole of the map and to the bounding box, and, so that the draw lines are neither too wide nor too thin. This parameter is subjective and must be assessed according to the phenomenon and the audience receiving the map.
+
+![](images/Link_size_varied_scale_ratio.png)
+
+### Links' opacity
+
+The transparency of the color of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).
+
+![](images/Links_opacity.png){fig-align="left"}
+
+The transparency can be parameterized according to four scales: linear, square, square root and logarithmic.
+
+![](images/Links_opacity_scales.png){fig-align="left"}
+
+The opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).
+
+![](images/Links_opacity_scale_min_max.PNG)
 
 ## Links' geometry parameters
 

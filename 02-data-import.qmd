@@ -1,14 +1,14 @@
 # Data importation
 
-Arabesque also allows you to import your own data sets via the home page, in order to create a new map.
+Arabesque also allows you to import your own datasets via the home page, in order to create a new map.
 
-At least a link/flow origin-destination data file is required, formatting with three colums. A node file is also required for the geolocalisation of the origin and destination places.
+You can import your datastes using a web link (possible with datasets from CorText) or load .csv files.
 
-In Arabesque 2, you have to declare or to import your nodes firstly.
+At least one .CSV file depicting links/flow origin-destination data file is required, formatting with three columns. A node file is also required for the geolocalisation of the origin and destination places for custom localisation file.
 
 ![](images/Arabesque_homepage_newmap.png)
 
-For this example, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.
+For this example, we will use for example the historical trade flows listed in the mobscol file. For more information about this data set see in arabesque-examples.
 
 ## Nodes importation
 
@@ -110,7 +110,7 @@ If so, agregations procedures are suggested when importing the dataset in *Arabe
 
 It is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.
 
-> Example: the Mobscol origin-destination. Complex matrice.
+> Example: the Mobscol origin-destination matrice.
 >
 > .CSV format
 >
@@ -157,5 +157,5 @@ Import a previously workspace of flowmapping by loading a project file in .zip f
 ::: {.callout-warning appearance="simple"}
 ## .zip file
 
-Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.
+Do not modify this .zip file, otherwise it will no longer work with Arabesque, and you will not be able to load your work space.
 :::

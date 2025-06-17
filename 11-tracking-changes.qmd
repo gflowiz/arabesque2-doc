@@ -1,10 +1,10 @@
 # Tracking changes
 
-This section summarises the changes made to Arabesque over time, for each of the chapters and sections.
+This section summarizes the changes made to Arabesque over time, for each of the chapters and sections.
 
 ## Customize
 
-*Juillet 2024:\
+*July 2024:\
 *First step towards the possibility of improving flowmap layouts.
 
 Added the possibility to write a title (at the top and center of the page), to add some sources and authors (at the footer to the left).
@@ -13,7 +13,7 @@ Added the possibility to write a title (at the top and center of the page), to a
 
 Automatic calculation of indicators when importing the edge dataset. See [here](https://gflowiz.github.io/arabesque2-doc/03-data-pre-processing.html).
 
-*Juin 2025*
+*June 2025*
 
 -   For nodes: rename balance into **balancedegree**.
 
@@ -22,6 +22,12 @@ Automatic calculation of indicators when importing the edge dataset. See [here](
 -   For links: added **balance** and **gross flow** indicators
 
 -   For nodes: added **balance**, **volume** and **asymmetry** indicators.
+
+## Data importation
+
+*June 2020*
+
+In Arabesque 2, you have to declare or to import your nodes firstly, both for standard import and for "standard localisation codes" and "custom localisation file".
 
 ## Designing the links/arrows
 
@@ -39,17 +45,17 @@ Improvements of the graphical semiology or the geometry of lines or arrows. See 
 
 Improvements of the semiology/symbology of nodes. See [here.](https://gflowiz.github.io/arabesque2-doc/06-design-nodes.html)
 
-*june 2024*
+*June 2024*
 
 -   Added the possibility of displaying labels of nodes.
 
 ## Interoperability
 
-March 2025: Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See [Interoperability](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html).
+*March 2025:* Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See [Interoperability](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html).
 
 *May 2025*
 
--   Ability to read datasets from CorText manager through a single link. \
+-   Ability to read datasets from CorText manager through a single link.\
     You can still import two sets of data (one for nodes and one for edges) from the Arabesque' import home page.
 
 *April 2025*

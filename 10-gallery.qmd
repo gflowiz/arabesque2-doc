@@ -32,9 +32,15 @@ Nocturnal bird migration (one particular night) based on data from the European 
 
 ## Covid 2020 french migration
 
+Inter french department post covid migrations over than 800 people and less than 200 kilometers.
+
+![](images/Example_post_covid_map_Bahoken.png){fig-align="left"}
+
 **Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel, 2020.
 
 **Data source:** Bouygues Telecom, Orange Business Services France, SFR and INSEE, 2020. See [documentation](https://www.insee.fr/fr/statistiques/4635407#documentation)
+
+**Based map:** CARTO database voyager labeled.
 
 **References:** Galiana, L., Suarez Castillo, M., Sémécurbe, F. Coudin, E., de Bellefon, M.-P. (2020), "Retour partiel des mouvements de population avec le déconfinement", Insee Analyses N°54, INSEE.
 

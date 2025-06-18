@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Françoise Bahoken">
-<meta name="dcterms.date" content="2025-06-05">
+<meta name="dcterms.date" content="2025-06-18">
 
 <title>Flow mapping with Arabesque 2</title>
 <style>
@@ -32,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./preface.html" rel="next">
+<link href="./authors_contributors.html" rel="next">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -115,6 +115,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./authors_contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Authors and contributors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
   </div>
@@ -158,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-design-nodes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes of the flowmap</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -187,6 +193,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./11-tracking-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tracking changes</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./references.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">References</span></a>
   </div>
@@ -204,7 +216,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome !</a>
   <ul class="collapse">
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><strong>Summary</strong></a></li>
-  <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
+  <li><a href="#about-this-book" id="toc-about-this-book" class="nav-link" data-scroll-target="#about-this-book">About this book</a></li>
+  <li><a href="#want-to-contribute" id="toc-want-to-contribute" class="nav-link" data-scroll-target="#want-to-contribute">Want to contribute ?</a></li>
   <li><a href="#licence" id="toc-licence" class="nav-link" data-scroll-target="#licence">Licence</a></li>
   </ul></li>
   </ul>
@@ -232,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 5, 2025</p>
+      <p class="date">June 18, 2025</p>
     </div>
   </div>
   
@@ -248,29 +261,32 @@ ul.task-list li input[type="checkbox"] {
 <section id="welcome" class="level1 unnumbered">
 <h1 class="unnumbered">Welcome !</h1>
 <p>This is the <strong><em>Flow mapping with Arabesque 2</em></strong> online home book.</p>
-<p><em>Arabesque</em> is funded by the french Université Gustave Eiffel. It is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.<br>
+<p><em>Arabesque</em> is funded by the french <a href="#0">Université Gustave Eiffel</a>. Part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks data sets. See the <a href="#0">gallery</a> to see examples of flow maps created with Arabesque).<br>
 <br>
-This books presents the functionnalities and how <em>Arabesque</em> 2 can be used to draw flowmaps.</p>
-<p>It will be progressively updated following <em>Arabesque</em> 2 current development.</p>
+This books presents the functionality and how <em>Arabesque</em> can be used to draw flow maps. it will be progressively updated following its current development.</p>
 <ul>
 <li>On line version of <em>Arabesque</em> can be accessed here: <a href="https://arabesque.univ-eiffel.fr/">arabesque.univ-eiffel.fr</a></li>
 <li>The development version (the most complete) can be accessed here: <a href="https://tonhauck.github.io/dev-arabesque/">./dev-arabesque</a></li>
 </ul>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary"><strong>Summary</strong></h2>
-<p>Arabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesque allows users to filter flow data sets (nodes, links and flow values), to play with geographic context (add tiles), reprojecting geography and to parameterise the semiology of the drawings.</p>
-<p>Built in javascript and HTML 5, Arabesque provides a full toolset to explore, filter and geovisualize your Origin-Destination matrices. It allows also to build clearer and understandable flow maps that respect the principles of contemporary cartographic semiology.</p>
+<p>Arabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesque allows users to set parameters for statistical information by filtering the flow data sets (nodes, links and flow values) ; to configure the geographical information, on the one hand, to add a geographical context (add tiles or layers), to re-project world maps, and on the other hand, to draw the edges and nodes, parameterise their geometry and their graphical semiology.</p>
+<p>Built in javascript and HTML 5, <em>Arabesque</em> provides a full tool set to explore, filter and geovisualize your Origin-Destination matrices. It allows also to build clearer and understandable flow maps that respect the principles of contemporary cartographic semiology.</p>
+<p><a href="#0" title="Arabesque 2 source"><img src="images/github.png" class="img-fluid" width="40"></a> <a href="https://github.com/Tonhauck/dev-arabesque">View sources</a></p>
 </section>
-<section id="about" class="level2">
-<h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This book is reproducible and generated in R with Quarto.<br>
-Feel free to help us make it better and report any issue on <a href="https://github.com/gflowiz/arabesque2-doc">GitHub</a>.</p>
-<p><a href="https://github.com/gflowiz/arabesque" title="Arabesque 2 source"><img src="images/github.png" class="img-fluid" width="40"></a> View source</p>
+<section id="about-this-book" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-book">About this book</h2>
+<p>This book is reproducible and generated in R with <a href="https://quarto.org/docs/books/">Quarto</a>. It is automatically update via Github actions</p>
+</section>
+<section id="want-to-contribute" class="level2">
+<h2 class="anchored" data-anchor-id="want-to-contribute">Want to contribute ?</h2>
+<p>Any one can contribute to make this better. So feel free to contribute and report any issue on the <a href="https://github.com/gflowiz/arabesque2-doc">arabesque2-doc</a> repo. You need a <a href="https://github.com/join">github account</a> to be able to edit the pages.</p>
+<p><a href="https://github.com/gflowiz/arabesque2-doc/tree/main" title="Arabesque 2 source"><img src="images/github.png" class="img-fluid" width="40"></a> <a href="https://github.com/gflowiz/arabesque2-doc/tree/main">View sources</a></p>
 </section>
 <section id="licence" class="level2">
 <h2 class="anchored" data-anchor-id="licence">Licence</h2>
 <p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" class="img-fluid" alt="Creative Commons License"></a><br>
-This work by the geographic flow vizualisation research team is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+This work by the geographic flow vizualisation research team (See <a href="https://gflowiz.github.io/arabesque2-doc/authors_contributors.html">authors &amp; contributors</a>) is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
 
 
 </section>
@@ -698,8 +714,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   <div class="nav-page nav-page-previous">
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./preface.html" class="pagination-link" aria-label="Preface">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./authors_contributors.html" class="pagination-link" aria-label="Authors and contributors">
+        <span class="nav-page-text">Authors and contributors</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

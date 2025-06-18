@@ -114,6 +114,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./authors_contributors.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Authors and contributors</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./preface.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Preface</span></span></a>
   </div>
@@ -157,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./06-design-nodes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes of the flowmap</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Designing the nodes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -182,6 +188,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./10-gallery.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Gallery</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11-tracking-changes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Tracking changes</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -237,11 +249,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Arabesque also allows you to import your own data sets via the home page, in order to create a new map.</p>
-<p>At least a link/flow origin-destination data file is required, formatting with three colums. A node file is also required for the geolocalisation of the origin and destination places.</p>
-<p>In Arabesque 2, you have to declare or to import your nodes firstly.</p>
+<p>Arabesque also allows you to import your own datasets via the home page, in order to create a new map.</p>
+<p>You can import your datastes using a web link (possible with datasets from CorText) or load .csv files.</p>
+<p>At least one .CSV file depicting links/flow origin-destination data file is required, formatting with three columns. A node file is also required for the geolocalisation of the origin and destination places for custom localisation file.</p>
 <p><img src="images/Arabesque_homepage_newmap.png" class="img-fluid"></p>
-<p>For this example, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.</p>
+<p>For this example, we will use for example the historical trade flows listed in the mobscol file. For more information about this data set see in arabesque-examples.</p>
 <section id="nodes-importation" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="nodes-importation"><span class="header-section-number">4.1</span> Nodes importation</h2>
 <p>If your nodes are specific, see <a href="#custom-localisation-file">Custom localisation file</a>, otherwise you can use predefined locations with <a href="#standard-localisation-codes">Standard localisation codes</a>.</p>
@@ -339,7 +351,7 @@ Important:
 <p>If so, agregations procedures are suggested when importing the dataset in <em>Arabesque</em>. By default, the sum function is applied in the lack of any other specifications. However, you can choose to apply an average, minimum, maximum or median function calculated on all the matrices or graphs provided.</p>
 <p>It is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.</p>
 <blockquote class="blockquote">
-<p>Example: the Mobscol origin-destination. Complex matrice.</p>
+<p>Example: the Mobscol origin-destination matrice.</p>
 <p>.CSV format</p>
 <p><img src="images/Example_mobscol_OD_CSV.PNG" class="img-fluid"></p>
 <p>.XLXS format.</p>
@@ -395,7 +407,7 @@ Note:
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Do not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.</p>
+<p>Do not modify this .zip file, otherwise it will no longer work with Arabesque, and you will not be able to load your work space.</p>
 </div>
 </div>
 

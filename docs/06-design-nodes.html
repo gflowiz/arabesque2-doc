@@ -220,13 +220,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#color-variation-as-a-function-of-a-variable" id="toc-color-variation-as-a-function-of-a-variable" class="nav-link" data-scroll-target="#color-variation-as-a-function-of-a-variable"><span class="header-section-number">8.2.3</span> Color variation as a function of a variable</a></li>
   <li><a href="#color-variation-as-a-function-of-the-type-of-a-variable" id="toc-color-variation-as-a-function-of-the-type-of-a-variable" class="nav-link" data-scroll-target="#color-variation-as-a-function-of-the-type-of-a-variable"><span class="header-section-number">8.2.4</span> Color variation as a function of the type of a variable</a></li>
   </ul></li>
-  <li><a href="#nodes-size" id="toc-nodes-size" class="nav-link" data-scroll-target="#nodes-size"><span class="header-section-number">8.3</span> <strong>Node’s size</strong></a>
+  <li><a href="#nodes-stroke" id="toc-nodes-stroke" class="nav-link" data-scroll-target="#nodes-stroke"><span class="header-section-number">8.3</span> <strong>Node’s stroke</strong></a></li>
+  <li><a href="#nodes-size" id="toc-nodes-size" class="nav-link" data-scroll-target="#nodes-size"><span class="header-section-number">8.4</span> <strong>Node’s size</strong></a>
   <ul class="collapse">
-  <li><a href="#nodes-size-weighted-by-a-variable" id="toc-nodes-size-weighted-by-a-variable" class="nav-link" data-scroll-target="#nodes-size-weighted-by-a-variable"><span class="header-section-number">8.3.1</span> Nodes’ size weighted by a variable</a></li>
-  <li><a href="#nodes-size-ratio" id="toc-nodes-size-ratio" class="nav-link" data-scroll-target="#nodes-size-ratio"><span class="header-section-number">8.3.2</span> Nodes’ size ratio</a></li>
+  <li><a href="#nodes-size-weighted-by-a-variable" id="toc-nodes-size-weighted-by-a-variable" class="nav-link" data-scroll-target="#nodes-size-weighted-by-a-variable"><span class="header-section-number">8.4.1</span> Nodes’ size weighted by a variable</a></li>
+  <li><a href="#nodes-size-ratio" id="toc-nodes-size-ratio" class="nav-link" data-scroll-target="#nodes-size-ratio"><span class="header-section-number">8.4.2</span> Nodes’ size ratio</a></li>
   </ul></li>
-  <li><a href="#nodes-label-text" id="toc-nodes-label-text" class="nav-link" data-scroll-target="#nodes-label-text"><span class="header-section-number">8.4</span> <strong>Node’s label (text)</strong></a></li>
-  <li><a href="#the-nodes-geometric-parameters" id="toc-the-nodes-geometric-parameters" class="nav-link" data-scroll-target="#the-nodes-geometric-parameters"><span class="header-section-number">8.5</span> The nodes’ geometric parameters</a></li>
+  <li><a href="#nodes-text" id="toc-nodes-text" class="nav-link" data-scroll-target="#nodes-text"><span class="header-section-number">8.5</span> <strong>Node’s Text</strong></a></li>
+  <li><a href="#nodes-opacity" id="toc-nodes-opacity" class="nav-link" data-scroll-target="#nodes-opacity"><span class="header-section-number">8.6</span> <strong>Node’s Opacity</strong></a></li>
+  <li><a href="#the-nodes-geometric-parameters" id="toc-the-nodes-geometric-parameters" class="nav-link" data-scroll-target="#the-nodes-geometric-parameters"><span class="header-section-number">8.7</span> The nodes’ geometric parameters</a></li>
   </ul>
 </nav>
     </div>
@@ -252,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This chapter concerns the drawing of the nodes, especially the configuration of their semiology.</p>
+<p>This chapter concerns the drawing of the nodes, especially the configuration of their graphical semiology. Nodes are currently drawn exclusively in the form of circles.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/geom_panel_nodessigns.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
@@ -273,8 +275,7 @@ Note
 </div>
 <section id="nodes-semiology" class="level2" data-number="8.1">
 <h2 data-number="8.1" class="anchored" data-anchor-id="nodes-semiology"><span class="header-section-number">8.1</span> Nodes semiology</h2>
-<p><img src="images/Buton_action_semio.png" class="img-fluid"> Three semiological parameters are available for designing the nodes : their color, their size ; their topononym or label and their opacity.</p>
-<p>Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).</p>
+<p><img src="images/Buton_action_semio.png" class="img-fluid"> Three semiological parameters are available for designing the nodes : their background color (tone, hue, saturation) and its opacity ; their outline (thickness and color) ; their size (fixed or variable according to a quantity) and the display of one label.</p>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
 <p><img src="images/Nodes_semio.PNG" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
@@ -337,35 +338,51 @@ Caution
 <p><img src="images/geom_add_nodes_1_color_variable3.png" class="img-fluid"></p>
 </section>
 </section>
-<section id="nodes-size" class="level2" data-number="8.3">
-<h2 data-number="8.3" class="anchored" data-anchor-id="nodes-size"><span class="header-section-number">8.3</span> <strong>Node’s size</strong></h2>
+<section id="nodes-stroke" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="nodes-stroke"><span class="header-section-number">8.3</span> <strong>Node’s stroke</strong></h2>
+<p>The outline of the nodes can be modified: their color and their thickness (between 0 and 1 px).</p>
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="images/Nodes_stroke.png" class="img-fluid quarto-figure quarto-figure-left figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="nodes-size" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="nodes-size"><span class="header-section-number">8.4</span> <strong>Node’s size</strong></h2>
 <p>The size of the nodes can be fixed and the weight defined.</p>
 <p><img src="images/geom_add_nodes_2_size.png" class="img-fluid"></p>
-<section id="nodes-size-weighted-by-a-variable" class="level3" data-number="8.3.1">
-<h3 data-number="8.3.1" class="anchored" data-anchor-id="nodes-size-weighted-by-a-variable"><span class="header-section-number">8.3.1</span> Nodes’ size weighted by a variable</h3>
+<section id="nodes-size-weighted-by-a-variable" class="level3" data-number="8.4.1">
+<h3 data-number="8.4.1" class="anchored" data-anchor-id="nodes-size-weighted-by-a-variable"><span class="header-section-number">8.4.1</span> Nodes’ size weighted by a variable</h3>
 <p>The size of the nodes can be <strong>weighted by a variable</strong> according to one of the initial or additional <strong>variables</strong> available in the dataset (hereby the balance).</p>
 <p><img src="images/geom_add_nodes_2_size_variable.png" class="img-fluid"></p>
 <p>Three functions to set the size of the node according to the corresponding value are proposed: linear, square, square root and logarithmic.s</p>
 <p><img src="images/geom_add_nodes_2_size_fct.png" class="img-fluid"></p>
 </section>
-<section id="nodes-size-ratio" class="level3" data-number="8.3.2">
-<h3 data-number="8.3.2" class="anchored" data-anchor-id="nodes-size-ratio"><span class="header-section-number">8.3.2</span> Nodes’ size ratio</h3>
+<section id="nodes-size-ratio" class="level3" data-number="8.4.2">
+<h3 data-number="8.4.2" class="anchored" data-anchor-id="nodes-size-ratio"><span class="header-section-number">8.4.2</span> Nodes’ size ratio</h3>
 <p>The <strong>ratio</strong> representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).</p>
 <p><img src="images/geom_add_nodes_2_size_ratio.png" class="img-fluid"></p>
 </section>
 </section>
-<section id="nodes-label-text" class="level2" data-number="8.4">
-<h2 data-number="8.4" class="anchored" data-anchor-id="nodes-label-text"><span class="header-section-number">8.4</span> <strong>Node’s label (text)</strong></h2>
-<p>Textual elements can also be added near the nodes.</p>
+<section id="nodes-text" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="nodes-text"><span class="header-section-number">8.5</span> <strong>Node’s Text</strong></h2>
+<p>Text can be displayed as node labels.</p>
 <p><img src="images/geom_add_nodes_3_texte.png" class="img-fluid"></p>
-<p>The text can be defined according to one of the variable available in the nodes’ dataset, here the name, the type, etc..</p>
-<p>The opacity of the text shade (currently set to black) can be set to a given value (here 0.91).</p>
-<p><img src="images/geom_add_nodes_3_texte_fixe.png" class="img-fluid"></p>
-<p>The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes’ original variables and the precalculated ones (degree, …).</p>
-<p><img src="images/geom_add_nodes_3_texte_variable.png" class="img-fluid"></p>
+<p>The text can be defined according to one of the variable available in the nodes’ data set, here the name, the type, etc..</p>
 </section>
-<section id="the-nodes-geometric-parameters" class="level2" data-number="8.5">
-<h2 data-number="8.5" class="anchored" data-anchor-id="the-nodes-geometric-parameters"><span class="header-section-number">8.5</span> The nodes’ geometric parameters</h2>
+<section id="nodes-opacity" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="nodes-opacity"><span class="header-section-number">8.6</span> <strong>Node’s Opacity</strong></h2>
+<p>The transparency of the color of the nodes can be fixed for all of them.</p>
+<p><img src="images/geom_add_nodes_3_texte_fixe.png" class="img-fluid"></p>
+<p>The nodes’ opacity can also vary according to a quantity, corresponding to one of the quantitative variables available in the nodes file, for native or calculated indicators at import.</p>
+<p><img src="images/geom_add_nodes_3_texte_variable.png" class="img-fluid"></p>
+<p>The transparency can be parameterised according to four scales: linear, square, square root and logarithmic.</p>
+<p><img src="images/geom_add_nodes_3_texte_variable_scale.png" class="img-fluid"></p>
+<p>The opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).</p>
+<p><img src="images/geom_add_nodes_3_texte_variable_scale_min-max.png" class="img-fluid"></p>
+</section>
+<section id="the-nodes-geometric-parameters" class="level2" data-number="8.7">
+<h2 data-number="8.7" class="anchored" data-anchor-id="the-nodes-geometric-parameters"><span class="header-section-number">8.7</span> The nodes’ geometric parameters</h2>
 <p>Not implemented yet. Upcoming projects.</p>
 
 

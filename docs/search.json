@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Flow mapping with Arabesque 2",
     "section": "",
-    "text": "Welcome !\nThis is the Flow mapping with Arabesque 2 online home book.\nArabesque is funded by the french Université Gustave Eiffel. It is part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks datasets.\n\nThis books presents the functionnalities and how Arabesque 2 can be used to draw flowmaps.\nIt will be progressively updated following Arabesque 2 current development.",
+    "text": "Welcome !\nThis is the Flow mapping with Arabesque 2 online home book.\nArabesque is funded by the french Université Gustave Eiffel. Part of the Free and Open Source Software for Geospatial (FOSS4G) movement. It is a web application dedicated to flow mapping from origin-destination matrices and spatial networks data sets. See the gallery to see examples of flow maps created with Arabesque).\n\nThis books presents the functionality and how Arabesque can be used to draw flow maps. it will be progressively updated following its current development.",
     "crumbs": [
       "Welcome !"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#summary",
     "title": "Flow mapping with Arabesque 2",
     "section": "Summary",
-    "text": "Summary\nArabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesque allows users to filter flow data sets (nodes, links and flow values), to play with geographic context (add tiles), reprojecting geography and to parameterise the semiology of the drawings.\nBuilt in javascript and HTML 5, Arabesque provides a full toolset to explore, filter and geovisualize your Origin-Destination matrices. It allows also to build clearer and understandable flow maps that respect the principles of contemporary cartographic semiology.",
+    "text": "Summary\nArabesque is dedicated to flow and network mapping, from origin-destination simple or complexes matrices. Arabesque allows users to set parameters for statistical information by filtering the flow data sets (nodes, links and flow values) ; to configure the geographical information, on the one hand, to add a geographical context (add tiles or layers), to re-project world maps, and on the other hand, to draw the edges and nodes, parameterise their geometry and their graphical semiology.\nBuilt in javascript and HTML 5, Arabesque provides a full tool set to explore, filter and geovisualize your Origin-Destination matrices. It allows also to build clearer and understandable flow maps that respect the principles of contemporary cartographic semiology.\n View sources",
     "crumbs": [
       "Welcome !"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#licence",
     "title": "Flow mapping with Arabesque 2",
     "section": "Licence",
-    "text": "Licence\n\nThis work by the geographic flow vizualisation research team is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
+    "text": "Licence\n\nThis work by the geographic flow vizualisation research team (See authors & contributors) is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.",
     "crumbs": [
       "Welcome !"
     ]
@@ -44,7 +44,7 @@
     "href": "02-data-import.html",
     "title": "4  Data importation",
     "section": "",
-    "text": "4.1 Nodes importation\nArabesque also allows you to import your own data sets via the home page, in order to create a new map.\nAt least a link/flow origin-destination data file is required, formatting with three colums. A node file is also required for the geolocalisation of the origin and destination places.\nIn Arabesque 2, you have to declare or to import your nodes firstly.\nFor this example, we will use for example the historical trade flows listed in the mobscol file. For more informations about this dataset see in arabesque-examples.\nIf your nodes are specific, see Custom localisation file, otherwise you can use predefined locations with Standard localisation codes.",
+    "text": "4.1 Nodes importation\nArabesque also allows you to import your own datasets via the home page, in order to create a new map.\nYou can import your datastes using a web link (possible with datasets from CorText) or load .csv files.\nAt least one .CSV file depicting links/flow origin-destination data file is required, formatting with three columns. A node file is also required for the geolocalisation of the origin and destination places for custom localisation file.\nFor this example, we will use for example the historical trade flows listed in the mobscol file. For more information about this data set see in arabesque-examples.\nIf your nodes are specific, see Custom localisation file, otherwise you can use predefined locations with Standard localisation codes.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data importation</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "02-data-import.html#flowlinks-importation",
     "title": "4  Data importation",
     "section": "4.2 Flow/links importation",
-    "text": "4.2 Flow/links importation\nAfter loading the nodes files, you have to browse your directories to upload your origin-destination matrix.\nThe flow/links file must be in .CSV (separator : , and decimal : .) in long format.\nIt must contain at least 3 columns :\n\nthe ID of the place of origin ;\nthe ID of the place of destination locations ;\nthe link/flow values.\n\n\n\n\n\n\n\nImportant:\n\n\n\nThe ID of the places of origin and destination must be identical to that of the nodes.\n\n\n\n4.2.1 Unique flow OD matrices\nUnique OD matrices have a unique value for each pair of locations - this makes them different from complex matrices [See Complex OD matrices].\nSee example below.\n\nExample: the Mobscol origin-destination .CSV file. Simple matrice with 3 columns.\n\n\nThe ID of the place of origin is “CODE_DEP”.\nThe ID of the place of destination is “DEP_ETUD”\nThe flow value is “flow” or is “count”.\nOnce the origin and destination IDs have been identified, they need to be declared in Arabesque for importing flows.\n\n\n\n\n\nIf the matrix is complex (as in that example), you have to choose a method for aggregating the links when importing. [See Complex OD matrices]\n\n\n4.2.2 Complex OD matrices\nThe matrices concerned here are characterized by several attributes, for categorical matrices (e.g. flows that concern several social groups, several goods transported) or for temporal matrices (e.g. flows occur on several dates).\nIf so, agregations procedures are suggested when importing the dataset in Arabesque. By default, the sum function is applied in the lack of any other specifications. However, you can choose to apply an average, minimum, maximum or median function calculated on all the matrices or graphs provided.\nIt is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.\n\nExample: the Mobscol origin-destination. Complex matrice.\n.CSV format\n\n.XLXS format.\n\n\n\n\n\n\nThis OD matrix is available for different categories (i.e. SEXE=“1” or SEXE=“2”), so you will need to choose a method for aggregating the links when importing, hereby the sum function.\n\n\n\n\n\nThis aggregation function is important because it defines the default flowmap which will be proposed at the entry of Arabesque: the percent of links, nodes and interaction depicted, the intensity of the colors and the opacity of the corresponding signs (see Data processing chapter).\nAfter aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).\n\n\n\n\n\n\nNote:\n\n\n\nThis aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.\n\n\nAfter loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.",
+    "text": "4.2 Flow/links importation\nAfter loading the nodes files, you have to browse your directories to upload your origin-destination matrix.\nThe flow/links file must be in .CSV (separator : , and decimal : .) in long format.\nIt must contain at least 3 columns :\n\nthe ID of the place of origin ;\nthe ID of the place of destination locations ;\nthe link/flow values.\n\n\n\n\n\n\n\nImportant:\n\n\n\nThe ID of the places of origin and destination must be identical to that of the nodes.\n\n\n\n4.2.1 Unique flow OD matrices\nUnique OD matrices have a unique value for each pair of locations - this makes them different from complex matrices [See Complex OD matrices].\nSee example below.\n\nExample: the Mobscol origin-destination .CSV file. Simple matrice with 3 columns.\n\n\nThe ID of the place of origin is “CODE_DEP”.\nThe ID of the place of destination is “DEP_ETUD”\nThe flow value is “flow” or is “count”.\nOnce the origin and destination IDs have been identified, they need to be declared in Arabesque for importing flows.\n\n\n\n\n\nIf the matrix is complex (as in that example), you have to choose a method for aggregating the links when importing. [See Complex OD matrices]\n\n\n4.2.2 Complex OD matrices\nThe matrices concerned here are characterized by several attributes, for categorical matrices (e.g. flows that concern several social groups, several goods transported) or for temporal matrices (e.g. flows occur on several dates).\nIf so, agregations procedures are suggested when importing the dataset in Arabesque. By default, the sum function is applied in the lack of any other specifications. However, you can choose to apply an average, minimum, maximum or median function calculated on all the matrices or graphs provided.\nIt is also possible to choose a single date or to aggregate the data, according to a given function, over a period or for categories.\n\nExample: the Mobscol origin-destination matrice.\n.CSV format\n\n.XLXS format.\n\n\n\n\n\n\nThis OD matrix is available for different categories (i.e. SEXE=“1” or SEXE=“2”), so you will need to choose a method for aggregating the links when importing, hereby the sum function.\n\n\n\n\n\nThis aggregation function is important because it defines the default flowmap which will be proposed at the entry of Arabesque: the percent of links, nodes and interaction depicted, the intensity of the colors and the opacity of the corresponding signs (see Data processing chapter).\nAfter aggregation, Arabesque will draws only one line (and not as many lines for each attribute in the flow file).\n\n\n\n\n\n\nNote:\n\n\n\nThis aggregation does not interfere with the geo-visualization possibilities that will remain available for all existing attributes. The flow mapping according to one of these attributes can be performed in the filtering section.\n\n\nAfter loading the link and node files, Arabesque automatically performs a join of the common attributes between the two files.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data importation</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "02-data-import.html#import-a-previous-workspace",
     "title": "4  Data importation",
     "section": "4.4 Import a previous workspace",
-    "text": "4.4 Import a previous workspace\nImport a previously workspace of flowmapping by loading a project file in .zip format.\n\n\n\n\n\n\n\n.zip file\n\n\n\nDo not modify this .zipfile, otherwise it will no longer work with Arabesque, and you will not be able to load your workspace.",
+    "text": "4.4 Import a previous workspace\nImport a previously workspace of flowmapping by loading a project file in .zip format.\n\n\n\n\n\n\n\n.zip file\n\n\n\nDo not modify this .zip file, otherwise it will no longer work with Arabesque, and you will not be able to load your work space.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data importation</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "06-design-nodes.html",
     "title": "8  Designing the nodes",
     "section": "",
-    "text": "8.1 Nodes semiology\nThis chapter concerns the drawing of the nodes, especially the configuration of their semiology.\nThree semiological parameters are available for designing the nodes : their color, their size ; their topononym or label and their opacity.\nHereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).",
+    "text": "8.1 Nodes semiology\nThis chapter concerns the drawing of the nodes, especially the configuration of their graphical semiology. Nodes are currently drawn exclusively in the form of circles.\nThree semiological parameters are available for designing the nodes : their background color (tone, hue, saturation) and its opacity ; their outline (thickness and color) ; their size (fixed or variable according to a quantity) and the display of one label.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
@@ -113,8 +113,8 @@
     "objectID": "06-design-nodes.html#nodes-size",
     "href": "06-design-nodes.html#nodes-size",
     "title": "8  Designing the nodes",
-    "section": "8.3 Node’s size",
-    "text": "8.3 Node’s size\nThe size of the nodes can be fixed and the weight defined.\n\n\n8.3.1 Nodes’ size weighted by a variable\nThe size of the nodes can be weighted by a variable according to one of the initial or additional variables available in the dataset (hereby the balance).\n\nThree functions to set the size of the node according to the corresponding value are proposed: linear, square, square root and logarithmic.s\n\n\n\n8.3.2 Nodes’ size ratio\nThe ratio representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).",
+    "section": "8.4 Node’s size",
+    "text": "8.4 Node’s size\nThe size of the nodes can be fixed and the weight defined.\n\n\n8.4.1 Nodes’ size weighted by a variable\nThe size of the nodes can be weighted by a variable according to one of the initial or additional variables available in the dataset (hereby the balance).\n\nThree functions to set the size of the node according to the corresponding value are proposed: linear, square, square root and logarithmic.s\n\n\n\n8.4.2 Nodes’ size ratio\nThe ratio representing the max width in pixel of the graphic features can be defined - according to the map bounding box, to obtain an image with balanced features (neither too small nor too big).",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
@@ -133,8 +133,8 @@
     "objectID": "06-design-nodes.html#the-nodes-geometric-parameters",
     "href": "06-design-nodes.html#the-nodes-geometric-parameters",
     "title": "8  Designing the nodes",
-    "section": "8.5 The nodes’ geometric parameters",
-    "text": "8.5 The nodes’ geometric parameters\nNot implemented yet. Upcoming projects.",
+    "section": "8.7 The nodes’ geometric parameters",
+    "text": "8.7 The nodes’ geometric parameters\nNot implemented yet. Upcoming projects.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "preface.html",
     "title": "1  Preface",
     "section": "",
-    "text": "1.1 Challenges\nThis Quarto book contains the online documentation of the second version of Arabesque, a web application for thematic flow mapping created within the geographic flow vizualisation research program (gflowiz) funded by Univ. Gustave Eiffel.\nArabesque is an innovative cartographic application that meets the contemporary challenges of spatial networks geovisualisation.\nThe analysis of the dynamics of urban areas or metropolises in one hand, the delimitation of their functional areas and the spatio-temporal comparison of their patterns in the other hand, are often limited by two categories of problems inherent in data and tools.\n\nThe lack of open origin-destination (OD) data sets depicting territorial interactions and interrelations limited the possibility of empirical analysis. Similarly, the lack of dedicated geovisualization and cartographic analysis tools means that many images of visual and analytical interest are no longer part of the current cartographic landscape. In addition to these specific problems regarding online OD data, it is important to focus attention on the current possibilities offered by online possibilities of OD cartography.\nThe current range of possibilities for exploring flows and networks datasets on the geoweb is symptomatic of the ongoing enthusiasm of a growing interdisciplinary community. While for a long time the efforts were limited to direct visualisation alone, applications specifically dedicated to flows have recently come on line.",
+    "text": "1.1 Challenges\nThis book contains the online documentation of the second version of Arabesque, a web application for thematic flow mapping, created within the geographic flow visualization research program (gflowiz) funded by Univ. Gustave Eiffel.\nArabesque is an innovative cartographic application that meets the contemporary challenges of spatial networks geovisualisation.\nThe analysis of the dynamics of urban areas or metropolises in one hand, the delimitation of their functional areas and the spatio-temporal comparison of their patterns in the other hand, are often limited by two categories of problems inherent in data and tools.\n\nThe lack of open origin-destination (OD) data sets depicting territorial interactions and interrelations limited the possibility of empirical analysis. Similarly, the lack of dedicated geovisualization and cartographic analysis tools means that many images of visual and analytic interest are no longer part of the current cartographic landscape. In addition to these specific problems regarding online OD data, it is important to focus attention on the current possibilities offered by online possibilities of OD cartography.\nThe current range of possibilities for exploring flows and networks datasets on the geoweb is symptomatic of the ongoing enthusiasm of a growing interdisciplinary community. While for a long time the efforts were limited to direct visualization alone, applications specifically dedicated to flows have recently come on line.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
     ]
@@ -394,7 +394,7 @@
     "href": "03-data-pre-processing.html",
     "title": "5  Data pre processing",
     "section": "",
-    "text": "5.1 Indicators on links\nAfter loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nThree indicators are automatically calculated on the links.\ndistance: euclidean distance between the origin and destination entities is calculated (in WGS1984 projection).\nbalance: corresponds to the bilateral balance, calculated as the difference of the flow value from (A to B) - (B to A). For migrations, corresponds to net migration.\ngrossFlow: correspond to the bilateral volume, calculated as the sum of the flow value from (A to B) + (B to A).",
+    "text": "5.1 Indicators on links\nAfter loading the data, the creation of a flow map with Arabesque can be broken down into the following main steps.\nThe links and nodes datasets are automatically modified by creating new columns when importing. Arabesque computes different key indicators and a default flow map is suggested.\nThree indicators are automatically calculated on the links.\ndistance: euclidean distance between the origin and destination entities is calculated (in WGS1984 projection).\nbalance: corresponds to the bilateral balance, calculated as the difference of the flow value from (A to B) - (B to A). For migrations for example, it corresponds to net immigration.\ngross flow: correspond to the bilateral volume, calculated as the sum of the flow value from (A to B) + (B to A).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -404,7 +404,7 @@
     "href": "03-data-pre-processing.html#indicators-on-nodes",
     "title": "5  Data pre processing",
     "section": "5.2 Indicators on nodes",
-    "text": "5.2 Indicators on nodes\nA list of various simple and weighted indicators are calculated on the nodes, with reference to the Social Network Analysis (SNA) theory, are proposed.\nbalancedegree: difference between the number of in and out degrees.\noutdegree: number of outgoing links from a place.\nindegree: number of ingoing links from a node/place.\nweigthed balance: difference between the number of in and out degrees weighted by the flow value.\nweigthed degree: difference between the number of ingoing and outgoing links weigthed by the flow value.\nvolume: is the sum of the incoming and outgoing flow values for each node. In other words: sum between row and column marginal sums.\nbalance: corresponds to the difference between the sum of the incoming flow values and the sum of the outgoing flow values for each node. in other words: the difference between the row and column marginal sums.\nAsymetry:corresponds to the ratio of the balance (balance) to the volume of flows.\nSee below the additional indicators automatically calculated on the nodes of the RIcardo data\nSee below the Additional variables that have been automatically computed (ie the additional variable) on the nodes of the RIcardo data.\n\nThese indicators can be downloaded in . csv format (see Export and Save sections).",
+    "text": "5.2 Indicators on nodes\nA list of various simple and weighted indicators are calculated on the nodes, with reference to the Social Network Analysis (SNA) theory, are proposed.\nbalancedegree: difference between the number of in and out degrees.\noutdegree: number of outgoing links from a place.\nindegree: number of ingoing links from a node/place.\nweigthed balance: difference between the number of in and out degrees weighted by the flow value.\nweigthed degree: difference between the number of in going and outgoing links weighted by the flow value.\nvolume: is the sum of the incoming and outgoing flow values for each node. In other words: sum between row and column marginal sums.\nbalance: corresponds to the difference between the sum of the incoming flow values and the sum of the outgoing flow values for each node. in other words: the difference between the row and column marginal sums.\nAsymmetry:corresponds to the ratio of the balance (balance) to the volume of flows.\nSee below the additional indicators automatically calculated on the nodes of the RIcardo data\nSee below the Additional variables that have been automatically computed (ie the additional variable) on the nodes of the RIcardo data set.\n\nThese indicators can be downloaded in . csv format (see Export and Save sections).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -414,7 +414,7 @@
     "href": "03-data-pre-processing.html#suggested-default-flowmap",
     "title": "5  Data pre processing",
     "section": "5.3 Suggested default flowmap",
-    "text": "5.3 Suggested default flowmap\nLoading data in Arabesque leads to the creation of a default map to avoid visualizing a “spaghetti effect” when entering the application ; all the defined parameters can then be modified during the exploration.\nBy default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.\nExcept in the case of loading a projected geometry as input, the map is presented in WGS84.\nHereby is the Mobscol dataset default map in the central panel.\nFor all default map, only a small percent (around to 10 - 20% depending on the flow dataset) of the most important links (in value) are drawnaccording to their intensity of the declared flow variable at import.\nThe corresponding nodes are symbolized according to their degree (automatically calculated variable during the import).\n\nThe right-hand panel shows :\n- overall statistics on the proportion of flow information represented on the map ;\n- a flow value distribution diagram\nAll graphic and data filtering parameters can be modified using the left (geography and graphical semiology) and right (statistical filtering) panels.",
+    "text": "5.3 Suggested default flowmap\nLoading data in Arabesque leads to the creation of a default map to avoid visualizing a “spaghetti effect” when entering the application ; all the defined parameters can then be modified during the exploration.\nBy default, the links are represented in shades of blue and the nodes in red. The map is presented in the WGS84 projection, according to the lat/lon coordinates declared during the import.\nExcept in the case of loading a projected geometry as input, the map is presented in WGS84.\nHereby is the Mobscol dataset default map in the central panel.\nFor all default map, only a small percent (around to 10 - 20% depending on the flow dataset) of the most important links (in value) are drawn according to their intensity of the declared flow variable at import.\nThe corresponding nodes are symbolized according to their degree (automatically calculated variable during the import).\n\nThe right-hand panel shows :\n- overall statistics on the proportion of flow information represented on the map ;\n- a flow value distribution diagram\nAll graphic and data filtering parameters can be modified using the left (geography and graphical semiology) and right (statistical filtering) panels.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Data pre processing</span>"
     ]
@@ -494,7 +494,7 @@
     "href": "10-gallery.html",
     "title": "12  Gallery",
     "section": "",
-    "text": "Hereby are examples of flowmaps made with Arabesque.",
+    "text": "12.1 African migrants flows\nHereby are examples of flow maps made with Arabesque.\nEstimated internal human migrants flows from 2005 to 2010 between sub-national administrative units for malaria endemic countries.\nFlow mapping: Françoise Bahoken (Univ. Gustave Eiffel), 2025.\nData source: Estimated internal human migration flows between subnational administrative units for malaria endemic countries (WHO, 2015). See Documentation. Data Descriptor. Sorichetta A. et al. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66\nBased map: ESRI World imagery.\nReferences: Françoise Bahoken (5 mai 2025). Flux de migrants en zone endémique paludéenne (2016). Carnet (neo)cartographique. Sorichetta, A., Bird, T., Ruktanonchai, N. et al. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
     ]
@@ -574,7 +574,7 @@
     "href": "11-tracking-changes.html",
     "title": "13  Tracking changes",
     "section": "",
-    "text": "13.1 Customize\nThis section summarises the changes made to Arabesque over time, for each of the chapters and sections.\nJuillet 2024:\nFirst step towards the possibility of improving flowmap layouts.\nAdded the possibility to write a title (at the top and center of the page), to add some sources and authors (at the footer to the left).",
+    "text": "13.1 Cosmetics\nThis section summarizes the changes made to Arabesque over time, for each of the chapters and sections.\nJuly 2024:\nFirst step towards the possibility of improving flowmap layouts.\nAdded the possibility to write a title (at the top and center of the page), to add some sources and authors (at the footer to the left).",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -624,7 +624,7 @@
     "href": "11-tracking-changes.html#data-pre-processing",
     "title": "13  Tracking changes",
     "section": "13.2 Data pre processing",
-    "text": "13.2 Data pre processing\nAutomatic calculation of indicators when importing the edge dataset. See here.\nJuin 2025\n\nFor nodes: rename balance into balancedegree.\n\nJanuary 2025\n\nFor links: added balance and gross flow indicators\nFor nodes: added balance, volume and asymmetry indicators.",
+    "text": "13.2 Data pre processing\nAutomatic calculation of indicators when importing the edge dataset. See here.\nJune 2025\n\nFor nodes: rename balance into balancedegree.\n\nJanuary 2025\n\nFor links: added balance and gross flow indicators\nFor nodes: added balance, volume and asymmetry indicators.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -633,8 +633,8 @@
     "objectID": "11-tracking-changes.html#designing-the-linksarrows",
     "href": "11-tracking-changes.html#designing-the-linksarrows",
     "title": "13  Tracking changes",
-    "section": "13.3 Designing the links/arrows",
-    "text": "13.3 Designing the links/arrows\nImprovements of the graphical semiology or the geometry of lines or arrows. See here.\nJune 2025\n\nLines’ stroke: possibility of action on the contour of the lines : color and thickness.\n\nMarch 2025\n\nLines’ size : possibility to select all variables available in the dataset (and not only on the variable declared at import of data.",
+    "section": "13.4 Designing the links/arrows",
+    "text": "13.4 Designing the links/arrows\nImprovements of the graphical semiology or the geometry of lines or arrows. See here.\nJune 2025\n\nLines’ stroke: possibility of action on the contour of the lines : color and thickness.\n\nMarch 2025\n\nLines’ size : possibility to select all variables available in the dataset (and not only on the variable declared at import of data.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -643,8 +643,8 @@
     "objectID": "11-tracking-changes.html#designing-the-nodes",
     "href": "11-tracking-changes.html#designing-the-nodes",
     "title": "13  Tracking changes",
-    "section": "13.4 Designing the nodes",
-    "text": "13.4 Designing the nodes\nImprovements of the semiology/symbology of nodes. See here.\njune 2024\n\nAdded the possibility of displaying labels of nodes.",
+    "section": "13.5 Designing the nodes",
+    "text": "13.5 Designing the nodes\nImprovements of the semiology/symbology of nodes. See here.\nJune 2024\n\nAdded the possibility of displaying labels of nodes.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -653,8 +653,8 @@
     "objectID": "11-tracking-changes.html#interoperability",
     "href": "11-tracking-changes.html#interoperability",
     "title": "13  Tracking changes",
-    "section": "13.5 Interoperability",
-    "text": "13.5 Interoperability\nMarch 2025: Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See Interoperability.\nMay 2025\n\nAbility to read datasets from CorText manager through a single link.\nYou can still import two sets of data (one for nodes and one for edges) from the Arabesque’ import home page.\n\nApril 2025\n\nAbility to read data from Netscity, by playing with Arabesque in Netscity.",
+    "section": "13.7 Interoperability",
+    "text": "13.7 Interoperability\nMarch 2025: Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See Interoperability.\nMay 2025\n\nAbility to read datasets from CorText manager through a single link.\nYou can still import two sets of data (one for nodes and one for edges) from the Arabesque’ import home page.\n\nApril 2025\n\nAbility to read data from Netscity, by playing with Arabesque in Netscity.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -664,7 +664,7 @@
     "href": "05-design-links-arrows.html#links-semiology",
     "title": "7  Designing the links/arrows",
     "section": "7.2 Links’ semiology",
-    "text": "7.2 Links’ semiology\n Three semiological parameters are available for designing the links : their color, their size and their opacity.\n\n\n7.2.1 Links’ color\nThe colour of the links can be set according to three criteria: a colorimetric space, a variable ; the type of the variable.\n\n7.2.1.1 Setting the colorimetric space\nThe colour/tone of the links can be defined in the following three spaces, by clicking on the double arrow icon :\n- Red Green Blue (RGB)\n\n- Hue, saturation, luminosity (HSL)\n\n- HEXagesimal (HEX)\n\n\n\n7.2.1.2 Setting modes of the color\n\nFixed mode of color means that the ton is identical for all nodes.\n\n\n\nConditional mode means that the color of the nodes will vary according to several parameters.\n\n\nThe color/tone can vary according to a specific variable and its type.\n\n\n\n\n\nThe reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: Color Brewer advices for maps. An Extra Palettes is also proposed in Arabesque.\n\n\n7.2.1.3 Color variation as a function of a variable\nThe color of the links can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.\n\n\n7.2.1.4 Color variation as a function of the type of a variable\n\n\n\n\n\n\nCaution\n\n\n\nThe type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).\n\n\n\n\n\n\n\nThe progression (up/down) of the color range depends on that of the value range: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.\n\n\n\n\n7.2.2 Links’ stroke\nThe outline of the lines or arro\nws can be modified: their color and their thickness (between 0 and 1 px).\n\n\n\n7.2.3 Links’ size\nThe size of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe choice of the varied option then leads to selecting the variable to consider?\n\n\n\n\n\nThe graphic width of the links can be parameterized according to three scales: linear, square root and logarithmic.\nThis choice must be decided according to the distribution of your flow dataset. It can be achieved by applying a filter to the value to be mapped.\n\n\n\n\n\nThe parameterization of the ratio parameter makes it possible to balance the drawing of the flows with respect to the whole of the map and to the bounding box, and, so that the draw lines are neither too wide nor too thin. This parameter is subjective and must be assessed according to the phenomenon and the audience receiving the map.\n\n\n\n7.2.4 Links’ opacity\nThe transparency of the color of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe transparency can be parameterized according to four scales: linear, square, square root and logarithmic.\n\n\n\n\n\nThe opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).",
+    "text": "7.2 Links’ semiology\n Three semiological parameters are available for designing the links : their color, their size and their opacity.\n\n\n7.2.1 Links’ color\nThe colour of the links can be set according to three criteria: a colorimetric space, a variable ; the type of the variable.\n\n7.2.1.1 Setting the colorimetric space\nThe colour/tone of the links can be defined in the following three spaces, by clicking on the double arrow icon :\n- Red Green Blue (RGB)\n\n- Hue, saturation, luminosity (HSL)\n\n- HEXagesimal (HEX)\n\n\n\n7.2.1.2 Setting modes of the color\n\nFixed mode of color means that the ton is identical for all nodes.\n\n\n\nConditional mode means that the color of the nodes will vary according to several parameters.\n\n\nThe color/tone can vary according to a specific variable and its type.\n\n\n\n\n\nThe reference for the color schemes is Cynthia Brewer palette for Diverging, Multi Hue and Single Hue. See: Color Brewer advices for maps. An Extra Palettes is also proposed in Arabesque.\n\n\n7.2.1.3 Color variation as a function of a variable\nThe color of the links can be set according to one of the variables (initial or calculated by Arabesque) that are available in the dataset.\n\n\n7.2.1.4 Color variation as a function of the type of a variable\n\n\n\n\n\n\nCaution\n\n\n\nThe type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, …).\n\n\n\n\n\n\n\nThe progression (up/down) of the color range depends on that of the value range: it can be direct or inverse. The checked box means an inverse progression: a light color is applied to a strong value.\n\n\n\n\n7.2.2 Links’ stroke\nThe outline of the lines or arrows can be modified: their color and their thickness (between 0 and 1 px).\n\n\n\n7.2.3 Links’ size\nThe size of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe choice of the varied option then leads to selecting the variable to consider?\n\n\n\n\n\nThe graphic width of the links can be parameterized according to three scales: linear, square root and logarithmic.\nThis choice must be decided according to the distribution of your flow dataset. It can be achieved by applying a filter to the value to be mapped.\n\n\n\n\n\nThe parameterization of the ratio parameter makes it possible to balance the drawing of the flows with respect to the whole of the map and to the bounding box, and, so that the draw lines are neither too wide nor too thin. This parameter is subjective and must be assessed according to the phenomenon and the audience receiving the map.\n\n\n\n7.2.4 Links’ opacity\nThe transparency of the color of the links can be fixed for all links or vary according to a quantity, corresponding to one of the quantitative variables available in the edge file (for native or calculated at import).\n\n\n\n\n\nThe transparency can be parameterised according to four scales: linear, square, square root and logarithmic.\n\n\n\n\n\nThe opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Designing the links/arrows</span>"
     ]
@@ -684,7 +684,7 @@
     "href": "11-tracking-changes.html#data-importation",
     "title": "13  Tracking changes",
     "section": "13.3 Data importation",
-    "text": "13.3 Data importation\nJuin 2020\nIn Arabesque 2, you have to declare or to import your nodes firstly, both for standard import and for “standard localisation codes” and “custom localisation file”.",
+    "text": "13.3 Data importation\nJune 2020\nIn Arabesque 2, you have to declare or to import your nodes firstly, both for standard import and for “standard localisation codes” and “custom localisation file”.",
     "crumbs": [
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
@@ -693,10 +693,130 @@
     "objectID": "10-gallery.html#historic-international-trade-flow",
     "href": "10-gallery.html#historic-international-trade-flow",
     "title": "12  Gallery",
-    "section": "",
-    "text": "Title\nPourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ?\nRetour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque\n\n\n\n\nAuthors\nPaul Girard, Béatrice Dedinger\n\n\nData\nRIcardo data set. Medialab, Sciences Po, Paris.\n\n\nweb link\nhttps://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/\n\n\nReference",
+    "section": "12.8 Historic international trade flow",
+    "text": "12.8 Historic international trade flow\n\nFlow mapping: Paul Girard (Sciences Po/medialab) and Béatrice Dedinger (Sciences Po/Centre d’Histoire)\nData source: RIcardo dataset. Medialab, Sciences Po, Paris. See /github/RIcardo.\nBased map: Natural earth database countries.\nReference: Paul Girard, Béatrice DedingerPourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque medialab/RIcardo@humanistica2020. Béatrice Dedinger, & Paul Girard. (2017). RICardo dataset 2017.12 (Version 2017.12) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1119592",
     "crumbs": [
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#european-birds-migration",
+    "href": "10-gallery.html#european-birds-migration",
+    "title": "12  Gallery",
+    "section": "12.2 European birds migration",
+    "text": "12.2 European birds migration\nNocturnal bird migration (one particular night) based on data from the European network of weather radars.\n\n\n\n\n\nFlow mapping: Françoise Bahoken (Univ. Gustave Eiffel), 2025.\nData source: Raphaël Nussbaumer, Bird migration modelling (BMM), 2018.\nBased map: CARTO Database with no labels.\nReferences: Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. https://doi.org/10.1098/rsif.2021.0194",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#covid-2020-french-migration",
+    "href": "10-gallery.html#covid-2020-french-migration",
+    "title": "12  Gallery",
+    "section": "12.3 Covid 2020 french migration",
+    "text": "12.3 Covid 2020 french migration\nFlow mapping: Francoise Bahoken (Univ. Gustave Eiffel, 2020.\nData source: Bouygues Telecom, Orange Business Services France, SFR and INSEE, 2020. See documentation\nReferences: Galiana, L., Suarez Castillo, M., Sémécurbe, F. Coudin, E., de Bellefon, M.-P. (2020), “Retour partiel des mouvements de population avec le déconfinement”, Insee Analyses N°54, INSEE.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#school-mobility-in-france",
+    "href": "10-gallery.html#school-mobility-in-france",
+    "title": "12  Gallery",
+    "section": "12.4 School mobility in France",
+    "text": "12.4 School mobility in France\nSchool mobility in 2021: journeys between home and place of study, aggregated by departments.\n\nFlow mapping: Francoise Bahoken (Univ. Gustave Eiffel), 2021\nData source: French Population Census - Mobility flows database. School mobility (MOBSCOL), INSEE, 2020. See Documentation.\nBased map: Open Street Map contributors.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#international-flows-of-iron",
+    "href": "10-gallery.html#international-flows-of-iron",
+    "title": "12  Gallery",
+    "section": "12.5 International flows of iron",
+    "text": "12.5 International flows of iron\n\nFlow mapping: Tony Hauck, 2025\nData source: Laurent Jégou, Marion Maisonobe, International Comtrade database, United Nations, 2017.\nBased map: Stamen light.\nReferences: Laurent Jégou, Marion Maisonobe, Explorer les réseaux mondiaux : proposition d’outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.\n\nFlow mapping: Francoise Bahoken (Univ. Gustave Eiffel), 2025\nData source: Laurent Jégou, Marion Maisonobe, International Comtrade database, United Nations, 2017.\nBased map: ESRI World topographic map.\nReferences: Laurent Jégou, Marion Maisonobe, Explorer les réseaux mondiaux : proposition d’outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#international-refugees-in-2017",
+    "href": "10-gallery.html#international-refugees-in-2017",
+    "title": "12  Gallery",
+    "section": "12.6 International refugees in 2017",
+    "text": "12.6 International refugees in 2017\nRefugees and internally displaced persons in 2017. Migrants flows of more than 10,000 people and less than 5,000 kilometers.\n\nFlow mapping: Francoise Bahoken (Univ. Gustave Eiffel), 2025.\nData source: United Nations, UNHCR. 2015\nBased map: ESRI World topographic map.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "10-gallery.html#international-migration-stock",
+    "href": "10-gallery.html#international-migration-stock",
+    "title": "12  Gallery",
+    "section": "12.7 International migration stock",
+    "text": "12.7 International migration stock\n\nFlow mapping: Francoise Bahoken (Univ. Gustave Eiffel), 2023.\nData source: International migrant stocks, United Nations, 2019.\nBased map: ESRI World topographic map.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Gallery</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#about-this-book",
+    "href": "index.html#about-this-book",
+    "title": "Flow mapping with Arabesque 2",
+    "section": "About this book",
+    "text": "About this book\nThis book is reproducible and generated in R with Quarto. It is automatically update via Github actions",
+    "crumbs": [
+      "Welcome !"
+    ]
+  },
+  {
+    "objectID": "index.html#want-to-contribute",
+    "href": "index.html#want-to-contribute",
+    "title": "Flow mapping with Arabesque 2",
+    "section": "Want to contribute ?",
+    "text": "Want to contribute ?\nAny one can contribute to make this better. So feel free to contribute and report any issue on the arabesque2-doc repo. You need a github account to be able to edit the pages.\n View sources",
+    "crumbs": [
+      "Welcome !"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-stroke",
+    "href": "06-design-nodes.html#nodes-stroke",
+    "title": "8  Designing the nodes",
+    "section": "8.3 Node’s stroke",
+    "text": "8.3 Node’s stroke\nThe outline of the nodes can be modified: their color and their thickness (between 0 and 1 px).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-text",
+    "href": "06-design-nodes.html#nodes-text",
+    "title": "8  Designing the nodes",
+    "section": "8.5 Node’s Text",
+    "text": "8.5 Node’s Text\nText can be displayed as node labels.\n\nThe text can be defined according to one of the variable available in the nodes’ data set, here the name, the type, etc..",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
+    ]
+  },
+  {
+    "objectID": "06-design-nodes.html#nodes-opacity",
+    "href": "06-design-nodes.html#nodes-opacity",
+    "title": "8  Designing the nodes",
+    "section": "8.6 Node’s Opacity",
+    "text": "8.6 Node’s Opacity\nThe transparency of the color of the nodes can be fixed for all of them.\n\nThe nodes’ opacity can also vary according to a quantity, corresponding to one of the quantitative variables available in the nodes file, for native or calculated indicators at import.\n\nThe transparency can be parameterised according to four scales: linear, square, square root and logarithmic.\n\nThe opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Designing the nodes</span>"
+    ]
+  },
+  {
+    "objectID": "11-tracking-changes.html#gallery",
+    "href": "11-tracking-changes.html#gallery",
+    "title": "13  Tracking changes",
+    "section": "13.6 Gallery",
+    "text": "13.6 Gallery\nJune 2025: addition of a chapter showing examples of flow maps produced with Arabesque. See here",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Tracking changes</span>"
     ]
   }
 ]

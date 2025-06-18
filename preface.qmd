@@ -1,6 +1,6 @@
 # Preface
 
-This Quarto book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping created within the geographic flow vizualisation research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr).
+This book contains the online documentation of the second version of [*Arabesque*](arabesque.univ-eiffel.fr), a web application for thematic flow mapping, created within the geographic flow visualization research program ([gflowiz](https://geoflowiz.hypotheses.org/accueil/abstract)) funded by [Univ. Gustave Eiffel](www.univ-eiffel.fr).
 
 ## Challenges
 
@@ -8,9 +8,9 @@ This Quarto book contains the online documentation of the second version of [*Ar
 
 The analysis of the dynamics of urban areas or metropolises in one hand, the delimitation of their functional areas and the spatio-temporal comparison of their patterns in the other hand, are often limited by two categories of problems inherent in data and tools.\
 \
-The lack of open origin-destination (OD) data sets depicting territorial interactions and interrelations limited the possibility of empirical analysis. Similarly, the lack of dedicated geovisualization and cartographic analysis tools means that many images of visual and analytical interest are no longer part of the current cartographic landscape. In addition to these specific problems regarding online OD data, it is important to focus attention on the current possibilities offered by online possibilities of OD cartography.
+The lack of open origin-destination (OD) data sets depicting territorial interactions and interrelations limited the possibility of empirical analysis. Similarly, the lack of dedicated geovisualization and cartographic analysis tools means that many images of visual and analytic interest are no longer part of the current cartographic landscape. In addition to these specific problems regarding online OD data, it is important to focus attention on the current possibilities offered by online possibilities of OD cartography.
 
-The current range of possibilities for exploring flows and networks datasets on the geoweb is symptomatic of the ongoing enthusiasm of a growing interdisciplinary community. While for a long time the efforts were limited to direct visualisation alone, applications specifically dedicated to flows have recently come on line.
+The current range of possibilities for exploring flows and networks datasets on the geoweb is symptomatic of the ongoing enthusiasm of a growing interdisciplinary community. While for a long time the efforts were limited to direct visualization alone, applications specifically dedicated to flows have recently come on line.
 
 ## State of the Art
 

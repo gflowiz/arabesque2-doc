@@ -1,6 +1,6 @@
 # Designing the nodes
 
-This chapter concerns the drawing of the nodes, especially the configuration of their semiology.
+This chapter concerns the drawing of the nodes, especially the configuration of their graphical semiology. Nodes are currently drawn exclusively in the form of circles.
 
 ![](images/geom_panel_nodessigns.png){fig-align="left"}
 
@@ -12,9 +12,7 @@ Note: other geographic information layers (tiles, ...) can also be displayed in 
 
 ## Nodes semiology
 
-![](images/Buton_action_semio.png) Three semiological parameters are available for designing the nodes : their color, their size ; their topononym or label and their opacity.
-
-Hereby the general window for changing the semiology and the style of the nodes, regarding three parameters : their color, their size and their toponym (text).
+![](images/Buton_action_semio.png) Three semiological parameters are available for designing the nodes : their background color (tone, hue, saturation) and its opacity ; their outline (thickness and color) ; their size (fixed or variable according to a quantity) and the display of one label.
 
 ![](images/Nodes_semio.PNG){fig-align="left"}
 
@@ -74,6 +72,12 @@ The progression (up/down) of the **color range** depends on that of the **value 
 
 ![](images/geom_add_nodes_1_color_variable3.png)
 
+## **Node's stroke**
+
+The outline of the nodes can be modified: their color and their thickness (between 0 and 1 px).
+
+![](images/Nodes_stroke.png){fig-align="left"}
+
 ## **Node's size**
 
 The size of the nodes can be fixed and the weight defined.
@@ -96,21 +100,31 @@ The **ratio** representing the max width in pixel of the graphic features can be
 
 ![](images/geom_add_nodes_2_size_ratio.png)
 
-## **Node's label (text)**
+## **Node's Text**
 
-Textual elements can also be added near the nodes.
+Text can be displayed as node labels.
 
 ![](images/geom_add_nodes_3_texte.png)
 
-The text can be defined according to one of the variable available in the nodes' dataset, here the name, the type, etc..
+The text can be defined according to one of the variable available in the nodes' data set, here the name, the type, etc..
 
-The opacity of the text shade (currently set to black) can be set to a given value (here 0.91).
+## **Node's Opacity**
+
+The transparency of the color of the nodes can be fixed for all of them.
 
 ![](images/geom_add_nodes_3_texte_fixe.png)
 
-The opacity of the text shade (currently set to black) can be varied according to an indicator present in the dataset, that is to say : the nodes' original variables and the precalculated ones (degree, ...).
+The nodes' opacity can also vary according to a quantity, corresponding to one of the quantitative variables available in the nodes file, for native or calculated indicators at import.
 
 ![](images/geom_add_nodes_3_texte_variable.png)
+
+The transparency can be parameterised according to four scales: linear, square, square root and logarithmic.
+
+![](images/geom_add_nodes_3_texte_variable_scale.png)
+
+The opacity value, between 0 and 1, is set for one or two values (minimum and/or maximum).
+
+![](images/geom_add_nodes_3_texte_variable_scale_min-max.png)
 
 ## The nodes' geometric parameters
 

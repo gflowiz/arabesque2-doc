@@ -2,9 +2,9 @@
 
 Hereby are examples of flow maps made with Arabesque.
 
-## African migrants
+## African migrants flows
 
-Estimated internal human migration flows from 2005 to 2010 between subnational administrative units for malaria endemic countries
+Estimated internal human migrants flows from 2005 to 2010 between sub-national administrative units for malaria endemic countries.
 
 ![](images/Example_african_migrants_malaria_zones_map_Bahoken.png){fig-align="left"}
 
@@ -12,9 +12,11 @@ Estimated internal human migration flows from 2005 to 2010 between subnational a
 
 **Data source:** Estimated internal human migration flows between subnational administrative units for malaria endemic countries (WHO, 2015). See [Documentation](http://www.who.int/malaria/publications/country-profiles/en/). [Data Descriptor](https://www.nature.com/articles/sdata201666.pdf). Sorichetta A. *et al*. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66
 
+**Based map:** ESRI World imagery.
+
 **References:** Françoise Bahoken (5 mai 2025). [Flux de migrants en zone endémique paludéenne](https://doi.org/10.58079/13v61) (2016). *Carnet (neo)cartographique*. Sorichetta, A., Bird, T., Ruktanonchai, N. et al. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66
 
-## Birds migration
+## European birds migration
 
 Nocturnal bird migration (one particular night) based on data from the European network of weather radars.
 
@@ -23,6 +25,8 @@ Nocturnal bird migration (one particular night) based on data from the European 
 **Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.
 
 **Data source:** Raphaël Nussbaumer, [Bird migration modelling (BMM)](https://birdmigrationmap.vogelwarte.ch/), 2018.
+
+**Based map:** CARTO Database with no labels.
 
 **References:** Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. <https://doi.org/10.1098/rsif.2021.0194>
 
@@ -44,9 +48,19 @@ School mobility in 2021: journeys between home and place of study, aggregated by
 
 **Data source:** French Population Census - Mobility flows database. School mobility (MOBSCOL), INSEE, 2020. See [Documentation](https://www.insee.fr/fr/statistiques/8201894).
 
+**Based map:** Open Street Map contributors.
+
 ## International flows of iron
 
 ![](images/Example_flows_of_iron_map_Bahoken.png)
+
+**Flow mapping:** Tony Hauck, 2025
+
+**Data source:** Laurent Jégou, Marion Maisonobe, *International Comtrade database*, United Nations, 2017.
+
+**Based map:** Stamen light.
+
+**References:** Laurent Jégou, Marion Maisonobe, [*Explorer les réseaux mondiaux*](https://hal.science/hal-01854410v1) *: proposition d'outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux*. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.
 
 ![](images/Example2_flows_of_iron_map_Bahoken.png)
 
@@ -54,9 +68,31 @@ School mobility in 2021: journeys between home and place of study, aggregated by
 
 **Data source:** Laurent Jégou, Marion Maisonobe, *International Comtrade database*, United Nations, 2017.
 
+**Based map:** ESRI World topographic map.
+
 **References:** Laurent Jégou, Marion Maisonobe, [*Explorer les réseaux mondiaux*](https://hal.science/hal-01854410v1) *: proposition d'outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux*. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.
 
+## International refugees in 2017
+
+Refugees and internally displaced persons in 2017. Migrants flows of more than 10,000 people and less than 5,000 kilometers.
+
+![](images/Example_international_refugees_in_2015_map_Bahoken.png)
+
+**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2025.
+
+**Data source:** United Nations, UNHCR. 2015
+
+**Based map:** ESRI World topographic map.
+
 ## International migration stock
+
+![](images/Example_international_migrants_map_Bahoken.png)
+
+**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2023.
+
+**Data source:** International migrant stocks, United Nations, 2019.
+
+**Based map:** ESRI World topographic map.
 
 ## Historic international trade flow
 
@@ -65,5 +101,7 @@ School mobility in 2021: journeys between home and place of study, aggregated by
 **Flow mapping:** Paul Girard (Sciences Po/medialab) and Béatrice Dedinger (Sciences Po/Centre d'Histoire)
 
 **Data source:** RIcardo dataset. Medialab, Sciences Po, Paris. See [/github/RIcardo](https://github.com/medialab/ricardo_data).
+
+**Based map:** Natural earth database countries.
 
 **Reference:** Paul Girard, Béatrice Dedinger*Pourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque* [medialab/RIcardo\@humanistica2020](https://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/). Béatrice Dedinger, & Paul Girard. (2017). RICardo dataset 2017.12 (Version 2017.12) \[Data set\]. Zenodo. <http://doi.org/10.5281/zenodo.1119592>

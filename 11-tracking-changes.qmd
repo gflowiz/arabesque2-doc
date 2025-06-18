@@ -49,6 +49,10 @@ Improvements of the semiology/symbology of nodes. See [here.](https://gflowiz.gi
 
 -   Added the possibility of displaying labels of nodes.
 
+## Gallery
+
+*June 2025:* addition of a chapter showing examples of flow maps produced with Arabesque. See [here](https://gflowiz.github.io/arabesque2-doc/10-gallery.html)
+
 ## Interoperability
 
 *March 2025:* Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See [Interoperability](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html).

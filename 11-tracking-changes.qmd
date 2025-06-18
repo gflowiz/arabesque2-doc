@@ -2,7 +2,7 @@
 
 This section summarizes the changes made to Arabesque over time, for each of the chapters and sections.
 
-## Customize
+## Cosmetics
 
 *July 2024:\
 *First step towards the possibility of improving flowmap layouts.

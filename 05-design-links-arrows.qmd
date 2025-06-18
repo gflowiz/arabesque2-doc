@@ -67,7 +67,7 @@ The color of the links can be set according to one of the variables (initial or 
 #### Color variation as a function of the type of a variable
 
 ::: {.callout-caution appearance="simple"}
-### Caution 
+### Caution
 
 The type of color range (Diverging/Multi Hue/Single Hue/Extra Palette) will have to be realized according to the type of the variable to represent (quantitative/qualitative, discrete/continuous, stock/ratio/scale, ...).
 :::
@@ -80,9 +80,7 @@ The progression (up/down) of the **color range** depends on that of the **value 
 
 ### Links' stroke
 
-The outline of the lines or arro
-
-ws can be modified: their color and their thickness (between 0 and 1 px).
+The outline of the lines or arrows can be modified: their color and their thickness (between 0 and 1 px).
 
 ![](images/Links_stroke.png)
 
@@ -112,7 +110,7 @@ The transparency of the color of the links can be fixed for all links or vary ac
 
 ![](images/Links_opacity.png){fig-align="left"}
 
-The transparency can be parameterized according to four scales: linear, square, square root and logarithmic.
+The transparency can be parameterised according to four scales: linear, square, square root and logarithmic.
 
 ![](images/Links_opacity_scales.png){fig-align="left"}
 

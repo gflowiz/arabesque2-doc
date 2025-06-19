@@ -116,7 +116,7 @@ Total number of passengers between French airports in 2019 : local passengers an
 
 **Flow mapping:** Françoise Bahoken, 2025
 
-**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr)
+**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr).
 
 **Based map:** Stadia Stamen dark.
 
@@ -164,7 +164,7 @@ Nocturnal bird migration (one particular night) based on data from the European 
 
 ### French total freight in 2019
 
-Total freight between French airports
+Domestic total freight between French airports
 
 ![](images/clipboard-1254922365.png)
 

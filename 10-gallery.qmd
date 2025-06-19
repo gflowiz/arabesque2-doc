@@ -108,6 +108,20 @@ School mobility in 2021 between home and place of study less than 200 kilometers
 
 **Based map:** Open Street Map contributors.
 
+### Domestic passengers flows in France in 2019
+
+Total number of passengers between French airports in 2019 : local passengers and transit passengers, without double counting.
+
+![](images/Example_domestic_air_passengers_total_2019_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Françoise Bahoken, 2025
+
+**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr)
+
+**Based map:** Stadia Stamen dark.
+
+**References:** *gflowiz team,* [Cartomob international conference mapathon](https://github.com/gflowiz/mapathon/tree/master), 2020.
+
 ### International refugees in 2017
 
 Refugees and internally displaced persons in 2017. Migrants flows of more than 10,000 people and less than 5,000 kilometers.
@@ -147,6 +161,20 @@ Nocturnal bird migration (one particular night) based on data from the European 
 **References:** Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. <https://doi.org/10.1098/rsif.2021.0194>
 
 ## **Goods and trade flows**
+
+### French total freight in 2019
+
+Total freight between French airports
+
+![](images/clipboard-1254922365.png)
+
+**Flow mapping:** Françoise Bahoken, 2025
+
+**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr)
+
+**Based map:** Stadia Stamen dark.
+
+**References:** *gflowiz team,* [Cartomob international conference mapathon](https://github.com/gflowiz/mapathon/tree/master), 2020.
 
 ### International flows of iron
 

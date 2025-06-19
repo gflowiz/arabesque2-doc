@@ -1,8 +1,32 @@
 # Gallery
 
-Hereby are examples of flow maps made with Arabesque.
+Hereby are examples of flow maps made with Arabesque, sorted bu main topic.
 
-## African migrants flows
+## Sustainable Development 
+
+### Food supply network (short food delivery)
+
+Short food delivery rounds declared by users of the [Logicout](https://logicout.fr/couts/) online application, enabling the cost and carbon impact of short-distance deliveries to be calculated).
+
+Geography of short food circuits declared in the Logicout database in 2024.
+
+![](images/Example_logicout_all_places_map_Bahoken.png)
+
+Short food circuits declared in euros in the Logicout database in 2024.
+
+![](images/Example_logicout_rounds_in_euros_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2024.
+
+**Data source:** [Logicout](https://logicout.fr/couts/) database, Univ. Gustave Eiffel and Cerema. Data compiled by Nicolas Roelandt, Univ. Gustave Eiffel, 2024.
+
+**Based map:** Open Street Map contributors.
+
+**References:** Gwenaëlle Raton, [Logicout, présentation](https://splott.univ-gustave-eiffel.fr/la-recherche/logicout), Univ. Gustave Eiffel, Département Aménagement, mobilités, environnement. (AME), laboratoire Splott.
+
+## Human migrations
+
+### African migrants in malaria endemic countries
 
 Estimated internal human migrants flows from 2005 to 2010 between sub-national administrative units for malaria endemic countries.
 
@@ -16,21 +40,7 @@ Estimated internal human migrants flows from 2005 to 2010 between sub-national a
 
 **References:** Françoise Bahoken (5 mai 2025). [Flux de migrants en zone endémique paludéenne](https://doi.org/10.58079/13v61) (2016). *Carnet (neo)cartographique*. Sorichetta, A., Bird, T., Ruktanonchai, N. et al. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66
 
-## European birds migration
-
-Nocturnal bird migration (one particular night) based on data from the European network of weather radars.
-
-![](images/Example_birds_migration_map_Bahoken.png){fig-align="left"}
-
-**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.
-
-**Data source:** Raphaël Nussbaumer, [Bird migration modelling (BMM)](https://birdmigrationmap.vogelwarte.ch/), 2018.
-
-**Based map:** CARTO Database with no labels.
-
-**References:** Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. <https://doi.org/10.1098/rsif.2021.0194>
-
-## Covid 2020 french migration
+### Covid 2020 french migration
 
 Inter french department post covid migrations over than 800 people and less than 200 kilometers.
 
@@ -44,7 +54,7 @@ Inter french department post covid migrations over than 800 people and less than
 
 **References:** Galiana, L., Suarez Castillo, M., Sémécurbe, F. Coudin, E., de Bellefon, M.-P. (2020), "Retour partiel des mouvements de population avec le déconfinement", Insee Analyses N°54, INSEE.
 
-## School mobility in France
+### School mobility in France
 
 School mobility in 2021: journeys between home and place of study, aggregated by departments.
 
@@ -56,29 +66,7 @@ School mobility in 2021: journeys between home and place of study, aggregated by
 
 **Based map:** Open Street Map contributors.
 
-## International flows of iron
-
-![](images/Example_flows_of_iron_map_Bahoken.png)
-
-**Flow mapping:** Tony Hauck, 2025
-
-**Data source:** Laurent Jégou, Marion Maisonobe, *International Comtrade database*, United Nations, 2017.
-
-**Based map:** Stamen light.
-
-**References:** Laurent Jégou, Marion Maisonobe, [*Explorer les réseaux mondiaux*](https://hal.science/hal-01854410v1) *: proposition d'outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux*. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.
-
-![](images/Example2_flows_of_iron_map_Bahoken.png)
-
-**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2025
-
-**Data source:** Laurent Jégou, Marion Maisonobe, *International Comtrade database*, United Nations, 2017.
-
-**Based map:** ESRI World topographic map.
-
-**References:** Laurent Jégou, Marion Maisonobe, [*Explorer les réseaux mondiaux*](https://hal.science/hal-01854410v1) *: proposition d'outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux*. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018.
-
-## International refugees in 2017
+### International refugees in 2017
 
 Refugees and internally displaced persons in 2017. Migrants flows of more than 10,000 people and less than 5,000 kilometers.
 
@@ -90,7 +78,7 @@ Refugees and internally displaced persons in 2017. Migrants flows of more than 1
 
 **Based map:** ESRI World topographic map.
 
-## International migration stock
+### International migration stock
 
 ![](images/Example_international_migrants_map_Bahoken.png)
 
@@ -100,7 +88,39 @@ Refugees and internally displaced persons in 2017. Migrants flows of more than 1
 
 **Based map:** ESRI World topographic map.
 
-## Historic international trade flow
+## Animal migrations
+
+### European birds migration
+
+Nocturnal bird migration (one particular night) based on data from the European network of weather radars.
+
+![](images/Example_birds_migration_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.
+
+**Data source:** Raphaël Nussbaumer, [Bird migration modelling (BMM)](https://birdmigrationmap.vogelwarte.ch/), 2018.
+
+**Based map:** CARTO Database with no labels.
+
+**References:** Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. <https://doi.org/10.1098/rsif.2021.0194>
+
+## Goods and trade flows
+
+### International flows of iron
+
+Global circulation of scrap metal and iron raw materials in 2015.
+
+![](images/Example_flows_of_iron_map_Bahoken.png)
+
+**Flow mapping:** Tony Hauck, 2025
+
+**Data source:** Laurent Jégou, Marion Maisonobe, *International Comtrade database*, United Nations, 2017.
+
+**Based map:** Stamen light.
+
+**References:** Laurent Jégou, Marion Maisonobe, [*Explorer les réseaux mondiaux*](https://hal.science/hal-01854410v1) *: proposition d'outil interactif combinant graphe (diagramme nœuds-liens) et carte de flux*. CIST2018 - Représenter les territoires / Representing territories, Collège international des sciences du territoire. 2018. Mucem, exposition temporaire [Vies d'ordures. De l'économie des déchets](https://www.mucem.org/programme/exposition-et-temps-forts/vies-dordures), 2017.
+
+### Historic international trade flow
 
 ![](images/Example_RIcardo_Girard_and_Dedinger.png)
 

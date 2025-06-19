@@ -2,7 +2,7 @@
 
 Hereby are examples of flow maps made with Arabesque, sorted bu main topic.
 
-## Sustainable Development
+## Sustainable Development and adaptation to climate change
 
 ### Food supply network (short food delivery from Logicout)
 
@@ -25,15 +25,19 @@ Short food circuits declared in euros in the Logicout database in 2024.
 
 **References:** Gwenaëlle Raton, [Logicout, présentation](https://splott.univ-gustave-eiffel.fr/la-recherche/logicout), Univ. Gustave Eiffel, Département Aménagement, mobilités, environnement. (AME), laboratoire Splott.
 
-### **Tree species and climate conditions**
+### **Tree species and climate conditions scientific collaborations**
 
-Tree species and climate conditions topic collaborations between cities in 2024.
+Tree species and climate conditions topic collaborations between cities in 2024, in less than 5,000 kilometers.
 
 ![](images/Example_scientific_collaborations_tree_species_map_Bahoken.png){fig-align="left"}
 
+Tree species and climate conditions topic collaborations between cities far from 5,000 to 12,000 kilomerers in 2024.
+
+![](images/Example_scientific_collaborations_tree_species_5-12kkm_map_Bahoken.png)
+
 **Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel)
 
-**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme " ". Data compiled by Lionel Villard (Univ. Gustave Eiffel) and Etienne Côme (Univ. Gustave Eiffel).
+**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme "Tree species and climates conditions". Data compiled by Lionel Villard (Univ. Gustave Eiffel) and Étienne Côme (Univ. Gustave Eiffel).
 
 **Based map:** Stamen Terrain, with equidistant conic cartographic projection.
 
@@ -144,7 +148,7 @@ Nocturnal bird migration (one particular night) based on data from the European 
 
 Global circulation of scrap metal and iron raw materials in 2015.
 
-![](images/Example_flows_of_iron_map_Bahoken.png)
+![](images/Example_flows_of_iron_map_Hauck.png)
 
 **Flow mapping:** Tony Hauck, 2025
 

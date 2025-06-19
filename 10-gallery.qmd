@@ -70,11 +70,15 @@ Inter french department post covid migrations over than 800 people and less than
 
 ### School mobility in France
 
-School mobility in 2021: journeys between home and place of study, aggregated by departments.
+School mobility in 2021: all journeys between home and place of study, aggregated by departments.
 
 ![](images/Example_scholarmobility_map_Bahoken.png)
 
-**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2021
+School mobility in 2021 between home and place of study less than 200 kilometers.
+
+![](images/Example_mobscol_less_than_200km_map_Bahoken.PNG){fig-align="left"}
+
+**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2025.
 
 **Data source:** French Population Census - Mobility flows database. School mobility (MOBSCOL), INSEE, 2020. See [Documentation](https://www.insee.fr/fr/statistiques/8201894).
 

@@ -1,8 +1,8 @@
 # Gallery
 
-Hereby are examples of flow maps made with Arabesque, sorted bu main topic.
+Hereby are examples of flow maps made with Arabesque, sorted by main topic.
 
-## Sustainable Development and adaptation to climate change
+## **Sustainable Development and adaptation to climate change**
 
 ### Food supply network (short food delivery from Logicout)
 
@@ -25,7 +25,7 @@ Short food circuits declared in euros in the Logicout database in 2024.
 
 **References:** Gwenaëlle Raton, [Logicout, présentation](https://splott.univ-gustave-eiffel.fr/la-recherche/logicout), Univ. Gustave Eiffel, Département Aménagement, mobilités, environnement. (AME), laboratoire Splott.
 
-### **Tree species and climate conditions scientific collaborations**
+### Tree species and climate conditions scientific collaborations
 
 Tree species and climate conditions topic collaborations over to nine publications in 2024, between cities 5,000 kilometers away from each other.
 
@@ -47,7 +47,7 @@ Tree species and climate conditions topic collaborations over to five publicatio
 
 **References:** RETICULAR program, Univ. Gustave Eiffel. 2025. Made with CorText Manager and Arabesque.
 
-### **Temperature topic scientific collaboration**s
+### Temperature topic scientific collaborations
 
 Urban heat island and air temperature topic collaborations between cities in 2021.
 
@@ -61,7 +61,7 @@ Urban heat island and air temperature topic collaborations between cities in 202
 
 **References:** RETICULAR program, Univ. Gustave Eiffel. 2025.
 
-## Human mobilities
+## **Human mobilities**
 
 ### African migrants in malaria endemic countries
 
@@ -130,7 +130,7 @@ Refugees and internally displaced persons in 2017. Migrants flows of more than 1
 
 **Based map:** ESRI World topographic map.
 
-## Animal migrations
+## **Animal migrations**
 
 ### European birds migration
 
@@ -146,7 +146,7 @@ Nocturnal bird migration (one particular night) based on data from the European 
 
 **References:** Raphaël Nussbaumer,Silke Bauer, Lionel Benoit, Grégoire Mariethoz, Felix Liechti and Baptiste Schmid (2021), Quantifying year-round nocturnal bird migration with a fluid dynamics model, Royal Society Publishing. <https://doi.org/10.1098/rsif.2021.0194>
 
-## Goods and trade flows
+## **Goods and trade flows**
 
 ### International flows of iron
 

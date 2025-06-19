@@ -27,15 +27,19 @@ Short food circuits declared in euros in the Logicout database in 2024.
 
 ### **Tree species and climate conditions scientific collaborations**
 
-Tree species and climate conditions topic collaborations between cities in 2024, in less than 5,000 kilometers.
+Tree species and climate conditions topic collaborations over to nine publications in 2024, between cities 5,000 kilometers away from each other.
 
 ![](images/Example_scientific_collaborations_tree_species_map_Bahoken.png){fig-align="left"}
 
-Tree species and climate conditions topic collaborations between cities far from 5,000 to 12,000 kilomerers in 2024.
+Tree species and climate conditions topic collaborations over to nine publications in 2024, between cities 5,000 to 12,000 kilometers away from each other.
 
 ![](images/Example_scientific_collaborations_tree_species_5-12kkm_map_Bahoken.png)
 
-**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel)
+Tree species and climate conditions topic collaborations over to five publications in 2024, between the cities of the Gulf of Guinea.
+
+![](images/Example_scientific_collaborations_tree_species_Gulf_Guinee_map_Bahoken-01.png)
+
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.
 
 **Data source:** Web of Sciences (WOS), International scientific collaborations on the theme "Tree species and climates conditions". Data compiled by Lionel Villard (Univ. Gustave Eiffel) and Étienne Côme (Univ. Gustave Eiffel).
 

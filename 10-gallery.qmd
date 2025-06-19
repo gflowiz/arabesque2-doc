@@ -16,13 +16,28 @@ Short food circuits declared in euros in the Logicout database in 2024.
 
 ![](images/Example_logicout_rounds_in_euros_map_Bahoken.png){fig-align="left"}
 
-**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2024.
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2024. \
+**Note:** Flow maps layout in drawing software.
 
 **Data source:** [Logicout](https://logicout.fr/couts/) database, Univ. Gustave Eiffel and Cerema. Data compiled by Nicolas Roelandt, Univ. Gustave Eiffel, 2024.
 
 **Based map:** Open Street Map contributors.
 
 **References:** Gwenaëlle Raton, [Logicout, présentation](https://splott.univ-gustave-eiffel.fr/la-recherche/logicout), Univ. Gustave Eiffel, Département Aménagement, mobilités, environnement. (AME), laboratoire Splott.
+
+### **Tree species and climate conditions**
+
+Tree species and climate conditions topic collaborations between cities in 2024.
+
+![](images/Example_scientific_collaborations_tree_species_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel)
+
+**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme " ". Data compiled by Lionel Villard (Univ. Gustave Eiffel) and Etienne Côme (Univ. Gustave Eiffel).
+
+**Based map:** Stamen Terrain, with equidistant conic cartographic projection.
+
+**References:** RETICULAR program, Univ. Gustave Eiffel. 2025. Made with CorText Manager and Arabesque.
 
 ### **Temperature topic scientific collaboration**s
 
@@ -32,13 +47,13 @@ Urban heat island and air temperature topic collaborations between cities in 202
 
 **Flow mapping:** Françoise Bahoken, Etienne Côme and Lionel Villard (Univ. Gustave Eiffel)
 
-**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme Climate changes in urban areas.
+**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme "Climate changes in urban areas".
 
 **Based map:** ESRI World topographic map.
 
 **References:** RETICULAR program, Univ. Gustave Eiffel. 2025.
 
-## Human migrations
+## Human mobilities
 
 ### African migrants in malaria endemic countries
 
@@ -46,7 +61,8 @@ Estimated internal human migrants flows from 2005 to 2010 between sub-national a
 
 ![](images/Example_african_migrants_malaria_zones_map_Bahoken.png){fig-align="left"}
 
-**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2025.\
+**Note:** Flow map layout in drawing software.
 
 **Data source:** Estimated internal human migration flows between subnational administrative units for malaria endemic countries (WHO, 2015). See [Documentation](http://www.who.int/malaria/publications/country-profiles/en/). [Data Descriptor](https://www.nature.com/articles/sdata201666.pdf). Sorichetta A. *et al*. Mapping internal connectivity through human migration in malaria endemic countries. Sci Data 3, 160066 (2016). https://doi.org/10.1038/sdata.2016.66
 

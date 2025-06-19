@@ -2,9 +2,9 @@
 
 Hereby are examples of flow maps made with Arabesque, sorted bu main topic.
 
-## Sustainable Development 
+## Sustainable Development
 
-### Food supply network (short food delivery)
+### Food supply network (short food delivery from Logicout)
 
 Short food delivery rounds declared by users of the [Logicout](https://logicout.fr/couts/) online application, enabling the cost and carbon impact of short-distance deliveries to be calculated).
 
@@ -23,6 +23,20 @@ Short food circuits declared in euros in the Logicout database in 2024.
 **Based map:** Open Street Map contributors.
 
 **References:** Gwenaëlle Raton, [Logicout, présentation](https://splott.univ-gustave-eiffel.fr/la-recherche/logicout), Univ. Gustave Eiffel, Département Aménagement, mobilités, environnement. (AME), laboratoire Splott.
+
+### **Temperature topic scientific collaboration**s
+
+Urban heat island and air temperature topic collaborations between cities in 2021.
+
+![](images/Example_scientific_collaborations_urban_heat_island_map_Bahoken_Come_Villard.png)
+
+**Flow mapping:** Françoise Bahoken, Etienne Côme and Lionel Villard (Univ. Gustave Eiffel)
+
+**Data source:** Web of Sciences (WOS), International scientific collaborations on the theme Climate changes in urban areas.
+
+**Based map:** ESRI World topographic map.
+
+**References:** RETICULAR program, Univ. Gustave Eiffel. 2025.
 
 ## Human migrations
 

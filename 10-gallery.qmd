@@ -234,12 +234,14 @@ Global circulation of scrap metal and iron raw materials in 2015.
 
 **Reference:** Paul Girard, Béatrice Dedinger*Pourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque* [medialab/RIcardo\@humanistica2020](https://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/). Béatrice Dedinger, & Paul Girard. (2017). RICardo dataset 2017.12 (Version 2017.12) \[Data set\]. Zenodo. <http://doi.org/10.5281/zenodo.1119592>
 
+### Historic international trade flow: map projections and reprojections
+
 ![](images/Example_RIcardo_trade_flow_Bahoken.png){fig-align="left"}
 
 ![](images/Example_historic_international_trade_flows_map_Bahoken.png){fig-align="left"}
 
 **Flow mapping:** Françoise Bahoken, 2020\
-Made with Arabesque versio 1.
+Made with Arabesque version 1.
 
 **Data source:** RIcardo dataset. Medialab, Sciences Po, Paris. See [/github/RIcardo](https://github.com/medialab/ricardo_data).
 

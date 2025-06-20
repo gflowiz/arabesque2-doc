@@ -61,6 +61,48 @@ Urban heat island and air temperature topic collaborations between cities in 202
 
 **References:** RETICULAR program, Univ. Gustave Eiffel. 2025.
 
+## **Transports movements**
+
+### Domestic air passengers flows in France in 2019
+
+Total number of passengers between French airports in 2019 : local passengers and transit passengers, without double counting.
+
+![](images/Example_domestic_air_passengers_total_2019_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Françoise Bahoken, 2025
+
+**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr).
+
+**Based map:** Stadia Stamen dark.
+
+**References:** *gflowiz team,* [Cartomob international conference mapathon](https://github.com/gflowiz/mapathon/tree/master), 2020.
+
+### Bike trips in London in 2017
+
+Number of bike trips, greater than one kilometer, within London's Santander Cycle Hire Scheme in 2017.
+
+![](images/Example_London_bikes_up1km_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2024.
+
+**Data source:** Greater London Authority, 2017 See [//data.london.gov.uk](https://data.london.gov.uk/)
+
+**Based map:** Open Street Map contributors.
+
+### Summer car-sharing in France in 2022
+
+Number of carpooling journeys made in France in August 2022 (450,000 movements between 7,800 municipalities).
+
+![](images/Example_car_sharing_France_map_Bahoken.png){fig-align="left"}
+
+**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2023.
+
+**Data source:** Registre de preuve du covoiturage, 2022. See [//covoiturage.beta.gouv.fr](https://covoiturage.beta.gouv.fr/)
+
+**Based map:** Open Street Map contributors.
+
+**References:** Françoise Bahoken, *Arabesque*, Journée d'étude :"La boite à outils de cartographie et de géovisualisation de données. Regards croisés de chercheurs ([JE Rennes](https://github.com/magisAR9/JEGeovizRennes)), Action de recherche n°9 (Carto)graphies et (géo)visualisation de données, GdR CNRS MAGIS, Rennes, 2023.
+
 ## **Human mobilities**
 
 ### African migrants in malaria endemic countries
@@ -91,20 +133,6 @@ Inter french department post covid migrations over than 800 people and less than
 **Based map:** CARTO database voyager labeled.
 
 **References:** Galiana, L., Suarez Castillo, M., Sémécurbe, F. Coudin, E., de Bellefon, M.-P. (2020), "Retour partiel des mouvements de population avec le déconfinement", Insee Analyses N°54, INSEE.
-
-### Summer car-sharing in France in 2022
-
-Number of carpooling journeys made in France in August 2022 (450,000 movements between 7,800 municipalities).
-
-![](images/Example_car_sharing_France_map_Bahoken.png){fig-align="left"}
-
-**Flow mapping:** Francoise Bahoken (Univ. Gustave Eiffel), 2023.
-
-**Data source:** Registre de preuve du covoiturage, 2022. See [//covoiturage.beta.gouv.fr](https://covoiturage.beta.gouv.fr/)
-
-**Based map:** Open Street Map contributors.
-
-**References:** Françoise Bahoken, *Arabesque*, Journée d'étude :"La boite à outils de cartographie et de géovisualisation de données. Regards croisés de chercheurs ([JE Rennes](https://github.com/magisAR9/JEGeovizRennes)), Action de recherche n°9 (Carto)graphies et (géo)visualisation de données, GdR CNRS MAGIS, Rennes, 2023.
 
 ### School mobility in France
 
@@ -139,20 +167,6 @@ School mobility in 2021 between home and place of study less than 200 kilometers
 **Based map:** Open Street Map contributors.
 
 **Reference:** Françoise Bahoken, Étienne Côme, Laurent Jégou, *Arabesque : une application web dédiée aux données de flux et de réseaux spatiaux*, TutoMate SHS. On ligne. [See](https://mate-shs.cnrs.fr/actions/tutomate/tuto37-arabesque-bahoken-come-jegou/).
-
-### Domestic passengers flows in France in 2019
-
-Total number of passengers between French airports in 2019 : local passengers and transit passengers, without double counting.
-
-![](images/Example_domestic_air_passengers_total_2019_map_Bahoken.png){fig-align="left"}
-
-**Flow mapping:** Françoise Bahoken, 2025
-
-**Data source:** Étienne Côme and Laurent Jégou (*gflowiz team)* for the Cartomob international conference's mapathon, 2020. Direction générale de l'aviation civile (2020), *Bulletin statistique : trafic aérien commercial année 2019*, Ministère de la transition écologique et solidaire MTES, Eurostats (2020), *Transport database*. See [Documentation](https://cartomob.sciencesconf.org/resource/page/id/16.html?lang=fr).
-
-**Based map:** Stadia Stamen dark.
-
-**References:** *gflowiz team,* [Cartomob international conference mapathon](https://github.com/gflowiz/mapathon/tree/master), 2020.
 
 ### International refugees in 2017
 

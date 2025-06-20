@@ -92,7 +92,7 @@ Inter french department post covid migrations over than 800 people and less than
 
 **References:** Galiana, L., Suarez Castillo, M., Sémécurbe, F. Coudin, E., de Bellefon, M.-P. (2020), "Retour partiel des mouvements de population avec le déconfinement", Insee Analyses N°54, INSEE.
 
-### Car sharing in France in 2022
+### Summer car-sharing in France in 2022
 
 Number of carpooling journeys made in France in August 2022 (450,000 movements between 7,800 municipalities).
 
@@ -104,7 +104,7 @@ Number of carpooling journeys made in France in August 2022 (450,000 movements b
 
 **Based map:** Open Street Map contributors.
 
-**References:** Françoise Bahoken, *Arabesque*, Journée d'étude "La boite à outils de cartographie et de géovisualisation de données. Regards croisés de chercheurs, Rennes, 2023. See [JE Rennes](https://github.com/magisAR9/JEGeovizRennes).
+**References:** Françoise Bahoken, *Arabesque*, Journée d'étude :"La boite à outils de cartographie et de géovisualisation de données. Regards croisés de chercheurs ([JE Rennes](https://github.com/magisAR9/JEGeovizRennes)), Action de recherche n°9 (Carto)graphies et (géo)visualisation de données, GdR CNRS MAGIS, Rennes, 2023.
 
 ### School mobility in France
 

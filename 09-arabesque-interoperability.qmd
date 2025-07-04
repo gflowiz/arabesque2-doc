@@ -1,6 +1,6 @@
 # Arabesque interoperability
 
-One of the new features of Arabesque2 is its interoperability with dedicated network processing applications, which use its filtering and geovisualisation functionalities.
+One of the new features of Arabesque2 is its interoperability with dedicated network processing applications, which use its filtering and geo visualization functionality.
 
 ## CorText manager
 

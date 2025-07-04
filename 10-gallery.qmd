@@ -49,7 +49,11 @@ Tree species and climate conditions topic collaborations over to five publicatio
 
 ### Temperature topic scientific collaborations
 
-Urban heat island and air temperature topic collaborations between cities in 2021.
+World collaborations on urban heat island and air temperature topic between cities in 2021.
+
+![](images/Example_International_scientific_collaborations_urban_heat_island_map_Bahoken_Come_Villard.png){fig-align="left"}
+
+Regional urban heat island and air temperature topic collaborations between cities in 2021.
 
 ![](images/Example_scientific_collaborations_urban_heat_island_map_Bahoken_Come_Villard.png)
 

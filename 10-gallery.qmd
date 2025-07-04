@@ -16,7 +16,7 @@ Short food circuits declared in euros in the Logicout database in 2024.
 
 ![](images/Example_logicout_rounds_in_euros_map_Bahoken.png){fig-align="left"}
 
-**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2024. \
+**Flow mapping:** Françoise Bahoken (Univ. Gustave Eiffel), 2024.\
 **Note:** Flow maps layout in drawing software.
 
 **Data source:** [Logicout](https://logicout.fr/couts/) database, Univ. Gustave Eiffel and Cerema. Data compiled by Nicolas Roelandt, Univ. Gustave Eiffel, 2024.
@@ -246,7 +246,7 @@ Global circulation of scrap metal and iron raw materials in 2015.
 
 **Based map:** Natural earth database countries.
 
-**Reference:** Paul Girard, Béatrice Dedinger*Pourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque* [medialab/RIcardo\@humanistica2020](https://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/). Béatrice Dedinger, & Paul Girard. (2017). RICardo dataset 2017.12 (Version 2017.12) \[Data set\]. Zenodo. <http://doi.org/10.5281/zenodo.1119592>
+**Reference:** Paul Girard, Béatrice Dedinger, *Pourquoi et comment géolocaliser le commerce mondial des XIXe-miXXe siècles ? Retour d’expérience sur l’usage de wikidata comme gazetteer historique et de l’application de cartographie de flux Arabesque* [medialab/RIcardo\@humanistica2020](https://medialab.github.io/publications/geolocaliserRICardo@humanistica2020/). Béatrice Dedinger, & Paul Girard. (2017). RICardo dataset 2017.12 (Version 2017.12) \[Data set\]. Zenodo. <http://doi.org/10.5281/zenodo.1119592>
 
 ### Historic international trade flow: map projections and reprojections
 
@@ -262,3 +262,27 @@ Made with Arabesque version 1.
 **Based map:** Natural earth database countries.
 
 **Reference:** Françoise Bahoken, Étienne Côme, Laurent Jégou, *Arabesque : une application web dédiée aux données de flux et de réseaux spatiaux*, TutoMate SHS. On ligne. [See](https://mate-shs.cnrs.fr/actions/tutomate/tuto37-arabesque-bahoken-come-jegou/).
+
+## **Strategic positioning of research organisation**
+
+Localisation of scientific and technological productions (Scientifi papers, patents, ...)
+
+### Production of patents of french INRAE (research for Agriculture, food and environment) in 2024
+
+630 priority patents INRAE identified in RISIS Patent Database. With the Sustainable Development Goals (SDG). Filed between 2000 and 2019 (last publications in 2021).
+
+World production of patents
+
+![](images/Example_World_production_of_INRAE_patents_Villard.png){fig-align="left"}
+
+Local collaborations of INRAE's inventors around Toulouse
+
+![](images/Example_Production_of_INRAE_scientific_patents_Villard.png){fig-align="left"}
+
+**Flow mapping:** Lionel Villard, 2025
+
+**Data source:** RISIS Patent Database (2022).
+
+**Based map:** Stamen Light.
+
+**Reference:** Patricia Laurens, Tatian Sanchez-Castano & Philippe Laredo (2022), Documentation of RISIS datasets RISIS Patent21 (Version V1). Zenodo. DOI: <https://doi.org/10.5281/zenodo.7383291>. Lionel Villard, Juan Pablo Opsina & Luis Daniel Medina (2019). [*CorText Geospatial Exploration Tool*](https://docs.cortext.net/cortext-geospatial-exploration-tool/)*.* ESIEE Paris, Paris Est University.

@@ -30,8 +30,27 @@ Cortext is hosted by the [LISIS](http://umr-lisis.fr/) research unit at Universi
 
 ## Netscity
 
-::: {.callout-note appearance="simple"}
-## Note
+NETSCITY is a publicly available web application enabling to analyse and visualise world scale scientific production and collaboration data. Compared to existing bibliometrics tools that mainly focus on mapping co-occurrence networks, NETSCITY focuses on processing and analysing the geographical information comprised in bibliometric datasets. It provides a fully integrated solution to parse and clean authors' addresses, comprised in a set of references retrieved from the WoS, Scopus, Dimensions.ai, or custom csv files, geocoding them at the city level, clustering them at the requested level of analysis (urban areas [relying on the open dataset of urban areas published in the [Cybergeo journal](https://doi.org/10.4000/cybergeo.29637) or countries) and mapping them either on a world base map or in a relational space.
 
-If you want to add a note, please use this.
-:::
+### What is it ?
+
+NETSCITY originated in the NETSCIENCE project, a project funded by the LABEX SMS in Toulouse. This project aimed at analysing the geography of contemporary scientific activities focussing on both the evolution of the spatial distribution of the scientific production and on scientific networks of collaboration at the global scale.
+NETSCITY gives access to the processing method developed during this project. It results from the collaborative work of a small team of researchers and research engineers in geography, GIS science and computer science.
+
+### How to play with Arabesque ?
+
+After importing a dataset on NETSCITY "Import bibliographic records", you can jump directly to the "Display results" page of NETSCITY (click on the magnifying glass icon). You will have access to various views among which the "Arabesque" view. By cliking on the Arabesque button, you will be traveling to Arabesque. From there, you can edit your flow map at the country level, select the counting variable you want to use to weight the international links and select a base map. At the current stage of development, you can only visualise the country-to-country flow map in Arabesque (not yet the interurban flow map).
+
+### Credits
+
+NETSCITY is hosted by the [IRIT](https://www.irit.fr/) research unit at Université de Toulouse.
+
+### How to cite NETSCITY?
+
+Marion Maisonobe, Laurent Jégou, Nikita Yakimovich, Guillaume Cabanac (2019).
+[NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities.](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf)
+In ISSI’19: Proceedings of the 17th International Conference on Scientometrics and Informetrics, Tome 1, p. 631-642, Rome: Edizioni Efesto. [PDF](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf)
+
+
+
+

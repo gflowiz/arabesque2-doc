@@ -57,7 +57,9 @@ Improvements of the semiology/symbology of nodes. See [here.](https://gflowiz.gi
 
 ## Interoperability
 
-*March 2025:* Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See [Interoperability](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html).
+*July 2025*
+
+-   Update section: Ability to geo visualize datasets from NETSCITY which the "Arabesque" view, by cliking on the Arabesque button, which will traveling you its interface. See [Interoperability/NETSCITY](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html#netscity)
 
 *May 2025*
 
@@ -66,4 +68,6 @@ Improvements of the semiology/symbology of nodes. See [here.](https://gflowiz.gi
 
 *April 2025*
 
--   Ability to read data from Netscity, by playing with Arabesque in Netscity.
+-   Ability to read data from NETSCITY , by playing with Arabesque in NETSCITY .
+
+*March 2025:* Added the possibility of interoperability with other online applications for network processing, in order to filter and geovisualize them in Arabesque. See [Interoperability/CorText manager](https://gflowiz.github.io/arabesque2-doc/09-arabesque-interoperability.html#cortext-manager)

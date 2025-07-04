@@ -28,14 +28,17 @@ To geovisualise and explore your spatial networks with Arabesque, you can :
 
 Cortext is hosted by the [LISIS](http://umr-lisis.fr/) research unit at Université Gustave Eiffel, and was launched by French institutes [IFRIS](http://www.ifris.org) and [INRAE](http://www.inrae.fr), receiving their continued support.
 
+### How to cite CorText ?
+
+Lionel Villard, Juan Pablo Opsina & Luis Daniel Medina (2019). [*CorText Geospatial Exploration Tool*](https://docs.cortext.net/cortext-geospatial-exploration-tool/)*.* ESIEE Paris, Paris Est University.
+
 ## Netscity
 
-NETSCITY is a publicly available web application enabling to analyse and visualise world scale scientific production and collaboration data. Compared to existing bibliometrics tools that mainly focus on mapping co-occurrence networks, NETSCITY focuses on processing and analysing the geographical information comprised in bibliometric datasets. It provides a fully integrated solution to parse and clean authors' addresses, comprised in a set of references retrieved from the WoS, Scopus, Dimensions.ai, or custom csv files, geocoding them at the city level, clustering them at the requested level of analysis (urban areas [relying on the open dataset of urban areas published in the [Cybergeo journal](https://doi.org/10.4000/cybergeo.29637) or countries) and mapping them either on a world base map or in a relational space.
+NETSCITY is a publicly available web application enabling to analyse and visualise world scale scientific production and collaboration data. Compared to existing bibliometrics tools that mainly focus on mapping co-occurrence networks, NETSCITY focuses on processing and analysing the geographical information comprised in bibliometric datasets. It provides a fully integrated solution to parse and clean authors' addresses, comprised in a set of references retrieved from the WoS, Scopus, Dimensions.ai, or custom csv files, geocoding them at the city level, clustering them at the requested level of analysis (urban areas \[relying on the open dataset of urban areas published in the [Cybergeo journal](https://doi.org/10.4000/cybergeo.29637) or countries) and mapping them either on a world base map or in a relational space.
 
 ### What is it ?
 
-NETSCITY originated in the NETSCIENCE project, a project funded by the LABEX SMS in Toulouse. This project aimed at analysing the geography of contemporary scientific activities focussing on both the evolution of the spatial distribution of the scientific production and on scientific networks of collaboration at the global scale.
-NETSCITY gives access to the processing method developed during this project. It results from the collaborative work of a small team of researchers and research engineers in geography, GIS science and computer science.
+NETSCITY originated in the NETSCIENCE project, a project funded by the LABEX SMS in Toulouse. This project aimed at analysing the geography of contemporary scientific activities focussing on both the evolution of the spatial distribution of the scientific production and on scientific networks of collaboration at the global scale. NETSCITY gives access to the processing method developed during this project. It results from the collaborative work of a small team of researchers and research engineers in geography, GIS science and computer science.
 
 ### How to play with Arabesque ?
 
@@ -47,10 +50,4 @@ NETSCITY is hosted by the [IRIT](https://www.irit.fr/) research unit at Universi
 
 ### How to cite NETSCITY?
 
-Marion Maisonobe, Laurent Jégou, Nikita Yakimovich, Guillaume Cabanac (2019).
-[NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities.](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf)
-In ISSI’19: Proceedings of the 17th International Conference on Scientometrics and Informetrics, Tome 1, p. 631-642, Rome: Edizioni Efesto. [PDF](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf)
-
-
-
-
+Marion Maisonobe, Laurent Jégou, Nikita Yakimovich, Guillaume Cabanac (2019). [NETSCITY: a geospatial application to analyse and map world scale production and collaboration data between cities.](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf) In ISSI’19: Proceedings of the 17th International Conference on Scientometrics and Informetrics, Tome 1, p. 631-642, Rome: Edizioni Efesto. [PDF](https://www.irit.fr/publis/IRIS/2019_ISSI_MJYC.pdf)

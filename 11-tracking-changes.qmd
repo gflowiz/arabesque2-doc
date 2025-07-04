@@ -51,6 +51,8 @@ Improvements of the semiology/symbology of nodes. See [here.](https://gflowiz.gi
 
 ## Gallery
 
+*July 2025: add example's section : Strateghic positionning of research organisation*
+
 *June 2025:* addition of a chapter showing examples of flow maps produced with Arabesque. See [here](https://gflowiz.github.io/arabesque2-doc/10-gallery.html)
 
 ## Interoperability

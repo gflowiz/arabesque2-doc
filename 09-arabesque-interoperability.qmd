@@ -43,7 +43,7 @@ After importing a dataset on NETSCITY "Import bibliographic records", you can ju
 
 ### Credits
 
-NETSCITY is hosted by the [IRIT](https://www.irit.fr/) research unit at Université de Toulouse.
+NETSCITY is hosted by the [IRIT](https://www.irit.fr/) research unit at Université de Toulouse in France.
 
 ### How to cite NETSCITY?
 
